@@ -1,0 +1,48 @@
+# https://www.torproject.org/docs/tor-manual.html
+
+ClientOnly 1
+ExitPolicy reject *:*
+
+AvoidDiskWrites 1
+HardwareAccel 1
+
+# Port numbers are randomly generated in AppDelegate. TorWrapper picks these up
+# and executes tor with these as command-line args.
+#SocksPort 60601
+#ControlPort 60602
+SocksListenAddress 127.0.0.1
+ControlListenAddress 127.0.0.1
+
+CookieAuthentication 1
+
+ConnLimit 100
+
+# Use very strict and small timeouts (and don't take the network consensus values)
+# to boost performance a little bit.
+# (This is may mildly impact privacy, but within the scope of the application's
+# description and stated claims.)
+# See also: EntryNodes below
+LearnCircuitBuildTimeout 0
+CircuitBuildTimeout 15
+CircuitIdleTimeout 1800
+CircuitStreamTimeout 45
+
+UseEntryGuards 1
+TunnelDirConns 1
+PreferTunneledDirConns 1
+
+# debug, info, notice, warn, err
+SafeLogging 1
+#Log warn stderr
+#Log err file /dev/null
+
+TestSocks 0
+WarnUnsafeSocks 0  #default 1 (we don't care on iOS)
+
+# TODO
+#UseBridges 1
+
+# We actually disabled this by removing ptrace() calls when building tor.
+# See "build-tor-ptrace-patch.diff" and "build-tor.sh" in the OnionBrowser
+# repo root.
+DisableDebuggerAttachment 0

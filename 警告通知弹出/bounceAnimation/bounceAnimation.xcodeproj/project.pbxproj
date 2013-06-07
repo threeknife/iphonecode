@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074E7CBF168007FD00F54F22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074E7CBE168007FD00F54F22 /* UIKit.framework */; };
+		074E7CC1168007FD00F54F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074E7CC0168007FD00F54F22 /* Foundation.framework */; };
+		074E7CC3168007FD00F54F22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074E7CC2168007FD00F54F22 /* CoreGraphics.framework */; };
+		074E7CC9168007FD00F54F22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 074E7CC7168007FD00F54F22 /* InfoPlist.strings */; };
+		074E7CCB168007FD00F54F22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074E7CCA168007FD00F54F22 /* main.m */; };
+		074E7CCF168007FD00F54F22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074E7CCE168007FD00F54F22 /* AppDelegate.m */; };
+		074E7CD1168007FD00F54F22 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 074E7CD0168007FD00F54F22 /* Default.png */; };
+		074E7CD3168007FD00F54F22 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 074E7CD2168007FD00F54F22 /* Default@2x.png */; };
+		074E7CD5168007FD00F54F22 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 074E7CD4168007FD00F54F22 /* Default-568h@2x.png */; };
+		074E7CD8168007FD00F54F22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074E7CD7168007FD00F54F22 /* ViewController.m */; };
+		074E7CDB168007FD00F54F22 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074E7CD9168007FD00F54F22 /* ViewController.xib */; };
+		074E7CE21680084200F54F22 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074E7CE11680084200F54F22 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074E7CBA168007FD00F54F22 /* bounceAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bounceAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074E7CBE168007FD00F54F22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		074E7CC0168007FD00F54F22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		074E7CC2168007FD00F54F22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		074E7CC6168007FD00F54F22 /* bounceAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bounceAnimation-Info.plist"; sourceTree = "<group>"; };
+		074E7CC8168007FD00F54F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		074E7CCA168007FD00F54F22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		074E7CCC168007FD00F54F22 /* bounceAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bounceAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		074E7CCD168007FD00F54F22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		074E7CCE168007FD00F54F22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		074E7CD0168007FD00F54F22 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		074E7CD2168007FD00F54F22 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		074E7CD4168007FD00F54F22 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		074E7CD6168007FD00F54F22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		074E7CD7168007FD00F54F22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		074E7CDA168007FD00F54F22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		074E7CE11680084200F54F22 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074E7CB7168007FD00F54F22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074E7CE21680084200F54F22 /* QuartzCore.framework in Frameworks */,
+				074E7CBF168007FD00F54F22 /* UIKit.framework in Frameworks */,
+				074E7CC1168007FD00F54F22 /* Foundation.framework in Frameworks */,
+				074E7CC3168007FD00F54F22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074E7CAF168007FD00F54F22 = {
+			isa = PBXGroup;
+			children = (
+				074E7CE11680084200F54F22 /* QuartzCore.framework */,
+				074E7CC4168007FD00F54F22 /* bounceAnimation */,
+				074E7CBD168007FD00F54F22 /* Frameworks */,
+				074E7CBB168007FD00F54F22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074E7CBB168007FD00F54F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074E7CBA168007FD00F54F22 /* bounceAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074E7CBD168007FD00F54F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				074E7CBE168007FD00F54F22 /* UIKit.framework */,
+				074E7CC0168007FD00F54F22 /* Foundation.framework */,
+				074E7CC2168007FD00F54F22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		074E7CC4168007FD00F54F22 /* bounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				074E7CCD168007FD00F54F22 /* AppDelegate.h */,
+				074E7CCE168007FD00F54F22 /* AppDelegate.m */,
+				074E7CD6168007FD00F54F22 /* ViewController.h */,
+				074E7CD7168007FD00F54F22 /* ViewController.m */,
+				074E7CD9168007FD00F54F22 /* ViewController.xib */,
+				074E7CC5168007FD00F54F22 /* Supporting Files */,
+			);
+			path = bounceAnimation;
+			sourceTree = "<group>";
+		};
+		074E7CC5168007FD00F54F22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074E7CC6168007FD00F54F22 /* bounceAnimation-Info.plist */,
+				074E7CC7168007FD00F54F22 /* InfoPlist.strings */,
+				074E7CCA168007FD00F54F22 /* main.m */,
+				074E7CCC168007FD00F54F22 /* bounceAnimation-Prefix.pch */,
+				074E7CD0168007FD00F54F22 /* Default.png */,
+				074E7CD2168007FD00F54F22 /* Default@2x.png */,
+				074E7CD4168007FD00F54F22 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074E7CB9168007FD00F54F22 /* bounceAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074E7CDE168007FD00F54F22 /* Build configuration list for PBXNativeTarget "bounceAnimation" */;
+			buildPhases = (
+				074E7CB6168007FD00F54F22 /* Sources */,
+				074E7CB7168007FD00F54F22 /* Frameworks */,
+				074E7CB8168007FD00F54F22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bounceAnimation;
+			productName = bounceAnimation;
+			productReference = 074E7CBA168007FD00F54F22 /* bounceAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074E7CB1168007FD00F54F22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = JianYe;
+			};
+			buildConfigurationList = 074E7CB4168007FD00F54F22 /* Build configuration list for PBXProject "bounceAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 074E7CAF168007FD00F54F22;
+			productRefGroup = 074E7CBB168007FD00F54F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074E7CB9168007FD00F54F22 /* bounceAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074E7CB8168007FD00F54F22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074E7CC9168007FD00F54F22 /* InfoPlist.strings in Resources */,
+				074E7CD1168007FD00F54F22 /* Default.png in Resources */,
+				074E7CD3168007FD00F54F22 /* Default@2x.png in Resources */,
+				074E7CD5168007FD00F54F22 /* Default-568h@2x.png in Resources */,
+				074E7CDB168007FD00F54F22 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074E7CB6168007FD00F54F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074E7CCB168007FD00F54F22 /* main.m in Sources */,
+				074E7CCF168007FD00F54F22 /* AppDelegate.m in Sources */,
+				074E7CD8168007FD00F54F22 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		074E7CC7168007FD00F54F22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074E7CC8168007FD00F54F22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		074E7CD9168007FD00F54F22 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074E7CDA168007FD00F54F22 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074E7CDC168007FD00F54F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		074E7CDD168007FD00F54F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074E7CDF168007FD00F54F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bounceAnimation/bounceAnimation-Prefix.pch";
+				INFOPLIST_FILE = "bounceAnimation/bounceAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		074E7CE0168007FD00F54F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bounceAnimation/bounceAnimation-Prefix.pch";
+				INFOPLIST_FILE = "bounceAnimation/bounceAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074E7CB4168007FD00F54F22 /* Build configuration list for PBXProject "bounceAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074E7CDC168007FD00F54F22 /* Debug */,
+				074E7CDD168007FD00F54F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074E7CDE168007FD00F54F22 /* Build configuration list for PBXNativeTarget "bounceAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074E7CDF168007FD00F54F22 /* Debug */,
+				074E7CE0168007FD00F54F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074E7CB1168007FD00F54F22 /* Project object */;
+}

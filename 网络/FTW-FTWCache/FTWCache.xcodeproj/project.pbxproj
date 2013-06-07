@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34D2538815D8A771008547E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2538715D8A771008547E8 /* UIKit.framework */; };
+		34D2538A15D8A771008547E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2538915D8A771008547E8 /* Foundation.framework */; };
+		34D2538C15D8A771008547E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2538B15D8A771008547E8 /* CoreGraphics.framework */; };
+		34D2539215D8A771008547E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34D2539015D8A771008547E8 /* InfoPlist.strings */; };
+		34D2539415D8A771008547E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2539315D8A771008547E8 /* main.m */; };
+		34D2539815D8A771008547E8 /* FTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2539715D8A771008547E8 /* FTWAppDelegate.m */; };
+		34D2539B15D8A771008547E8 /* FTWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D2539A15D8A771008547E8 /* FTWViewController.m */; };
+		34D2539E15D8A771008547E8 /* FTWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34D2539C15D8A771008547E8 /* FTWViewController.xib */; };
+		34D253A615D8A772008547E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D253A515D8A772008547E8 /* SenTestingKit.framework */; };
+		34D253A715D8A772008547E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2538715D8A771008547E8 /* UIKit.framework */; };
+		34D253A815D8A772008547E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D2538915D8A771008547E8 /* Foundation.framework */; };
+		34D253B015D8A772008547E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34D253AE15D8A772008547E8 /* InfoPlist.strings */; };
+		34D253B315D8A772008547E8 /* FTWCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D253B215D8A772008547E8 /* FTWCacheTests.m */; };
+		34D253BE15D8A7C9008547E8 /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D253BD15D8A7C9008547E8 /* FTWCache.m */; };
+		34D253BF15D8A7C9008547E8 /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D253BD15D8A7C9008547E8 /* FTWCache.m */; };
+		34D253C215D8ADCB008547E8 /* img_def.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D253C015D8ADCB008547E8 /* img_def.png */; };
+		34D253C315D8ADCB008547E8 /* img_def.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D253C015D8ADCB008547E8 /* img_def.png */; };
+		34D253C415D8ADCB008547E8 /* img_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D253C115D8ADCB008547E8 /* img_def@2x.png */; };
+		34D253C515D8ADCB008547E8 /* img_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D253C115D8ADCB008547E8 /* img_def@2x.png */; };
+		34D253C815D8BE71008547E8 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D253C715D8BE71008547E8 /* NSString+MD5.m */; };
+		34D253C915D8BE71008547E8 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D253C715D8BE71008547E8 /* NSString+MD5.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34D253A915D8A772008547E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D2537A15D8A771008547E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D2538215D8A771008547E8;
+			remoteInfo = FTWCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34D2538315D8A771008547E8 /* FTWCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTWCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D2538715D8A771008547E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34D2538915D8A771008547E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34D2538B15D8A771008547E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34D2538F15D8A771008547E8 /* FTWCache-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTWCache-Info.plist"; sourceTree = "<group>"; };
+		34D2539115D8A771008547E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34D2539315D8A771008547E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34D2539515D8A771008547E8 /* FTWCache-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTWCache-Prefix.pch"; sourceTree = "<group>"; };
+		34D2539615D8A771008547E8 /* FTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWAppDelegate.h; sourceTree = "<group>"; };
+		34D2539715D8A771008547E8 /* FTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWAppDelegate.m; sourceTree = "<group>"; };
+		34D2539915D8A771008547E8 /* FTWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWViewController.h; sourceTree = "<group>"; };
+		34D2539A15D8A771008547E8 /* FTWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWViewController.m; sourceTree = "<group>"; };
+		34D2539D15D8A771008547E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTWViewController.xib; sourceTree = "<group>"; };
+		34D253A415D8A772008547E8 /* FTWCacheTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTWCacheTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D253A515D8A772008547E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34D253AD15D8A772008547E8 /* FTWCacheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTWCacheTests-Info.plist"; sourceTree = "<group>"; };
+		34D253AF15D8A772008547E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34D253B115D8A772008547E8 /* FTWCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWCacheTests.h; sourceTree = "<group>"; };
+		34D253B215D8A772008547E8 /* FTWCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWCacheTests.m; sourceTree = "<group>"; };
+		34D253BC15D8A7C9008547E8 /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
+		34D253BD15D8A7C9008547E8 /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
+		34D253C015D8ADCB008547E8 /* img_def.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_def.png; sourceTree = "<group>"; };
+		34D253C115D8ADCB008547E8 /* img_def@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_def@2x.png"; sourceTree = "<group>"; };
+		34D253C615D8BE70008547E8 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		34D253C715D8BE71008547E8 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D2538015D8A771008547E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2538815D8A771008547E8 /* UIKit.framework in Frameworks */,
+				34D2538A15D8A771008547E8 /* Foundation.framework in Frameworks */,
+				34D2538C15D8A771008547E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D253A015D8A772008547E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D253A615D8A772008547E8 /* SenTestingKit.framework in Frameworks */,
+				34D253A715D8A772008547E8 /* UIKit.framework in Frameworks */,
+				34D253A815D8A772008547E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34D2537815D8A771008547E8 = {
+			isa = PBXGroup;
+			children = (
+				34D2538D15D8A771008547E8 /* FTWCache */,
+				34D253AB15D8A772008547E8 /* FTWCacheTests */,
+				34D2538615D8A771008547E8 /* Frameworks */,
+				34D2538415D8A771008547E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D2538415D8A771008547E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D2538315D8A771008547E8 /* FTWCache.app */,
+				34D253A415D8A772008547E8 /* FTWCacheTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D2538615D8A771008547E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D2538715D8A771008547E8 /* UIKit.framework */,
+				34D2538915D8A771008547E8 /* Foundation.framework */,
+				34D2538B15D8A771008547E8 /* CoreGraphics.framework */,
+				34D253A515D8A772008547E8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34D2538D15D8A771008547E8 /* FTWCache */ = {
+			isa = PBXGroup;
+			children = (
+				34D2539615D8A771008547E8 /* FTWAppDelegate.h */,
+				34D2539715D8A771008547E8 /* FTWAppDelegate.m */,
+				34D2539915D8A771008547E8 /* FTWViewController.h */,
+				34D2539A15D8A771008547E8 /* FTWViewController.m */,
+				34D2539C15D8A771008547E8 /* FTWViewController.xib */,
+				34D253BC15D8A7C9008547E8 /* FTWCache.h */,
+				34D253BD15D8A7C9008547E8 /* FTWCache.m */,
+				34D253C015D8ADCB008547E8 /* img_def.png */,
+				34D253C115D8ADCB008547E8 /* img_def@2x.png */,
+				34D253C615D8BE70008547E8 /* NSString+MD5.h */,
+				34D253C715D8BE71008547E8 /* NSString+MD5.m */,
+				34D2538E15D8A771008547E8 /* Supporting Files */,
+			);
+			path = FTWCache;
+			sourceTree = "<group>";
+		};
+		34D2538E15D8A771008547E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D2538F15D8A771008547E8 /* FTWCache-Info.plist */,
+				34D2539015D8A771008547E8 /* InfoPlist.strings */,
+				34D2539315D8A771008547E8 /* main.m */,
+				34D2539515D8A771008547E8 /* FTWCache-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34D253AB15D8A772008547E8 /* FTWCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				34D253B115D8A772008547E8 /* FTWCacheTests.h */,
+				34D253B215D8A772008547E8 /* FTWCacheTests.m */,
+				34D253AC15D8A772008547E8 /* Supporting Files */,
+			);
+			path = FTWCacheTests;
+			sourceTree = "<group>";
+		};
+		34D253AC15D8A772008547E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D253AD15D8A772008547E8 /* FTWCacheTests-Info.plist */,
+				34D253AE15D8A772008547E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D2538215D8A771008547E8 /* FTWCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D253B615D8A772008547E8 /* Build configuration list for PBXNativeTarget "FTWCache" */;
+			buildPhases = (
+				34D2537F15D8A771008547E8 /* Sources */,
+				34D2538015D8A771008547E8 /* Frameworks */,
+				34D2538115D8A771008547E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTWCache;
+			productName = FTWCache;
+			productReference = 34D2538315D8A771008547E8 /* FTWCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D253A315D8A772008547E8 /* FTWCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D253B915D8A772008547E8 /* Build configuration list for PBXNativeTarget "FTWCacheTests" */;
+			buildPhases = (
+				34D2539F15D8A772008547E8 /* Sources */,
+				34D253A015D8A772008547E8 /* Frameworks */,
+				34D253A115D8A772008547E8 /* Resources */,
+				34D253A215D8A772008547E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34D253AA15D8A772008547E8 /* PBXTargetDependency */,
+			);
+			name = FTWCacheTests;
+			productName = FTWCacheTests;
+			productReference = 34D253A415D8A772008547E8 /* FTWCacheTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D2537A15D8A771008547E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTW;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = FTW;
+			};
+			buildConfigurationList = 34D2537D15D8A771008547E8 /* Build configuration list for PBXProject "FTWCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34D2537815D8A771008547E8;
+			productRefGroup = 34D2538415D8A771008547E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D2538215D8A771008547E8 /* FTWCache */,
+				34D253A315D8A772008547E8 /* FTWCacheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D2538115D8A771008547E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2539215D8A771008547E8 /* InfoPlist.strings in Resources */,
+				34D2539E15D8A771008547E8 /* FTWViewController.xib in Resources */,
+				34D253C215D8ADCB008547E8 /* img_def.png in Resources */,
+				34D253C415D8ADCB008547E8 /* img_def@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D253A115D8A772008547E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D253B015D8A772008547E8 /* InfoPlist.strings in Resources */,
+				34D253C315D8ADCB008547E8 /* img_def.png in Resources */,
+				34D253C515D8ADCB008547E8 /* img_def@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D253A215D8A772008547E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D2537F15D8A771008547E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2539415D8A771008547E8 /* main.m in Sources */,
+				34D2539815D8A771008547E8 /* FTWAppDelegate.m in Sources */,
+				34D2539B15D8A771008547E8 /* FTWViewController.m in Sources */,
+				34D253BE15D8A7C9008547E8 /* FTWCache.m in Sources */,
+				34D253C815D8BE71008547E8 /* NSString+MD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D2539F15D8A772008547E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D253B315D8A772008547E8 /* FTWCacheTests.m in Sources */,
+				34D253BF15D8A7C9008547E8 /* FTWCache.m in Sources */,
+				34D253C915D8BE71008547E8 /* NSString+MD5.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34D253AA15D8A772008547E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D2538215D8A771008547E8 /* FTWCache */;
+			targetProxy = 34D253A915D8A772008547E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34D2539015D8A771008547E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D2539115D8A771008547E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34D2539C15D8A771008547E8 /* FTWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D2539D15D8A771008547E8 /* en */,
+			);
+			name = FTWViewController.xib;
+			sourceTree = "<group>";
+		};
+		34D253AE15D8A772008547E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D253AF15D8A772008547E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34D253B415D8A772008547E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34D253B515D8A772008547E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D253B715D8A772008547E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWCache/FTWCache-Prefix.pch";
+				INFOPLIST_FILE = "FTWCache/FTWCache-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34D253B815D8A772008547E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWCache/FTWCache-Prefix.pch";
+				INFOPLIST_FILE = "FTWCache/FTWCache-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34D253BA15D8A772008547E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTWCache.app/FTWCache";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWCache/FTWCache-Prefix.pch";
+				INFOPLIST_FILE = "FTWCacheTests/FTWCacheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		34D253BB15D8A772008547E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTWCache.app/FTWCache";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWCache/FTWCache-Prefix.pch";
+				INFOPLIST_FILE = "FTWCacheTests/FTWCacheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D2537D15D8A771008547E8 /* Build configuration list for PBXProject "FTWCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D253B415D8A772008547E8 /* Debug */,
+				34D253B515D8A772008547E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D253B615D8A772008547E8 /* Build configuration list for PBXNativeTarget "FTWCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D253B715D8A772008547E8 /* Debug */,
+				34D253B815D8A772008547E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34D253B915D8A772008547E8 /* Build configuration list for PBXNativeTarget "FTWCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D253BA15D8A772008547E8 /* Debug */,
+				34D253BB15D8A772008547E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D2537A15D8A771008547E8 /* Project object */;
+}

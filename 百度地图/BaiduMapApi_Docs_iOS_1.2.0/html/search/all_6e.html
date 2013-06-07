@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRResult" id="SR_name">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_name')">name</a>
+  <div class="SRChildren">
+    <a id="Item0_c0" onkeydown="return searchResults.NavChild(event,0,0)" onkeypress="return searchResults.NavChild(event,0,0)" onkeyup="return searchResults.NavChild(event,0,0)" class="SRScope" href="../interface_b_m_k_poi_info.html#a58ff98eb46756c14f82a550974cf65b0" target="_parent">BMKPoiInfo::name()</a>
+    <a id="Item0_c1" onkeydown="return searchResults.NavChild(event,0,1)" onkeypress="return searchResults.NavChild(event,0,1)" onkeyup="return searchResults.NavChild(event,0,1)" class="SRScope" href="../interface_b_m_k_plan_node.html#afe487565841e6361610e53d77af75f65" target="_parent">BMKPlanNode::name()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_num">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../interface_b_m_k_city_list_info.html#a63163c524339e1687d90541b3a24b54c" target="_parent">num</a>
+  <span class="SRScope">BMKCityListInfo</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

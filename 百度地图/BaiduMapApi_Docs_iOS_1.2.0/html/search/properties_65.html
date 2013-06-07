@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title></title>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<link rel="stylesheet" type="text/css" href="search.css"/>
+<script type="text/javascript" src="search.js"></script>
+</head>
+<body class="SRPage">
+<div id="SRIndex">
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRResult" id="SR_enabled">
+ <div class="SREntry">
+  <a id="Item0" onkeydown="return searchResults.Nav(event,0)" onkeypress="return searchResults.Nav(event,0)" onkeyup="return searchResults.Nav(event,0)" class="SRSymbol" href="../interface_b_m_k_annotation_view.html#ad768885a75146458b4efd168885478fe" target="_parent">enabled</a>
+  <span class="SRScope">BMKAnnotationView</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_endcitylist">
+ <div class="SREntry">
+  <a id="Item1" onkeydown="return searchResults.Nav(event,1)" onkeypress="return searchResults.Nav(event,1)" onkeyup="return searchResults.Nav(event,1)" class="SRSymbol" href="../interface_b_m_k_route_addr_result.html#a29b7a094255410379a8f960c3fc1e3da" target="_parent">endCityList</a>
+  <span class="SRScope">BMKRouteAddrResult</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_endnode">
+ <div class="SREntry">
+  <a id="Item2" onkeydown="return searchResults.Nav(event,2)" onkeypress="return searchResults.Nav(event,2)" onkeyup="return searchResults.Nav(event,2)" class="SRSymbol" href="../interface_b_m_k_plan_result.html#a1fc0259719623cea6d79f7f5d1b03c78" target="_parent">endNode</a>
+  <span class="SRScope">BMKPlanResult</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_endpoilist">
+ <div class="SREntry">
+  <a id="Item3" onkeydown="return searchResults.Nav(event,3)" onkeypress="return searchResults.Nav(event,3)" onkeyup="return searchResults.Nav(event,3)" class="SRSymbol" href="../interface_b_m_k_route_addr_result.html#a68f28dd49c16ff67a814d19fe2570e1e" target="_parent">endPoiList</a>
+  <span class="SRScope">BMKRouteAddrResult</span>
+ </div>
+</div>
+<div class="SRResult" id="SR_endpt">
+ <div class="SREntry">
+  <a id="Item4" onkeydown="return searchResults.Nav(event,4)" onkeypress="return searchResults.Nav(event,4)" onkeyup="return searchResults.Nav(event,4)" class="SRSymbol" href="javascript:searchResults.Toggle('SR_endpt')">endPt</a>
+  <div class="SRChildren">
+    <a id="Item4_c0" onkeydown="return searchResults.NavChild(event,4,0)" onkeypress="return searchResults.NavChild(event,4,0)" onkeyup="return searchResults.NavChild(event,4,0)" class="SRScope" href="../interface_b_m_k_route.html#ac101e8dce6365f04d68c3452ea28320a" target="_parent">BMKRoute::endPt()</a>
+    <a id="Item4_c1" onkeydown="return searchResults.NavChild(event,4,1)" onkeypress="return searchResults.NavChild(event,4,1)" onkeyup="return searchResults.NavChild(event,4,1)" class="SRScope" href="../interface_b_m_k_transit_route_plan.html#a29d6033e359e054ce3491822a58dacf5" target="_parent">BMKTransitRoutePlan::endPt()</a>
+  </div>
+ </div>
+</div>
+<div class="SRResult" id="SR_epoitype">
+ <div class="SREntry">
+  <a id="Item5" onkeydown="return searchResults.Nav(event,5)" onkeypress="return searchResults.Nav(event,5)" onkeyup="return searchResults.Nav(event,5)" class="SRSymbol" href="../interface_b_m_k_poi_info.html#ada3ccb40708069fe5d82414af8de1ab5" target="_parent">epoitype</a>
+  <span class="SRScope">BMKPoiInfo</span>
+ </div>
+</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+<script type="text/javascript"><!--
+document.getElementById("Loading").style.display="none";
+document.getElementById("NoMatches").style.display="none";
+var searchResults = new SearchResults("searchResults");
+searchResults.Search();
+--></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3354315D1654DA6E00AB2A73 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3354315C1654DA6E00AB2A73 /* QuartzCore.framework */; };
+		335431641654DBBA00AB2A73 /* banner2lines.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3354315F1654DBBA00AB2A73 /* banner2lines.tiff */; };
+		335431651654DBBA00AB2A73 /* McAnimationUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 335431611654DBBA00AB2A73 /* McAnimationUtility.m */; };
+		335431661654DBBA00AB2A73 /* THUserNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 335431631654DBBA00AB2A73 /* THUserNotification.m */; };
+		33A0997816563D1500A0EAD3 /* GAShadowSocksService.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A0997716563D1500A0EAD3 /* GAShadowSocksService.m */; };
+		33A0997A1656457900A0EAD3 /* shadowsocks-config-template in Resources */ = {isa = PBXBuildFile; fileRef = 33A099791656457900A0EAD3 /* shadowsocks-config-template */; };
+		33A0997C165649B000A0EAD3 /* shadowsocks in Resources */ = {isa = PBXBuildFile; fileRef = 33A0997B165649B000A0EAD3 /* shadowsocks */; };
+		8905D9CB15551DF200E0E13A /* GASSHService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8905D9CA15551DF200E0E13A /* GASSHService.m */; };
+		8905D9D515552D4000E0E13A /* ssh in Resources */ = {isa = PBXBuildFile; fileRef = 8905D9D415552D4000E0E13A /* ssh */; };
+		8905D9D715557CEC00E0E13A /* stunnel-config-template in Resources */ = {isa = PBXBuildFile; fileRef = 8905D9D615557CEC00E0E13A /* stunnel-config-template */; };
+		8905D9D915557CF900E0E13A /* stunnel in Resources */ = {isa = PBXBuildFile; fileRef = 8905D9D815557CF900E0E13A /* stunnel */; };
+		8905D9E015562F0A00E0E13A /* GAStunnelService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8905D9DF15562F0A00E0E13A /* GAStunnelService.m */; };
+		8905D9E71556DCA800E0E13A /* stunnel-config-example in Resources */ = {isa = PBXBuildFile; fileRef = 8905D9E61556DCA700E0E13A /* stunnel-config-example */; };
+		89075ECF166EE50C001A318D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 89075ECE166EE50C001A318D /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		890CAE8315EA0E9C00DBF744 /* status_item_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 890CAE8215EA0E9C00DBF744 /* status_item_icon@2x.png */; };
+		890CAE8515EA0F9400DBF744 /* status_item_icon_alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 890CAE8415EA0F9400DBF744 /* status_item_icon_alt@2x.png */; };
+		890DBFC71549002D009FF77F /* GAGoAgentServerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 890DBFC61549002D009FF77F /* GAGoAgentServerService.m */; };
+		891EA917164CA50A00445A25 /* status_item_icon_stopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 891EA915164CA50A00445A25 /* status_item_icon_stopped.png */; };
+		891EA918164CA50A00445A25 /* status_item_icon_stopped@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 891EA916164CA50A00445A25 /* status_item_icon_stopped@2x.png */; };
+		894107FB1549179D0045DA38 /* GoAgentXServices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 894107FA1549179D0045DA38 /* GoAgentXServices.plist */; };
+		8941781B15495FFB00E1819C /* GAConfigFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8941781A15495FFB00E1819C /* GAConfigFieldManager.m */; };
+		8941782D1549A02900E1819C /* GAPACHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8941782C1549A02900E1819C /* GAPACHTTPConnection.m */; };
+		894178311549A25700E1819C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 894178301549A25700E1819C /* NSData+Base64.m */; };
+		894178341549A2C200E1819C /* GAPACHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 894178331549A2C200E1819C /* GAPACHTTPServer.m */; };
+		894178361549A3DA00E1819C /* pactemplate.pac in Resources */ = {isa = PBXBuildFile; fileRef = 894178351549A3DA00E1819C /* pactemplate.pac */; };
+		894E09D01541642200343BC6 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 894E09CC154163BC00343BC6 /* Sparkle.framework */; };
+		894E09D11541642700343BC6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 894E09CC154163BC00343BC6 /* Sparkle.framework */; };
+		894E09D31541655F00343BC6 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 894E09D21541655F00343BC6 /* dsa_pub.pem */; };
+		8963E34014ED4A01008587B7 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8963E33E14ED4A01008587B7 /* LaunchAtLoginController.m */; };
+		8963E34114ED4A01008587B7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8963E33F14ED4A01008587B7 /* README.md */; };
+		899615281545AD04002DE998 /* west-chamber-proxy in Resources */ = {isa = PBXBuildFile; fileRef = 899615271545AD04002DE998 /* west-chamber-proxy */; };
+		899615481545AFB5002DE998 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996152C1545AFB5002DE998 /* DDData.m */; };
+		899615491545AFB5002DE998 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996152E1545AFB5002DE998 /* DDNumber.m */; };
+		8996154A1545AFB5002DE998 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615301545AFB5002DE998 /* DDRange.m */; };
+		8996154B1545AFB5002DE998 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615321545AFB5002DE998 /* HTTPAuthenticationRequest.m */; };
+		8996154C1545AFB5002DE998 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615341545AFB5002DE998 /* HTTPConnection.m */; };
+		8996154D1545AFB5002DE998 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615371545AFB5002DE998 /* HTTPMessage.m */; };
+		8996154E1545AFB5002DE998 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996153A1545AFB5002DE998 /* HTTPServer.m */; };
+		8996154F1545AFB5002DE998 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996153D1545AFB5002DE998 /* HTTPAsyncFileResponse.m */; };
+		899615501545AFB5002DE998 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996153F1545AFB5002DE998 /* HTTPDataResponse.m */; };
+		899615511545AFB5002DE998 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615411545AFB5002DE998 /* HTTPDynamicFileResponse.m */; };
+		899615521545AFB5002DE998 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615431545AFB5002DE998 /* HTTPFileResponse.m */; };
+		899615531545AFB5002DE998 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615451545AFB5002DE998 /* HTTPRedirectResponse.m */; };
+		899615541545AFB5002DE998 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615471545AFB5002DE998 /* WebSocket.m */; };
+		8996156C1545B050002DE998 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615581545B050002DE998 /* GCDAsyncSocket.m */; };
+		8996156E1545B050002DE998 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996155C1545B050002DE998 /* DDAbstractDatabaseLogger.m */; };
+		8996156F1545B050002DE998 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996155E1545B050002DE998 /* DDASLLogger.m */; };
+		899615701545B050002DE998 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615601545B050002DE998 /* DDFileLogger.m */; };
+		899615711545B050002DE998 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615621545B050002DE998 /* DDLog.m */; };
+		899615721545B050002DE998 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615641545B050002DE998 /* DDTTYLogger.m */; };
+		899615731545B050002DE998 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615671545B050002DE998 /* ContextFilterLogFormatter.m */; };
+		899615741545B050002DE998 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 899615691545B050002DE998 /* DispatchQueueLogFormatter.m */; };
+		899615751545B050002DE998 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8996156A1545B050002DE998 /* README.txt */; };
+		8996157C15468981002DE998 /* GAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996157B15468980002DE998 /* GAService.m */; };
+		89961581154689FE002DE998 /* GAGoAgentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 89961580154689FE002DE998 /* GAGoAgentService.m */; };
+		8996158415468A0C002DE998 /* GAWestChamberService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8996158315468A0C002DE998 /* GAWestChamberService.m */; };
+		8996158A1546EC97002DE998 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 899615891546EC97002DE998 /* www */; };
+		8996158D1546EF73002DE998 /* west-chamber-config-template in Resources */ = {isa = PBXBuildFile; fileRef = 8996158C1546EF73002DE998 /* west-chamber-config-template */; };
+		8996158F1546F43E002DE998 /* GoAgentXDefaultsValueMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8996158E1546F43E002DE998 /* GoAgentXDefaultsValueMap.plist */; };
+		899615981547A7CB002DE998 /* goagent in Resources */ = {isa = PBXBuildFile; fileRef = 899615961547A7CB002DE998 /* goagent */; };
+		899615991547A7CB002DE998 /* goagent-server in Resources */ = {isa = PBXBuildFile; fileRef = 899615971547A7CB002DE998 /* goagent-server */; };
+		89B72C5E14E8DF9D0027DC19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B72C5D14E8DF9D0027DC19 /* Cocoa.framework */; };
+		89B72C6814E8DF9D0027DC19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89B72C6614E8DF9D0027DC19 /* InfoPlist.strings */; };
+		89B72C6A14E8DF9D0027DC19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B72C6914E8DF9D0027DC19 /* main.m */; };
+		89B72C6E14E8DF9D0027DC19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 89B72C6C14E8DF9D0027DC19 /* Credits.rtf */; };
+		89B72C7114E8DF9D0027DC19 /* GAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B72C7014E8DF9D0027DC19 /* GAAppDelegate.m */; };
+		89B72C7414E8DF9D0027DC19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89B72C7214E8DF9D0027DC19 /* MainMenu.xib */; };
+		89B72CD814E9097E0027DC19 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 89B72CD714E9097E0027DC19 /* Icon.icns */; };
+		89B72CDB14E90CC60027DC19 /* status_item_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B72CDA14E90CC60027DC19 /* status_item_icon.png */; };
+		89B72CE014E9113A0027DC19 /* status_item_icon_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B72CDE14E9113A0027DC19 /* status_item_icon_alt.png */; };
+		89B72CEC14E926730027DC19 /* status_running.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B72CEA14E926730027DC19 /* status_running.png */; };
+		89B72CED14E926730027DC19 /* status_stopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B72CEB14E926730027DC19 /* status_stopped.png */; };
+		89B72CF114E931CE0027DC19 /* GAAutoscrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B72CF014E931CE0027DC19 /* GAAutoscrollTextView.m */; };
+		89B72CF414E934CF0027DC19 /* GACommandRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B72CF314E934CF0027DC19 /* GACommandRunner.m */; };
+		89B72D4614E956340027DC19 /* GoAgentXDefaultsSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89B72D4514E956340027DC19 /* GoAgentXDefaultsSettings.plist */; };
+		89B72D4A14E960BE0027DC19 /* goagent-config-template in Resources */ = {isa = PBXBuildFile; fileRef = 89B72D4914E960BE0027DC19 /* goagent-config-template */; };
+		89CC4742152DC9F700A12119 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CC4741152DC9F700A12119 /* SystemConfiguration.framework */; };
+		89CC4745152DCF5B00A12119 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CC4744152DCF5B00A12119 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		894E09CF154163E500343BC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				894E09D01541642200343BC6 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3354315C1654DA6E00AB2A73 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3354315F1654DBBA00AB2A73 /* banner2lines.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = banner2lines.tiff; sourceTree = "<group>"; };
+		335431601654DBBA00AB2A73 /* McAnimationUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = McAnimationUtility.h; sourceTree = "<group>"; };
+		335431611654DBBA00AB2A73 /* McAnimationUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = McAnimationUtility.m; sourceTree = "<group>"; };
+		335431621654DBBA00AB2A73 /* THUserNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THUserNotification.h; sourceTree = "<group>"; };
+		335431631654DBBA00AB2A73 /* THUserNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THUserNotification.m; sourceTree = "<group>"; };
+		33A0997616563D1500A0EAD3 /* GAShadowSocksService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAShadowSocksService.h; sourceTree = "<group>"; };
+		33A0997716563D1500A0EAD3 /* GAShadowSocksService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAShadowSocksService.m; sourceTree = "<group>"; };
+		33A099791656457900A0EAD3 /* shadowsocks-config-template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "shadowsocks-config-template"; sourceTree = "<group>"; };
+		33A0997B165649B000A0EAD3 /* shadowsocks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shadowsocks; sourceTree = "<group>"; };
+		8905D9C915551DF200E0E13A /* GASSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSHService.h; sourceTree = "<group>"; };
+		8905D9CA15551DF200E0E13A /* GASSHService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSHService.m; sourceTree = "<group>"; };
+		8905D9D415552D4000E0E13A /* ssh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ssh; sourceTree = "<group>"; };
+		8905D9D615557CEC00E0E13A /* stunnel-config-template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stunnel-config-template"; sourceTree = "<group>"; };
+		8905D9D815557CF900E0E13A /* stunnel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stunnel; sourceTree = "<group>"; };
+		8905D9DE15562F0A00E0E13A /* GAStunnelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAStunnelService.h; sourceTree = "<group>"; };
+		8905D9DF15562F0A00E0E13A /* GAStunnelService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAStunnelService.m; sourceTree = "<group>"; };
+		8905D9E61556DCA700E0E13A /* stunnel-config-example */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "stunnel-config-example"; sourceTree = "<group>"; };
+		89075ECD166EE50C001A318D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		89075ECE166EE50C001A318D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		890CAE8215EA0E9C00DBF744 /* status_item_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status_item_icon@2x.png"; sourceTree = "<group>"; };
+		890CAE8415EA0F9400DBF744 /* status_item_icon_alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status_item_icon_alt@2x.png"; sourceTree = "<group>"; };
+		890DBFC51549002D009FF77F /* GAGoAgentServerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGoAgentServerService.h; sourceTree = "<group>"; };
+		890DBFC61549002D009FF77F /* GAGoAgentServerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGoAgentServerService.m; sourceTree = "<group>"; };
+		891EA915164CA50A00445A25 /* status_item_icon_stopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_item_icon_stopped.png; sourceTree = "<group>"; };
+		891EA916164CA50A00445A25 /* status_item_icon_stopped@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "status_item_icon_stopped@2x.png"; sourceTree = "<group>"; };
+		894107FA1549179D0045DA38 /* GoAgentXServices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoAgentXServices.plist; sourceTree = "<group>"; };
+		8941781915495FFB00E1819C /* GAConfigFieldManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAConfigFieldManager.h; sourceTree = "<group>"; };
+		8941781A15495FFB00E1819C /* GAConfigFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAConfigFieldManager.m; sourceTree = "<group>"; };
+		8941782B1549A02900E1819C /* GAPACHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPACHTTPConnection.h; sourceTree = "<group>"; };
+		8941782C1549A02900E1819C /* GAPACHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPACHTTPConnection.m; sourceTree = "<group>"; };
+		8941782F1549A25700E1819C /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		894178301549A25700E1819C /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		894178321549A2C200E1819C /* GAPACHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAPACHTTPServer.h; sourceTree = "<group>"; };
+		894178331549A2C200E1819C /* GAPACHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAPACHTTPServer.m; sourceTree = "<group>"; };
+		894178351549A3DA00E1819C /* pactemplate.pac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pactemplate.pac; sourceTree = "<group>"; };
+		894E09CC154163BC00343BC6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		894E09D21541655F00343BC6 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		8963E33D14ED4A01008587B7 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		8963E33E14ED4A01008587B7 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		8963E33F14ED4A01008587B7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		899615271545AD04002DE998 /* west-chamber-proxy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "west-chamber-proxy"; sourceTree = "<group>"; };
+		8996152B1545AFB5002DE998 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		8996152C1545AFB5002DE998 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		8996152D1545AFB5002DE998 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		8996152E1545AFB5002DE998 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		8996152F1545AFB5002DE998 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		899615301545AFB5002DE998 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		899615311545AFB5002DE998 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		899615321545AFB5002DE998 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		899615331545AFB5002DE998 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		899615341545AFB5002DE998 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		899615351545AFB5002DE998 /* HTTPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
+		899615361545AFB5002DE998 /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
+		899615371545AFB5002DE998 /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
+		899615381545AFB5002DE998 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		899615391545AFB5002DE998 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		8996153A1545AFB5002DE998 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		8996153C1545AFB5002DE998 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		8996153D1545AFB5002DE998 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		8996153E1545AFB5002DE998 /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
+		8996153F1545AFB5002DE998 /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
+		899615401545AFB5002DE998 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
+		899615411545AFB5002DE998 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
+		899615421545AFB5002DE998 /* HTTPFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
+		899615431545AFB5002DE998 /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
+		899615441545AFB5002DE998 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
+		899615451545AFB5002DE998 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
+		899615461545AFB5002DE998 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
+		899615471545AFB5002DE998 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
+		899615561545B050002DE998 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		899615571545B050002DE998 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		899615581545B050002DE998 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		8996155A1545B050002DE998 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
+		8996155B1545B050002DE998 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		8996155C1545B050002DE998 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		8996155D1545B050002DE998 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		8996155E1545B050002DE998 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		8996155F1545B050002DE998 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		899615601545B050002DE998 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		899615611545B050002DE998 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		899615621545B050002DE998 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		899615631545B050002DE998 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		899615641545B050002DE998 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		899615661545B050002DE998 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		899615671545B050002DE998 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		899615681545B050002DE998 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		899615691545B050002DE998 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		8996156A1545B050002DE998 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8996157A15468980002DE998 /* GAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAService.h; sourceTree = "<group>"; };
+		8996157B15468980002DE998 /* GAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAService.m; sourceTree = "<group>"; };
+		8996157F154689FE002DE998 /* GAGoAgentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAGoAgentService.h; sourceTree = "<group>"; };
+		89961580154689FE002DE998 /* GAGoAgentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAGoAgentService.m; sourceTree = "<group>"; };
+		8996158215468A0C002DE998 /* GAWestChamberService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAWestChamberService.h; sourceTree = "<group>"; };
+		8996158315468A0C002DE998 /* GAWestChamberService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAWestChamberService.m; sourceTree = "<group>"; };
+		899615891546EC97002DE998 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		8996158C1546EF73002DE998 /* west-chamber-config-template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "west-chamber-config-template"; sourceTree = "<group>"; };
+		8996158E1546F43E002DE998 /* GoAgentXDefaultsValueMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoAgentXDefaultsValueMap.plist; sourceTree = "<group>"; };
+		8996159015479CA8002DE998 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		899615961547A7CB002DE998 /* goagent */ = {isa = PBXFileReference; lastKnownFileType = folder; path = goagent; sourceTree = "<group>"; };
+		899615971547A7CB002DE998 /* goagent-server */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "goagent-server"; sourceTree = "<group>"; };
+		89B72C5914E8DF9D0027DC19 /* GoAgentX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoAgentX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B72C5D14E8DF9D0027DC19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89B72C6014E8DF9D0027DC19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		89B72C6114E8DF9D0027DC19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		89B72C6214E8DF9D0027DC19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89B72C6514E8DF9D0027DC19 /* GoAgentX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoAgentX-Info.plist"; sourceTree = "<group>"; };
+		89B72C6714E8DF9D0027DC19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89B72C6914E8DF9D0027DC19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89B72C6B14E8DF9D0027DC19 /* GoAgentX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoAgentX-Prefix.pch"; sourceTree = "<group>"; };
+		89B72C6D14E8DF9D0027DC19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		89B72C6F14E8DF9D0027DC19 /* GAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAAppDelegate.h; sourceTree = "<group>"; };
+		89B72C7014E8DF9D0027DC19 /* GAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAAppDelegate.m; sourceTree = "<group>"; };
+		89B72C7314E8DF9D0027DC19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		89B72CD714E9097E0027DC19 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		89B72CDA14E90CC60027DC19 /* status_item_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_item_icon.png; sourceTree = "<group>"; };
+		89B72CDE14E9113A0027DC19 /* status_item_icon_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_item_icon_alt.png; sourceTree = "<group>"; };
+		89B72CEA14E926730027DC19 /* status_running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_running.png; sourceTree = "<group>"; };
+		89B72CEB14E926730027DC19 /* status_stopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_stopped.png; sourceTree = "<group>"; };
+		89B72CEF14E931CE0027DC19 /* GAAutoscrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAAutoscrollTextView.h; sourceTree = "<group>"; };
+		89B72CF014E931CE0027DC19 /* GAAutoscrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAAutoscrollTextView.m; sourceTree = "<group>"; };
+		89B72CF214E934CF0027DC19 /* GACommandRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACommandRunner.h; sourceTree = "<group>"; };
+		89B72CF314E934CF0027DC19 /* GACommandRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACommandRunner.m; sourceTree = "<group>"; };
+		89B72D4514E956340027DC19 /* GoAgentXDefaultsSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoAgentXDefaultsSettings.plist; sourceTree = "<group>"; };
+		89B72D4914E960BE0027DC19 /* goagent-config-template */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "goagent-config-template"; sourceTree = "<group>"; };
+		89CC4741152DC9F700A12119 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89CC4744152DCF5B00A12119 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89B72C5614E8DF9D0027DC19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3354315D1654DA6E00AB2A73 /* QuartzCore.framework in Frameworks */,
+				894E09D11541642700343BC6 /* Sparkle.framework in Frameworks */,
+				89CC4745152DCF5B00A12119 /* Security.framework in Frameworks */,
+				89CC4742152DC9F700A12119 /* SystemConfiguration.framework in Frameworks */,
+				89B72C5E14E8DF9D0027DC19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3354315E1654DBBA00AB2A73 /* THUserNotification */ = {
+			isa = PBXGroup;
+			children = (
+				3354315F1654DBBA00AB2A73 /* banner2lines.tiff */,
+				335431601654DBBA00AB2A73 /* McAnimationUtility.h */,
+				335431611654DBBA00AB2A73 /* McAnimationUtility.m */,
+				335431621654DBBA00AB2A73 /* THUserNotification.h */,
+				335431631654DBBA00AB2A73 /* THUserNotification.m */,
+			);
+			path = THUserNotification;
+			sourceTree = "<group>";
+		};
+		89075ECC166EE50C001A318D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				89075ECD166EE50C001A318D /* Reachability.h */,
+				89075ECE166EE50C001A318D /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		8941782A15499E9200E1819C /* PACServer */ = {
+			isa = PBXGroup;
+			children = (
+				8941782B1549A02900E1819C /* GAPACHTTPConnection.h */,
+				8941782C1549A02900E1819C /* GAPACHTTPConnection.m */,
+				894178321549A2C200E1819C /* GAPACHTTPServer.h */,
+				894178331549A2C200E1819C /* GAPACHTTPServer.m */,
+			);
+			name = PACServer;
+			sourceTree = "<group>";
+		};
+		8941782E1549A25700E1819C /* NSData_Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				8941782F1549A25700E1819C /* NSData+Base64.h */,
+				894178301549A25700E1819C /* NSData+Base64.m */,
+			);
+			path = NSData_Base64;
+			sourceTree = "<group>";
+		};
+		8963E33B14ED4A01008587B7 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				89075ECC166EE50C001A318D /* Reachability */,
+				3354315E1654DBBA00AB2A73 /* THUserNotification */,
+				8996159015479CA8002DE998 /* SynthesizeSingleton.h */,
+				8941782E1549A25700E1819C /* NSData_Base64 */,
+				899615551545B050002DE998 /* CocoaAsyncSocket */,
+				899615591545B050002DE998 /* CocoaLumberjack */,
+				899615291545AFB5002DE998 /* CocoaHTTPServer */,
+				8963E33C14ED4A01008587B7 /* LaunchAtLoginController */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		8963E33C14ED4A01008587B7 /* LaunchAtLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				8963E33D14ED4A01008587B7 /* LaunchAtLoginController.h */,
+				8963E33E14ED4A01008587B7 /* LaunchAtLoginController.m */,
+				8963E33F14ED4A01008587B7 /* README.md */,
+			);
+			path = LaunchAtLoginController;
+			sourceTree = "<group>";
+		};
+		899615291545AFB5002DE998 /* CocoaHTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				8996152A1545AFB5002DE998 /* Categories */,
+				899615311545AFB5002DE998 /* HTTPAuthenticationRequest.h */,
+				899615321545AFB5002DE998 /* HTTPAuthenticationRequest.m */,
+				899615331545AFB5002DE998 /* HTTPConnection.h */,
+				899615341545AFB5002DE998 /* HTTPConnection.m */,
+				899615351545AFB5002DE998 /* HTTPLogging.h */,
+				899615361545AFB5002DE998 /* HTTPMessage.h */,
+				899615371545AFB5002DE998 /* HTTPMessage.m */,
+				899615381545AFB5002DE998 /* HTTPResponse.h */,
+				899615391545AFB5002DE998 /* HTTPServer.h */,
+				8996153A1545AFB5002DE998 /* HTTPServer.m */,
+				8996153B1545AFB5002DE998 /* Responses */,
+				899615461545AFB5002DE998 /* WebSocket.h */,
+				899615471545AFB5002DE998 /* WebSocket.m */,
+			);
+			path = CocoaHTTPServer;
+			sourceTree = "<group>";
+		};
+		8996152A1545AFB5002DE998 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8996152B1545AFB5002DE998 /* DDData.h */,
+				8996152C1545AFB5002DE998 /* DDData.m */,
+				8996152D1545AFB5002DE998 /* DDNumber.h */,
+				8996152E1545AFB5002DE998 /* DDNumber.m */,
+				8996152F1545AFB5002DE998 /* DDRange.h */,
+				899615301545AFB5002DE998 /* DDRange.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8996153B1545AFB5002DE998 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				8996153C1545AFB5002DE998 /* HTTPAsyncFileResponse.h */,
+				8996153D1545AFB5002DE998 /* HTTPAsyncFileResponse.m */,
+				8996153E1545AFB5002DE998 /* HTTPDataResponse.h */,
+				8996153F1545AFB5002DE998 /* HTTPDataResponse.m */,
+				899615401545AFB5002DE998 /* HTTPDynamicFileResponse.h */,
+				899615411545AFB5002DE998 /* HTTPDynamicFileResponse.m */,
+				899615421545AFB5002DE998 /* HTTPFileResponse.h */,
+				899615431545AFB5002DE998 /* HTTPFileResponse.m */,
+				899615441545AFB5002DE998 /* HTTPRedirectResponse.h */,
+				899615451545AFB5002DE998 /* HTTPRedirectResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		899615551545B050002DE998 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				899615561545B050002DE998 /* About.txt */,
+				899615571545B050002DE998 /* GCDAsyncSocket.h */,
+				899615581545B050002DE998 /* GCDAsyncSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		899615591545B050002DE998 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				8996155A1545B050002DE998 /* About.txt */,
+				8996155B1545B050002DE998 /* DDAbstractDatabaseLogger.h */,
+				8996155C1545B050002DE998 /* DDAbstractDatabaseLogger.m */,
+				8996155D1545B050002DE998 /* DDASLLogger.h */,
+				8996155E1545B050002DE998 /* DDASLLogger.m */,
+				8996155F1545B050002DE998 /* DDFileLogger.h */,
+				899615601545B050002DE998 /* DDFileLogger.m */,
+				899615611545B050002DE998 /* DDLog.h */,
+				899615621545B050002DE998 /* DDLog.m */,
+				899615631545B050002DE998 /* DDTTYLogger.h */,
+				899615641545B050002DE998 /* DDTTYLogger.m */,
+				899615651545B050002DE998 /* Extensions */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		899615651545B050002DE998 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				899615661545B050002DE998 /* ContextFilterLogFormatter.h */,
+				899615671545B050002DE998 /* ContextFilterLogFormatter.m */,
+				899615681545B050002DE998 /* DispatchQueueLogFormatter.h */,
+				899615691545B050002DE998 /* DispatchQueueLogFormatter.m */,
+				8996156A1545B050002DE998 /* README.txt */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8996157D154689AC002DE998 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8996157A15468980002DE998 /* GAService.h */,
+				8996157B15468980002DE998 /* GAService.m */,
+				8996157F154689FE002DE998 /* GAGoAgentService.h */,
+				89961580154689FE002DE998 /* GAGoAgentService.m */,
+				8996158215468A0C002DE998 /* GAWestChamberService.h */,
+				8996158315468A0C002DE998 /* GAWestChamberService.m */,
+				890DBFC51549002D009FF77F /* GAGoAgentServerService.h */,
+				890DBFC61549002D009FF77F /* GAGoAgentServerService.m */,
+				8905D9C915551DF200E0E13A /* GASSHService.h */,
+				8905D9CA15551DF200E0E13A /* GASSHService.m */,
+				8905D9DE15562F0A00E0E13A /* GAStunnelService.h */,
+				8905D9DF15562F0A00E0E13A /* GAStunnelService.m */,
+				33A0997616563D1500A0EAD3 /* GAShadowSocksService.h */,
+				33A0997716563D1500A0EAD3 /* GAShadowSocksService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8996157E154689BA002DE998 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				89B72CEF14E931CE0027DC19 /* GAAutoscrollTextView.h */,
+				89B72CF014E931CE0027DC19 /* GAAutoscrollTextView.m */,
+				89B72CF214E934CF0027DC19 /* GACommandRunner.h */,
+				89B72CF314E934CF0027DC19 /* GACommandRunner.m */,
+				8941781915495FFB00E1819C /* GAConfigFieldManager.h */,
+				8941781A15495FFB00E1819C /* GAConfigFieldManager.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		89B72C4E14E8DF9D0027DC19 = {
+			isa = PBXGroup;
+			children = (
+				8963E33B14ED4A01008587B7 /* Libraries */,
+				89B72C7A14E8E1470027DC19 /* Resources */,
+				89B72C6314E8DF9D0027DC19 /* GoAgentX */,
+				89B72C5C14E8DF9D0027DC19 /* Frameworks */,
+				89B72C5A14E8DF9D0027DC19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89B72C5A14E8DF9D0027DC19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B72C5914E8DF9D0027DC19 /* GoAgentX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89B72C5C14E8DF9D0027DC19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3354315C1654DA6E00AB2A73 /* QuartzCore.framework */,
+				894E09CC154163BC00343BC6 /* Sparkle.framework */,
+				89CC4744152DCF5B00A12119 /* Security.framework */,
+				89CC4741152DC9F700A12119 /* SystemConfiguration.framework */,
+				89B72C5D14E8DF9D0027DC19 /* Cocoa.framework */,
+				89B72C5F14E8DF9D0027DC19 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89B72C5F14E8DF9D0027DC19 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B72C6014E8DF9D0027DC19 /* AppKit.framework */,
+				89B72C6114E8DF9D0027DC19 /* CoreData.framework */,
+				89B72C6214E8DF9D0027DC19 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		89B72C6314E8DF9D0027DC19 /* GoAgentX */ = {
+			isa = PBXGroup;
+			children = (
+				8941782A15499E9200E1819C /* PACServer */,
+				89B72C6414E8DF9D0027DC19 /* Supporting Files */,
+				8996157E154689BA002DE998 /* Components */,
+				8996157D154689AC002DE998 /* Services */,
+				89B72D4514E956340027DC19 /* GoAgentXDefaultsSettings.plist */,
+				8996158E1546F43E002DE998 /* GoAgentXDefaultsValueMap.plist */,
+				894107FA1549179D0045DA38 /* GoAgentXServices.plist */,
+				89B72C6F14E8DF9D0027DC19 /* GAAppDelegate.h */,
+				89B72C7014E8DF9D0027DC19 /* GAAppDelegate.m */,
+				89B72C7214E8DF9D0027DC19 /* MainMenu.xib */,
+			);
+			path = GoAgentX;
+			sourceTree = "<group>";
+		};
+		89B72C6414E8DF9D0027DC19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B72C6514E8DF9D0027DC19 /* GoAgentX-Info.plist */,
+				89B72C6614E8DF9D0027DC19 /* InfoPlist.strings */,
+				89B72C6914E8DF9D0027DC19 /* main.m */,
+				89B72C6B14E8DF9D0027DC19 /* GoAgentX-Prefix.pch */,
+				89B72C6C14E8DF9D0027DC19 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89B72C7A14E8E1470027DC19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33A0997B165649B000A0EAD3 /* shadowsocks */,
+				899615891546EC97002DE998 /* www */,
+				899615961547A7CB002DE998 /* goagent */,
+				899615971547A7CB002DE998 /* goagent-server */,
+				899615271545AD04002DE998 /* west-chamber-proxy */,
+				8905D9D415552D4000E0E13A /* ssh */,
+				8905D9D815557CF900E0E13A /* stunnel */,
+				894E09D21541655F00343BC6 /* dsa_pub.pem */,
+				89B72CEA14E926730027DC19 /* status_running.png */,
+				89B72CEB14E926730027DC19 /* status_stopped.png */,
+				89B72CDA14E90CC60027DC19 /* status_item_icon.png */,
+				890CAE8215EA0E9C00DBF744 /* status_item_icon@2x.png */,
+				891EA915164CA50A00445A25 /* status_item_icon_stopped.png */,
+				891EA916164CA50A00445A25 /* status_item_icon_stopped@2x.png */,
+				89B72CDE14E9113A0027DC19 /* status_item_icon_alt.png */,
+				890CAE8415EA0F9400DBF744 /* status_item_icon_alt@2x.png */,
+				89B72CD714E9097E0027DC19 /* Icon.icns */,
+				89B72D4914E960BE0027DC19 /* goagent-config-template */,
+				8996158C1546EF73002DE998 /* west-chamber-config-template */,
+				8905D9D615557CEC00E0E13A /* stunnel-config-template */,
+				894178351549A3DA00E1819C /* pactemplate.pac */,
+				8905D9E61556DCA700E0E13A /* stunnel-config-example */,
+				33A099791656457900A0EAD3 /* shadowsocks-config-template */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89B72C5814E8DF9D0027DC19 /* GoAgentX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B72C7714E8DF9D0027DC19 /* Build configuration list for PBXNativeTarget "GoAgentX" */;
+			buildPhases = (
+				89B72C5514E8DF9D0027DC19 /* Sources */,
+				89B72C5614E8DF9D0027DC19 /* Frameworks */,
+				894E09CF154163E500343BC6 /* CopyFiles */,
+				89075EDB166EFDA9001A318D /* Update Build Number */,
+				89B72C5714E8DF9D0027DC19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoAgentX;
+			productName = GoAgentX;
+			productReference = 89B72C5914E8DF9D0027DC19 /* GoAgentX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89B72C5014E8DF9D0027DC19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = xujiwei.com;
+			};
+			buildConfigurationList = 89B72C5314E8DF9D0027DC19 /* Build configuration list for PBXProject "GoAgentX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89B72C4E14E8DF9D0027DC19;
+			productRefGroup = 89B72C5A14E8DF9D0027DC19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89B72C5814E8DF9D0027DC19 /* GoAgentX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89B72C5714E8DF9D0027DC19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B72C6814E8DF9D0027DC19 /* InfoPlist.strings in Resources */,
+				89B72C6E14E8DF9D0027DC19 /* Credits.rtf in Resources */,
+				89B72C7414E8DF9D0027DC19 /* MainMenu.xib in Resources */,
+				89B72CD814E9097E0027DC19 /* Icon.icns in Resources */,
+				89B72CDB14E90CC60027DC19 /* status_item_icon.png in Resources */,
+				89B72CE014E9113A0027DC19 /* status_item_icon_alt.png in Resources */,
+				89B72CEC14E926730027DC19 /* status_running.png in Resources */,
+				89B72CED14E926730027DC19 /* status_stopped.png in Resources */,
+				89B72D4614E956340027DC19 /* GoAgentXDefaultsSettings.plist in Resources */,
+				89B72D4A14E960BE0027DC19 /* goagent-config-template in Resources */,
+				8963E34114ED4A01008587B7 /* README.md in Resources */,
+				894E09D31541655F00343BC6 /* dsa_pub.pem in Resources */,
+				899615281545AD04002DE998 /* west-chamber-proxy in Resources */,
+				899615751545B050002DE998 /* README.txt in Resources */,
+				8996158A1546EC97002DE998 /* www in Resources */,
+				8996158D1546EF73002DE998 /* west-chamber-config-template in Resources */,
+				8996158F1546F43E002DE998 /* GoAgentXDefaultsValueMap.plist in Resources */,
+				899615981547A7CB002DE998 /* goagent in Resources */,
+				899615991547A7CB002DE998 /* goagent-server in Resources */,
+				894107FB1549179D0045DA38 /* GoAgentXServices.plist in Resources */,
+				894178361549A3DA00E1819C /* pactemplate.pac in Resources */,
+				8905D9D515552D4000E0E13A /* ssh in Resources */,
+				8905D9D715557CEC00E0E13A /* stunnel-config-template in Resources */,
+				8905D9D915557CF900E0E13A /* stunnel in Resources */,
+				8905D9E71556DCA800E0E13A /* stunnel-config-example in Resources */,
+				890CAE8315EA0E9C00DBF744 /* status_item_icon@2x.png in Resources */,
+				890CAE8515EA0F9400DBF744 /* status_item_icon_alt@2x.png in Resources */,
+				891EA917164CA50A00445A25 /* status_item_icon_stopped.png in Resources */,
+				891EA918164CA50A00445A25 /* status_item_icon_stopped@2x.png in Resources */,
+				335431641654DBBA00AB2A73 /* banner2lines.tiff in Resources */,
+				33A0997A1656457900A0EAD3 /* shadowsocks-config-template in Resources */,
+				33A0997C165649B000A0EAD3 /* shadowsocks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89075EDB166EFDA9001A318D /* Update Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n# 自动生成Build Number\n\nexport PATH=$PATH:/opt/local/bin\nGIT_COMMIT_COUNT=`git rev-list HEAD | wc -l | sed -e 's/ *//g' | xargs -n1 printf %d`\nINFO_PLIST=$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Contents/Info.plist\n\n# 更新Build Number\n/usr/libexec/PlistBuddy \"$INFO_PLIST\" -c \"Set CFBundleVersion $GIT_COMMIT_COUNT\"\n\n# convert back to binary format\nplutil -convert binary1 \"$INFO_PLIST\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89B72C5514E8DF9D0027DC19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B72C6A14E8DF9D0027DC19 /* main.m in Sources */,
+				89B72C7114E8DF9D0027DC19 /* GAAppDelegate.m in Sources */,
+				89B72CF114E931CE0027DC19 /* GAAutoscrollTextView.m in Sources */,
+				89B72CF414E934CF0027DC19 /* GACommandRunner.m in Sources */,
+				8963E34014ED4A01008587B7 /* LaunchAtLoginController.m in Sources */,
+				899615481545AFB5002DE998 /* DDData.m in Sources */,
+				899615491545AFB5002DE998 /* DDNumber.m in Sources */,
+				8996154A1545AFB5002DE998 /* DDRange.m in Sources */,
+				8996154B1545AFB5002DE998 /* HTTPAuthenticationRequest.m in Sources */,
+				8996154C1545AFB5002DE998 /* HTTPConnection.m in Sources */,
+				8996154D1545AFB5002DE998 /* HTTPMessage.m in Sources */,
+				8996154E1545AFB5002DE998 /* HTTPServer.m in Sources */,
+				8996154F1545AFB5002DE998 /* HTTPAsyncFileResponse.m in Sources */,
+				899615501545AFB5002DE998 /* HTTPDataResponse.m in Sources */,
+				899615511545AFB5002DE998 /* HTTPDynamicFileResponse.m in Sources */,
+				899615521545AFB5002DE998 /* HTTPFileResponse.m in Sources */,
+				899615531545AFB5002DE998 /* HTTPRedirectResponse.m in Sources */,
+				899615541545AFB5002DE998 /* WebSocket.m in Sources */,
+				8996156C1545B050002DE998 /* GCDAsyncSocket.m in Sources */,
+				8996156E1545B050002DE998 /* DDAbstractDatabaseLogger.m in Sources */,
+				8996156F1545B050002DE998 /* DDASLLogger.m in Sources */,
+				899615701545B050002DE998 /* DDFileLogger.m in Sources */,
+				899615711545B050002DE998 /* DDLog.m in Sources */,
+				899615721545B050002DE998 /* DDTTYLogger.m in Sources */,
+				899615731545B050002DE998 /* ContextFilterLogFormatter.m in Sources */,
+				899615741545B050002DE998 /* DispatchQueueLogFormatter.m in Sources */,
+				8996157C15468981002DE998 /* GAService.m in Sources */,
+				89961581154689FE002DE998 /* GAGoAgentService.m in Sources */,
+				8996158415468A0C002DE998 /* GAWestChamberService.m in Sources */,
+				890DBFC71549002D009FF77F /* GAGoAgentServerService.m in Sources */,
+				8941781B15495FFB00E1819C /* GAConfigFieldManager.m in Sources */,
+				8941782D1549A02900E1819C /* GAPACHTTPConnection.m in Sources */,
+				894178311549A25700E1819C /* NSData+Base64.m in Sources */,
+				894178341549A2C200E1819C /* GAPACHTTPServer.m in Sources */,
+				8905D9CB15551DF200E0E13A /* GASSHService.m in Sources */,
+				8905D9E015562F0A00E0E13A /* GAStunnelService.m in Sources */,
+				335431651654DBBA00AB2A73 /* McAnimationUtility.m in Sources */,
+				335431661654DBBA00AB2A73 /* THUserNotification.m in Sources */,
+				33A0997816563D1500A0EAD3 /* GAShadowSocksService.m in Sources */,
+				89075ECF166EE50C001A318D /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89B72C6614E8DF9D0027DC19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B72C6714E8DF9D0027DC19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89B72C6C14E8DF9D0027DC19 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B72C6D14E8DF9D0027DC19 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		89B72C7214E8DF9D0027DC19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B72C7314E8DF9D0027DC19 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89B72C7514E8DF9D0027DC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89B72C7614E8DF9D0027DC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89B72C7814E8DF9D0027DC19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoAgentX/GoAgentX-Prefix.pch";
+				INFOPLIST_FILE = "GoAgentX/GoAgentX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		89B72C7914E8DF9D0027DC19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoAgentX/GoAgentX-Prefix.pch";
+				INFOPLIST_FILE = "GoAgentX/GoAgentX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89B72C5314E8DF9D0027DC19 /* Build configuration list for PBXProject "GoAgentX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B72C7514E8DF9D0027DC19 /* Debug */,
+				89B72C7614E8DF9D0027DC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B72C7714E8DF9D0027DC19 /* Build configuration list for PBXNativeTarget "GoAgentX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B72C7814E8DF9D0027DC19 /* Debug */,
+				89B72C7914E8DF9D0027DC19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89B72C5014E8DF9D0027DC19 /* Project object */;
+}

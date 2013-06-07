@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: &lt;BMKSearchDelegate&gt;协议参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>组合类型列表</span></a></li>
+      <li><a href="classes.html"><span>组合类型索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>组合类型成员</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公有成员</a>  </div>
+  <div class="headertitle">
+<div class="title">&lt;BMKSearchDelegate&gt;协议参考</div>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="BMKSearchDelegate-p" -->
+<p>搜索delegate，用于获取搜索结果  
+ <a href="protocol_b_m_k_search_delegate-p.html#details">更多...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_b_m_k_search_8h_source.html">BMKSearch.h</a>&gt;</code></p>
+
+<p><a href="protocol_b_m_k_search_delegate-p-members.html">所有成员的列表。</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+公有成员</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_search_delegate-p.html#aaebc1737d2df985b3d7878fd9ea53122">onGetPoiResult:searchType:errorCode:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_search_delegate-p.html#a300f82b22ee2295fb1eda590ce468f6e">onGetTransitRouteResult:errorCode:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_search_delegate-p.html#ae37ff980770f8d8b1129e41cc05c76ae">onGetDrivingRouteResult:errorCode:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_search_delegate-p.html#a4fcbf962b5af9d50c194a69da26261c1">onGetWalkingRouteResult:errorCode:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_search_delegate-p.html#a7eebe5b2da7524f72e9f56413647d2fc">onGetAddrResult:errorCode:</a></td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>详细描述</h2>
+<div class="textblock"><p>搜索delegate，用于获取搜索结果 </p>
+</div><hr/><h2>成员函数文档</h2>
+<a class="anchor" id="a7eebe5b2da7524f72e9f56413647d2fc"></a><!-- doxytag: member="BMKSearchDelegate&#45;p::onGetAddrResult:errorCode:" ref="a7eebe5b2da7524f72e9f56413647d2fc" args="(BMKAddrInfo *result,[errorCode] int error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) onGetAddrResult: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_addr_info.html">BMKAddrInfo</a> *)&#160;</td>
+          <td class="paramname"><em>result</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">errorCode:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>返回地址信息搜索结果 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>搜索结果 </td></tr>
+    <tr><td class="paramname">error</td><td>错误号，</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>参见:</b></dt><dd>BMKErrorCode </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae37ff980770f8d8b1129e41cc05c76ae"></a><!-- doxytag: member="BMKSearchDelegate&#45;p::onGetDrivingRouteResult:errorCode:" ref="ae37ff980770f8d8b1129e41cc05c76ae" args="(BMKPlanResult *result,[errorCode] int error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) onGetDrivingRouteResult: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_plan_result.html">BMKPlanResult</a> *)&#160;</td>
+          <td class="paramname"><em>result</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">errorCode:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>返回驾乘搜索结果 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>搜索结果 </td></tr>
+    <tr><td class="paramname">error</td><td>错误号，</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>参见:</b></dt><dd>BMKErrorCode </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aaebc1737d2df985b3d7878fd9ea53122"></a><!-- doxytag: member="BMKSearchDelegate&#45;p::onGetPoiResult:searchType:errorCode:" ref="aaebc1737d2df985b3d7878fd9ea53122" args="(NSArray *poiResultList,[searchType] int type,[errorCode] int error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) onGetPoiResult: </td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>poiResultList</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">searchType:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>type</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">errorCode:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>返回POI搜索结果 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">poiResultList</td><td>搜索结果列表，成员类型为BMKPoiResult </td></tr>
+    <tr><td class="paramname">type</td><td>返回结果类型： BMKTypePoiList,BMKTypeAreaPoiList,BMKAreaMultiPoiList </td></tr>
+    <tr><td class="paramname">error</td><td>错误号，</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>参见:</b></dt><dd>BMKErrorCode </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a300f82b22ee2295fb1eda590ce468f6e"></a><!-- doxytag: member="BMKSearchDelegate&#45;p::onGetTransitRouteResult:errorCode:" ref="a300f82b22ee2295fb1eda590ce468f6e" args="(BMKPlanResult *result,[errorCode] int error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) onGetTransitRouteResult: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_plan_result.html">BMKPlanResult</a> *)&#160;</td>
+          <td class="paramname"><em>result</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">errorCode:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>返回公交搜索结果 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>搜索结果 </td></tr>
+    <tr><td class="paramname">error</td><td>错误号，</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>参见:</b></dt><dd>BMKErrorCode </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a4fcbf962b5af9d50c194a69da26261c1"></a><!-- doxytag: member="BMKSearchDelegate&#45;p::onGetWalkingRouteResult:errorCode:" ref="a4fcbf962b5af9d50c194a69da26261c1" args="(BMKPlanResult *result,[errorCode] int error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) onGetWalkingRouteResult: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_plan_result.html">BMKPlanResult</a> *)&#160;</td>
+          <td class="paramname"><em>result</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">errorCode:</td>
+          <td></td>
+          <td class="paramtype">(int)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>返回步行搜索结果 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">result</td><td>搜索结果 </td></tr>
+    <tr><td class="paramname">error</td><td>错误号，</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="see"><dt><b>参见:</b></dt><dd>BMKErrorCode </dd></dl>
+
+</div>
+</div>
+<hr/>该协议的文档由以下文件生成：<ul>
+<li><a class="el" href="_b_m_k_search_8h_source.html">BMKSearch.h</a></li>
+</ul>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:26 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

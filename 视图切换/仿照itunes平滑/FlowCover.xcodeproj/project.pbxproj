@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		EFED15E30EF4871E00198992 /* FlowCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFED15E20EF4871E00198992 /* FlowCoverView.m */; };
+		EFED160C0EF4A9C000198992 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = EFED16090EF4A9C000198992 /* b.png */; };
+		EFED160D0EF4A9C000198992 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = EFED160A0EF4A9C000198992 /* c.png */; };
+		EFED160E0EF4A9C000198992 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = EFED160B0EF4A9C000198992 /* a.png */; };
+		EFED161C0EF4C17A00198992 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFED161B0EF4C17A00198992 /* OpenGLES.framework */; };
+		EFED161F0EF4C19000198992 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFED161E0EF4C19000198992 /* QuartzCore.framework */; };
+		EFED16270EF4D55700198992 /* DataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EFED16260EF4D55700198992 /* DataCache.m */; };
+		EFED17910EF4E4FC00198992 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = EFED178E0EF4E4FC00198992 /* z.png */; };
+		EFED17920EF4E4FC00198992 /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = EFED178F0EF4E4FC00198992 /* y.png */; };
+		EFED17930EF4E4FC00198992 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFED17900EF4E4FC00198992 /* x.png */; };
+		EFFC343C0FC899B200899DC0 /* TestFC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFC343A0FC899B200899DC0 /* TestFC.xib */; };
+		EFFC343D0FC899B200899DC0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFC343B0FC899B200899DC0 /* MainWindow.xib */; };
+		EFFC34430FC899F600899DC0 /* FlowCoverTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC34410FC899F600899DC0 /* FlowCoverTest.m */; };
+		EFFC344C0FC89A2900899DC0 /* FlowCoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC34490FC89A2900899DC0 /* FlowCoverViewController.m */; };
+		EFFC344D0FC89A2900899DC0 /* FlowCoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC344B0FC89A2900899DC0 /* FlowCoverAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* FlowCover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowCover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FlowCover_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowCover_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFED15E10EF4871E00198992 /* FlowCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlowCoverView.h; path = Classes/FlowCoverView.h; sourceTree = "<group>"; };
+		EFED15E20EF4871E00198992 /* FlowCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlowCoverView.m; path = Classes/FlowCoverView.m; sourceTree = "<group>"; };
+		EFED16090EF4A9C000198992 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b.png; path = Images/b.png; sourceTree = "<group>"; };
+		EFED160A0EF4A9C000198992 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = c.png; path = Images/c.png; sourceTree = "<group>"; };
+		EFED160B0EF4A9C000198992 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = Images/a.png; sourceTree = "<group>"; };
+		EFED161B0EF4C17A00198992 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EFED161E0EF4C19000198992 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFED16250EF4D55700198992 /* DataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataCache.h; path = Classes/DataCache.h; sourceTree = "<group>"; };
+		EFED16260EF4D55700198992 /* DataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataCache.m; path = Classes/DataCache.m; sourceTree = "<group>"; };
+		EFED178E0EF4E4FC00198992 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = z.png; path = Images/z.png; sourceTree = "<group>"; };
+		EFED178F0EF4E4FC00198992 /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = y.png; path = Images/y.png; sourceTree = "<group>"; };
+		EFED17900EF4E4FC00198992 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = Images/x.png; sourceTree = "<group>"; };
+		EFFC343A0FC899B200899DC0 /* TestFC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TestFC.xib; path = Resources/TestFC.xib; sourceTree = "<group>"; };
+		EFFC343B0FC899B200899DC0 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		EFFC34410FC899F600899DC0 /* FlowCoverTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlowCoverTest.m; path = Test/FlowCoverTest.m; sourceTree = SOURCE_ROOT; };
+		EFFC34420FC899F600899DC0 /* FlowCoverTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlowCoverTest.h; path = Test/FlowCoverTest.h; sourceTree = SOURCE_ROOT; };
+		EFFC34480FC89A2900899DC0 /* FlowCoverAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlowCoverAppDelegate.h; path = Test/FlowCoverAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		EFFC34490FC89A2900899DC0 /* FlowCoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlowCoverViewController.m; path = Test/FlowCoverViewController.m; sourceTree = SOURCE_ROOT; };
+		EFFC344A0FC89A2900899DC0 /* FlowCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlowCoverViewController.h; path = Test/FlowCoverViewController.h; sourceTree = SOURCE_ROOT; };
+		EFFC344B0FC89A2900899DC0 /* FlowCoverAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlowCoverAppDelegate.m; path = Test/FlowCoverAppDelegate.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				EFED161C0EF4C17A00198992 /* OpenGLES.framework in Frameworks */,
+				EFED161F0EF4C19000198992 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Test Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC34480FC89A2900899DC0 /* FlowCoverAppDelegate.h */,
+				EFFC344B0FC89A2900899DC0 /* FlowCoverAppDelegate.m */,
+				EFFC34490FC89A2900899DC0 /* FlowCoverViewController.m */,
+				EFFC344A0FC89A2900899DC0 /* FlowCoverViewController.h */,
+				EFFC34410FC899F600899DC0 /* FlowCoverTest.m */,
+				EFFC34420FC899F600899DC0 /* FlowCoverTest.h */,
+			);
+			name = "Test Classes";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FlowCover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EFE4649F0EF4FF8300CB1DB9 /* FlowCover Classes */,
+				080E96DDFE201D6D7F000001 /* Test Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FlowCover_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC343A0FC899B200899DC0 /* TestFC.xib */,
+				EFFC343B0FC899B200899DC0 /* MainWindow.xib */,
+				EFED16080EF4A9AA00198992 /* Images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFED161E0EF4C19000198992 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				EFED161B0EF4C17A00198992 /* OpenGLES.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE4649F0EF4FF8300CB1DB9 /* FlowCover Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EFED15E10EF4871E00198992 /* FlowCoverView.h */,
+				EFED15E20EF4871E00198992 /* FlowCoverView.m */,
+				EFED16250EF4D55700198992 /* DataCache.h */,
+				EFED16260EF4D55700198992 /* DataCache.m */,
+			);
+			name = "FlowCover Classes";
+			sourceTree = "<group>";
+		};
+		EFED16080EF4A9AA00198992 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EFED16090EF4A9C000198992 /* b.png */,
+				EFED160A0EF4A9C000198992 /* c.png */,
+				EFED160B0EF4A9C000198992 /* a.png */,
+				EFED178E0EF4E4FC00198992 /* z.png */,
+				EFED178F0EF4E4FC00198992 /* y.png */,
+				EFED17900EF4E4FC00198992 /* x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FlowCover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlowCover" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowCover;
+			productName = FlowCover;
+			productReference = 1D6058910D05DD3D006BFB54 /* FlowCover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlowCover" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FlowCover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFED160C0EF4A9C000198992 /* b.png in Resources */,
+				EFED160D0EF4A9C000198992 /* c.png in Resources */,
+				EFED160E0EF4A9C000198992 /* a.png in Resources */,
+				EFED17910EF4E4FC00198992 /* z.png in Resources */,
+				EFED17920EF4E4FC00198992 /* y.png in Resources */,
+				EFED17930EF4E4FC00198992 /* x.png in Resources */,
+				EFFC343C0FC899B200899DC0 /* TestFC.xib in Resources */,
+				EFFC343D0FC899B200899DC0 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				EFED15E30EF4871E00198992 /* FlowCoverView.m in Sources */,
+				EFED16270EF4D55700198992 /* DataCache.m in Sources */,
+				EFFC34430FC899F600899DC0 /* FlowCoverTest.m in Sources */,
+				EFFC344C0FC89A2900899DC0 /* FlowCoverViewController.m in Sources */,
+				EFFC344D0FC89A2900899DC0 /* FlowCoverAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlowCover_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = FlowCover;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlowCover_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = FlowCover;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: William Woody";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B6C7CD18-4D58-46A6-9866-4D99738B3C72";
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlowCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlowCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

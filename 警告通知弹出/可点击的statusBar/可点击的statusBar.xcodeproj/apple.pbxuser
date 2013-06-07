@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	1808F2DC15A2D37000D4F331 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18D1B57615A17020001BC8A0 /* MTStatusBarOverlay.h */;
+		name = "MTStatusBarOverlay.h: 182";
+		rLen = 0;
+		rLoc = 7911;
+		rType = 0;
+		vrLen = 2229;
+		vrLoc = 6963;
+	};
+	1808F2DD15A2D37000D4F331 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18D1B57715A17020001BC8A0 /* MTStatusBarOverlay.m */;
+		name = "MTStatusBarOverlay.m: 1399";
+		rLen = 0;
+		rLoc = 58939;
+		rType = 0;
+		vrLen = 2156;
+		vrLoc = 58314;
+	};
+	1808F2DE15A2D37000D4F331 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 18D1B57715A17020001BC8A0 /* MTStatusBarOverlay.m */;
+		name = "MTStatusBarOverlay.m: 1273";
+		rLen = 0;
+		rLoc = 55346;
+		rType = 0;
+		vrLen = 1582;
+		vrLoc = 54498;
+	};
+	18D1B56215A16EB7001BC8A0 /* 可点击的statusBar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "可点击的statusBar";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	18D1B56715A16EC5001BC8A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ____statusBarAppDelegate.m */;
+		name = "____statusBarAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1911;
+		vrLoc = 0;
+	};
+	18D1B56F15A16EC5001BC8A0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	18D1B57015A16EC5001BC8A0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	18D1B57615A17020001BC8A0 /* MTStatusBarOverlay.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 3068}}";
+			sepNavSelRange = "{7911, 0}";
+			sepNavVisRange = "{6963, 2229}";
+		};
+	};
+	18D1B57715A17020001BC8A0 /* MTStatusBarOverlay.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 19396}}";
+			sepNavSelRange = "{55346, 0}";
+			sepNavVisRange = "{54498, 1582}";
+		};
+	};
+	18D1B58615A1723F001BC8A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ____statusBarAppDelegate.h */;
+		name = "____statusBarAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 0;
+	};
+	18D1B5A715A177BC001BC8A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ____statusBarViewController.m */;
+		name = "____statusBarViewController.m: 77";
+		rLen = 17;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 1472;
+		vrLoc = 889;
+	};
+	18D1B5A915A177BC001BC8A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ____statusBarViewController.h */;
+		name = "____statusBarViewController.h: 20";
+		rLen = 0;
+		rLoc = 614;
+		rType = 0;
+		vrLen = 626;
+		vrLoc = 0;
+	};
+	1D3623240D0F684500981E51 /* ____statusBarAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 685}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 514}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ____statusBarAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 1066}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1911}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* 可点击的statusBar */ = {
+		activeExec = 0;
+		executables = (
+			18D1B56215A16EB7001BC8A0 /* 可点击的statusBar */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ____statusBarViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 660}}";
+			sepNavSelRange = "{614, 0}";
+			sepNavVisRange = "{0, 626}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ____statusBarViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1531, 1157}}";
+			sepNavSelRange = "{1949, 17}";
+			sepNavVisRange = "{889, 1472}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 18D1B56215A16EB7001BC8A0 /* 可点击的statusBar */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* 可点击的statusBar */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* 可点击的statusBar */,
+		);
+		codeSenseManager = 18D1B57015A16EC5001BC8A0 /* Code sense */;
+		executables = (
+			18D1B56215A16EB7001BC8A0 /* 可点击的statusBar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1353,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1313,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 362992393;
+			PBXWorkspaceStateSaveDate = 362992393;
+		};
+		perUserProjectItems = {
+			1808F2DC15A2D37000D4F331 /* PBXTextBookmark */ = 1808F2DC15A2D37000D4F331 /* PBXTextBookmark */;
+			1808F2DD15A2D37000D4F331 /* PBXTextBookmark */ = 1808F2DD15A2D37000D4F331 /* PBXTextBookmark */;
+			1808F2DE15A2D37000D4F331 /* PBXTextBookmark */ = 1808F2DE15A2D37000D4F331 /* PBXTextBookmark */;
+			18D1B56715A16EC5001BC8A0 /* PBXTextBookmark */ = 18D1B56715A16EC5001BC8A0 /* PBXTextBookmark */;
+			18D1B58615A1723F001BC8A0 /* PBXTextBookmark */ = 18D1B58615A1723F001BC8A0 /* PBXTextBookmark */;
+			18D1B5A715A177BC001BC8A0 /* PBXTextBookmark */ = 18D1B5A715A177BC001BC8A0 /* PBXTextBookmark */;
+			18D1B5A915A177BC001BC8A0 /* PBXTextBookmark */ = 18D1B5A915A177BC001BC8A0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 18D1B56F15A16EC5001BC8A0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

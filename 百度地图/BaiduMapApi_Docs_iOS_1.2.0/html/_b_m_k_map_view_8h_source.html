@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: BMKMapView.h源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">BMKMapView.h</div>  </div>
+</div>
+<div class="contents">
+<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> *  BMKMapView.h</span>
+<a name="l00003"></a>00003 <span class="comment"> *      BMapKit</span>
+<a name="l00004"></a>00004 <span class="comment"> *</span>
+<a name="l00005"></a>00005 <span class="comment"> *  Copyright 2011 Baidu Inc. All rights reserved.</span>
+<a name="l00006"></a>00006 <span class="comment"> *</span>
+<a name="l00007"></a>00007 <span class="comment"> */</span>
+<a name="l00008"></a>00008 <span class="preprocessor">#import &quot;BMKTypes.h&quot;</span>
+<a name="l00009"></a>00009 <span class="preprocessor">#import &quot;<a class="code" href="_b_m_k_geometry_8h.html">BMKGeometry.h</a>&quot;</span>
+<a name="l00010"></a>00010 <span class="preprocessor">#import &quot;BMKAnnotation.h&quot;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#import &quot;BMKAnnotationView.h&quot;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#import &quot;BMKOverlayView.h&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#import &quot;BMKUserLocation.h&quot;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#import &quot;UIKit/UIKit.h&quot;</span> 
+<a name="l00015"></a>00015 <span class="keyword">@class</span> BMKMapViewInternal;
+<a name="l00016"></a>00016 <span class="keyword">@class</span> <a class="code" href="interface_b_m_k_overlay_view.html" title="该类是地图覆盖物View的基类，所有地图覆盖物View需要继承自此类">BMKOverlayView</a>;
+<a name="l00017"></a>00017 <span class="keyword">@protocol </span><a class="code" href="protocol_b_m_k_map_view_delegate-p.html" title="MapView的Delegate，mapView通过此类来通知用户对应的事件">BMKMapViewDelegate</a>;
+<a name="l00018"></a>00018 <span class="keyword">@protocol </span><a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>;
+<a name="l00019"></a>00019 
+<a name="l00021"></a><a class="code" href="interface_b_m_k_map_view.html">00021</a> <span class="keyword">@interface </span><a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> : UIView&lt;NSCoding&gt;
+<a name="l00022"></a>00022 {
+<a name="l00023"></a>00023 <span class="keyword">@private</span>
+<a name="l00024"></a>00024     BMKMapViewInternal *_internal;      
+<a name="l00025"></a>00025 }
+<a name="l00026"></a>00026 
+<a name="l00028"></a>00028 <span class="keyword">@property</span> (nonatomic, assign) id&lt;BMKMapViewDelegate&gt; delegate;
+<a name="l00029"></a><a class="code" href="interface_b_m_k_map_view.html#a80806d05b9f82dcf5630110b5d20dc2c">00029</a> 
+<a name="l00031"></a>00031 <span class="keyword">@property</span> (nonatomic) BMKMapType mapType;
+<a name="l00032"></a><a class="code" href="interface_b_m_k_map_view.html#add5778e2d3c080b0ae2ce63538082fea">00032</a> 
+<a name="l00034"></a>00034 <span class="keyword">@property</span> (nonatomic) <a class="code" href="struct_b_m_k_coordinate_region.html" title="表示一个经纬度区域">BMKCoordinateRegion</a> region;
+<a name="l00035"></a><a class="code" href="interface_b_m_k_map_view.html#ae54e847bb82b4e087ced8dc399a2d020">00035</a> 
+<a name="l00041"></a>00041 - (void)setRegion:(<a class="code" href="struct_b_m_k_coordinate_region.html" title="表示一个经纬度区域">BMKCoordinateRegion</a>)region animated:(BOOL)animated;
+<a name="l00042"></a>00042 
+<a name="l00044"></a>00044 <span class="keyword">@property</span> (nonatomic) CLLocationCoordinate2D centerCoordinate;
+<a name="l00045"></a><a class="code" href="interface_b_m_k_map_view.html#aa19c4d034a7861589044326107985632">00045</a> 
+<a name="l00051"></a>00051 - (void)setCenterCoordinate:(CLLocationCoordinate2D)coordinate animated:(BOOL)animated;
+<a name="l00052"></a>00052 
+<a name="l00054"></a>00054 <span class="keyword">@property</span> (nonatomic) <span class="keywordtype">int</span> zoomLevel;
+<a name="l00055"></a><a class="code" href="interface_b_m_k_map_view.html#a5f90d6b9a2b8c5ab762a7833065251a6">00055</a> 
+<a name="l00060"></a>00060 - (BOOL)zoomIn;
+<a name="l00061"></a>00061 
+<a name="l00066"></a>00066 - (BOOL)zoomOut;
+<a name="l00067"></a>00067 
+<a name="l00073"></a>00073 - (<a class="code" href="struct_b_m_k_coordinate_region.html" title="表示一个经纬度区域">BMKCoordinateRegion</a>)regionThatFits:(<a class="code" href="struct_b_m_k_coordinate_region.html" title="表示一个经纬度区域">BMKCoordinateRegion</a>)region;
+<a name="l00074"></a>00074 
+<a name="l00076"></a>00076 <span class="keyword">@property</span> (nonatomic) <a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a> visibleMapRect;
+<a name="l00077"></a><a class="code" href="interface_b_m_k_map_view.html#a35576ab39592ef50d1190c2b672c0923">00077</a> 
+<a name="l00083"></a>00083 - (void)setVisibleMapRect:(<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRect animated:(BOOL)animate;
+<a name="l00084"></a>00084 
+<a name="l00090"></a>00090 - (<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRectThatFits:(<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRect;
+<a name="l00091"></a>00091 
+<a name="l00098"></a>00098 - (void)setVisibleMapRect:(<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRect edgePadding:(UIEdgeInsets)insets animated:(BOOL)animate;
+<a name="l00099"></a>00099 
+<a name="l00106"></a>00106 - (<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRectThatFits:(<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRect edgePadding:(UIEdgeInsets)insets;
+<a name="l00107"></a>00107 
+<a name="l00114"></a>00114 - (CGPoint)convertCoordinate:(CLLocationCoordinate2D)coordinate toPointToView:(UIView *)view;
+<a name="l00115"></a>00115 
+<a name="l00122"></a>00122 - (CLLocationCoordinate2D)convertPoint:(CGPoint)point toCoordinateFromView:(UIView *)view;
+<a name="l00123"></a>00123 
+<a name="l00130"></a>00130 - (CGRect)convertRegion:(<a class="code" href="struct_b_m_k_coordinate_region.html" title="表示一个经纬度区域">BMKCoordinateRegion</a>)region toRectToView:(UIView *)view;
+<a name="l00131"></a>00131 
+<a name="l00138"></a>00138 - (<a class="code" href="struct_b_m_k_coordinate_region.html" title="表示一个经纬度区域">BMKCoordinateRegion</a>)convertRect:(CGRect)rect toRegionFromView:(UIView *)view;
+<a name="l00139"></a>00139 
+<a name="l00146"></a>00146 - (CGRect)convertMapRect:(<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)mapRect toRectToView:(UIView *)view;
+<a name="l00147"></a>00147 
+<a name="l00154"></a>00154 - (<a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a>)convertRect:(CGRect)rect toMapRectFromView:(UIView *)view;
+<a name="l00155"></a>00155 
+<a name="l00157"></a>00157 <span class="keyword">@property</span>(nonatomic, getter=isZoomEnabled) BOOL zoomEnabled;
+<a name="l00159"></a>00159 <span class="keyword">@property</span>(nonatomic, getter=isScrollEnabled) BOOL scrollEnabled;
+<a name="l00160"></a><a class="code" href="interface_b_m_k_map_view.html#adc7ae3120b0edf096ac0eb42f13ed93a">00160</a> 
+<a name="l00162"></a>00162 <span class="keyword">@property</span> (nonatomic) BOOL showsUserLocation;
+<a name="l00163"></a><a class="code" href="interface_b_m_k_map_view.html#af0b1358b03cf2e760d58c96dc50d3ebe">00163</a> 
+<a name="l00165"></a>00165  <span class="keyword">@property</span> (nonatomic, readonly) <a class="code" href="interface_b_m_k_user_location.html" title="定位信息类">BMKUserLocation</a> *userLocation;
+<a name="l00166"></a><a class="code" href="interface_b_m_k_map_view.html#a165690d8952edbf58fd33101d3d169e8">00166</a> 
+<a name="l00168"></a>00168 <span class="keyword">@property</span> (nonatomic, readonly, getter=isUserLocationVisible) BOOL userLocationVisible;
+<a name="l00169"></a><a class="code" href="interface_b_m_k_map_view.html#a8e3facab242ecd1ea2aadea90c158b99">00169</a> 
+<a name="l00174"></a>00174 - (void)addAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation;
+<a name="l00175"></a>00175 
+<a name="l00180"></a>00180 - (void)addAnnotations:(NSArray *)annotations;
+<a name="l00181"></a>00181 
+<a name="l00186"></a>00186 - (void)removeAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation;
+<a name="l00187"></a>00187 
+<a name="l00192"></a>00192 - (void)removeAnnotations:(NSArray *)annotations;
+<a name="l00193"></a>00193 
+<a name="l00195"></a>00195 <span class="keyword">@property</span> (nonatomic, readonly) NSArray *annotations;
+<a name="l00196"></a><a class="code" href="interface_b_m_k_map_view.html#a4d6a0d91974378d36f8da982e3eb85e8">00196</a> 
+<a name="l00202"></a>00202 - (<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)viewForAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation;
+<a name="l00203"></a>00203 
+<a name="l00209"></a>00209 - (<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)dequeueReusableAnnotationViewWithIdentifier:(NSString *)identifier;
+<a name="l00210"></a>00210 
+<a name="l00216"></a>00216 - (void)selectAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation animated:(BOOL)animated;
+<a name="l00217"></a>00217 
+<a name="l00223"></a>00223 - (void)deselectAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation animated:(BOOL)animated;
+<a name="l00224"></a>00224 
+<a name="l00225"></a>00225 <span class="keyword">@end</span>
+<a name="l00226"></a>00226 
+<a name="l00227"></a>00227 <span class="keyword">@interface </span><a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> (OverlaysAPI)
+<a name="l00228"></a>00228 
+<a name="l00233"></a>00233 - (void)addOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay;
+<a name="l00234"></a>00234 
+<a name="l00239"></a>00239 - (void)addOverlays:(NSArray *)overlays;
+<a name="l00240"></a>00240 
+<a name="l00245"></a>00245 - (void)removeOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay;
+<a name="l00246"></a>00246 
+<a name="l00251"></a>00251 - (void)removeOverlays:(NSArray *)overlays;
+<a name="l00252"></a>00252 
+<a name="l00258"></a>00258 - (void)insertOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay atIndex:(NSUInteger)index;
+<a name="l00259"></a>00259 
+<a name="l00265"></a>00265 - (void)exchangeOverlayAtIndex:(NSUInteger)index1 withOverlayAtIndex:(NSUInteger)index2;
+<a name="l00266"></a>00266 
+<a name="l00272"></a>00272 - (void)insertOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay aboveOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)sibling;
+<a name="l00273"></a>00273 
+<a name="l00279"></a>00279 - (void)insertOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay belowOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)sibling;
+<a name="l00280"></a>00280 
+<a name="l00282"></a>00282 <span class="keyword">@property</span> (nonatomic, readonly) NSArray *<a class="code" href="interface_b_m_k_map_view.html#a6c673c46ad9f146f80e48d82ebcf934b" title="当前mapView中已经添加的Overlay数组">overlays</a>;
+<a name="l00283"></a><a class="code" href="interface_b_m_k_map_view.html#a6c673c46ad9f146f80e48d82ebcf934b">00283</a> 
+<a name="l00289"></a>00289 - (<a class="code" href="interface_b_m_k_overlay_view.html" title="该类是地图覆盖物View的基类，所有地图覆盖物View需要继承自此类">BMKOverlayView</a> *)viewForOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay;
+<a name="l00290"></a>00290 
+<a name="l00291"></a>00291 <span class="keyword">@end</span>
+<a name="l00292"></a>00292 
+<a name="l00294"></a>00294 <span class="keyword">@protocol </span><a class="code" href="protocol_b_m_k_map_view_delegate-p.html" title="MapView的Delegate，mapView通过此类来通知用户对应的事件">BMKMapViewDelegate</a> &lt;NSObject&gt;
+<a name="l00295"></a><a class="code" href="protocol_b_m_k_map_view_delegate-p.html">00295</a> <span class="keyword">@optional</span>
+<a name="l00296"></a>00296 
+<a name="l00302"></a>00302 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView regionWillChangeAnimated:(BOOL)animated;
+<a name="l00303"></a>00303 
+<a name="l00309"></a>00309 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView regionDidChangeAnimated:(BOOL)animated;
+<a name="l00310"></a>00310 
+<a name="l00317"></a>00317 - (<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView viewForAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation;
+<a name="l00318"></a>00318 
+<a name="l00324"></a>00324 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView didAddAnnotationViews:(NSArray *)views;
+<a name="l00325"></a>00325 
+<a name="l00331"></a>00331 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView didSelectAnnotationView:(<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)view;
+<a name="l00332"></a>00332 
+<a name="l00338"></a>00338 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView didDeselectAnnotationView:(<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)view;
+<a name="l00339"></a>00339 
+<a name="l00344"></a>00344 - (void)mapViewWillStartLocatingUser:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView;
+<a name="l00345"></a>00345 
+<a name="l00350"></a>00350 - (void)mapViewDidStopLocatingUser:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView;
+<a name="l00351"></a>00351 
+<a name="l00357"></a>00357 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView didUpdateUserLocation:(<a class="code" href="interface_b_m_k_user_location.html" title="定位信息类">BMKUserLocation</a> *)userLocation;
+<a name="l00358"></a>00358 
+<a name="l00364"></a>00364 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView didFailToLocateUserWithError:(NSError *)error;
+<a name="l00365"></a>00365 
+<a name="l00373"></a>00373 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView annotationView:(<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)view didChangeDragState:(BMKAnnotationViewDragState)newState 
+<a name="l00374"></a>00374    fromOldState:(BMKAnnotationViewDragState)oldState;
+<a name="l00375"></a>00375 
+<a name="l00381"></a>00381 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView annotationViewForBubble:(<a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> *)view;
+<a name="l00382"></a>00382 
+<a name="l00389"></a>00389 - (<a class="code" href="interface_b_m_k_overlay_view.html" title="该类是地图覆盖物View的基类，所有地图覆盖物View需要继承自此类">BMKOverlayView</a> *)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView viewForOverlay:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_overlay-p.html" title="该类是地图覆盖物的基类，所有地图的覆盖物需要继承自此类">BMKOverlay</a>&gt;)overlay;
+<a name="l00390"></a>00390 
+<a name="l00396"></a>00396 - (void)mapView:(<a class="code" href="interface_b_m_k_map_view.html" title="地图View类，使用此View可以显示地图窗口，并且对地图进行相关的操作">BMKMapView</a> *)mapView didAddOverlayViews:(NSArray *)overlayViews;
+<a name="l00397"></a>00397 
+<a name="l00398"></a>00398 <span class="keyword">@end</span>
+<a name="l00399"></a>00399 
+<a name="l00400"></a>00400 
+</pre></div></div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:24 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

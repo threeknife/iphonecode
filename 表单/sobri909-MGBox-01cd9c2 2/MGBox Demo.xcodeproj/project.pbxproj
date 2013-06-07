@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91CE3BF156D757E0025C722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91CE3BE156D757E0025C722 /* UIKit.framework */; };
+		C91CE3C1156D757E0025C722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91CE3C0156D757E0025C722 /* Foundation.framework */; };
+		C91CE3C3156D757E0025C722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91CE3C2156D757E0025C722 /* CoreGraphics.framework */; };
+		C91CE3C9156D757E0025C722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C91CE3C7156D757E0025C722 /* InfoPlist.strings */; };
+		C91CE3CB156D757E0025C722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C91CE3CA156D757E0025C722 /* main.m */; };
+		C91CE3CF156D757E0025C722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C91CE3CE156D757E0025C722 /* AppDelegate.m */; };
+		C91CE3D2156D757E0025C722 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91CE3D0156D757E0025C722 /* MainStoryboard.storyboard */; };
+		C91CE3D5156D757E0025C722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91CE3D4156D757E0025C722 /* ViewController.m */; };
+		C91CE3ED156D78740025C724 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C91CE3ED156D78740025C723 /* home@2x.png */; };
+		C91CE3ED156D78740025C726 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = C91CE3ED156D78740025C725 /* home.png */; };
+		C98D3E7E156EDF280078A785 /* MGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D3E74156EDF270078A785 /* MGBox.m */; };
+		C98D3E7F156EDF280078A785 /* MGBoxLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D3E76156EDF270078A785 /* MGBoxLine.m */; };
+		C98D3E80156EDF280078A785 /* MGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D3E79156EDF270078A785 /* MGButton.m */; };
+		C98D3E81156EDF280078A785 /* MGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D3E7B156EDF270078A785 /* MGScrollView.m */; };
+		C98D3E82156EDF280078A785 /* MGStyledBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D3E7D156EDF270078A785 /* MGStyledBox.m */; };
+		C9CD1EDC156EB18E00E817B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD1EDB156EB18E00E817B1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C91CE3BA156D757E0025C722 /* MGBox Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGBox Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91CE3BE156D757E0025C722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C91CE3C0156D757E0025C722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C91CE3C2156D757E0025C722 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C91CE3C6156D757E0025C722 /* MGBox Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MGBox Demo-Info.plist"; sourceTree = "<group>"; };
+		C91CE3C8156D757E0025C722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C91CE3CA156D757E0025C722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C91CE3CC156D757E0025C722 /* MGBox Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGBox Demo-Prefix.pch"; sourceTree = "<group>"; };
+		C91CE3CD156D757E0025C722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C91CE3CE156D757E0025C722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C91CE3D1156D757E0025C722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C91CE3D3156D757E0025C722 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C91CE3D4156D757E0025C722 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C91CE3ED156D78740025C723 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		C91CE3ED156D78740025C725 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		C98D3E73156EDF270078A785 /* MGBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBox.h; sourceTree = "<group>"; };
+		C98D3E74156EDF270078A785 /* MGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBox.m; sourceTree = "<group>"; };
+		C98D3E75156EDF270078A785 /* MGBoxLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBoxLine.h; sourceTree = "<group>"; };
+		C98D3E76156EDF270078A785 /* MGBoxLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGBoxLine.m; sourceTree = "<group>"; };
+		C98D3E77156EDF270078A785 /* MGBoxProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGBoxProtocol.h; sourceTree = "<group>"; };
+		C98D3E78156EDF270078A785 /* MGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGButton.h; sourceTree = "<group>"; };
+		C98D3E79156EDF270078A785 /* MGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGButton.m; sourceTree = "<group>"; };
+		C98D3E7A156EDF270078A785 /* MGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGScrollView.h; sourceTree = "<group>"; };
+		C98D3E7B156EDF270078A785 /* MGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGScrollView.m; sourceTree = "<group>"; };
+		C98D3E7C156EDF270078A785 /* MGStyledBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGStyledBox.h; sourceTree = "<group>"; };
+		C98D3E7D156EDF270078A785 /* MGStyledBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGStyledBox.m; sourceTree = "<group>"; };
+		C9CD1EDB156EB18E00E817B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91CE3B7156D757E0025C722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CD1EDC156EB18E00E817B1 /* QuartzCore.framework in Frameworks */,
+				C91CE3BF156D757E0025C722 /* UIKit.framework in Frameworks */,
+				C91CE3C1156D757E0025C722 /* Foundation.framework in Frameworks */,
+				C91CE3C3156D757E0025C722 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91CE3AF156D757E0025C722 = {
+			isa = PBXGroup;
+			children = (
+				C91CE3C4156D757E0025C722 /* MGBox Demo */,
+				C91CE3BD156D757E0025C722 /* Frameworks */,
+				C91CE3BB156D757E0025C722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91CE3BB156D757E0025C722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91CE3BA156D757E0025C722 /* MGBox Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91CE3BD156D757E0025C722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD1EDB156EB18E00E817B1 /* QuartzCore.framework */,
+				C91CE3BE156D757E0025C722 /* UIKit.framework */,
+				C91CE3C0156D757E0025C722 /* Foundation.framework */,
+				C91CE3C2156D757E0025C722 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91CE3C4156D757E0025C722 /* MGBox Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C98D3E72156EDF270078A785 /* MGBox */,
+				C91CE3CD156D757E0025C722 /* AppDelegate.h */,
+				C91CE3CE156D757E0025C722 /* AppDelegate.m */,
+				C91CE3D0156D757E0025C722 /* MainStoryboard.storyboard */,
+				C91CE3D3156D757E0025C722 /* ViewController.h */,
+				C91CE3D4156D757E0025C722 /* ViewController.m */,
+				C91CE3C5156D757E0025C722 /* Supporting Files */,
+				C91CE3ED156D78740025C727 /* Images */,
+			);
+			path = "MGBox Demo";
+			sourceTree = "<group>";
+		};
+		C91CE3C5156D757E0025C722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C91CE3C6156D757E0025C722 /* MGBox Demo-Info.plist */,
+				C91CE3C7156D757E0025C722 /* InfoPlist.strings */,
+				C91CE3CA156D757E0025C722 /* main.m */,
+				C91CE3CC156D757E0025C722 /* MGBox Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C91CE3ED156D78740025C727 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C91CE3ED156D78740025C723 /* home@2x.png */,
+				C91CE3ED156D78740025C725 /* home.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C98D3E72156EDF270078A785 /* MGBox */ = {
+			isa = PBXGroup;
+			children = (
+				C98D3E73156EDF270078A785 /* MGBox.h */,
+				C98D3E74156EDF270078A785 /* MGBox.m */,
+				C98D3E75156EDF270078A785 /* MGBoxLine.h */,
+				C98D3E76156EDF270078A785 /* MGBoxLine.m */,
+				C98D3E77156EDF270078A785 /* MGBoxProtocol.h */,
+				C98D3E78156EDF270078A785 /* MGButton.h */,
+				C98D3E79156EDF270078A785 /* MGButton.m */,
+				C98D3E7A156EDF270078A785 /* MGScrollView.h */,
+				C98D3E7B156EDF270078A785 /* MGScrollView.m */,
+				C98D3E7C156EDF270078A785 /* MGStyledBox.h */,
+				C98D3E7D156EDF270078A785 /* MGStyledBox.m */,
+			);
+			path = MGBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C91CE3B9156D757E0025C722 /* MGBox Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91CE3D8156D757E0025C722 /* Build configuration list for PBXNativeTarget "MGBox Demo" */;
+			buildPhases = (
+				C91CE3B6156D757E0025C722 /* Sources */,
+				C91CE3B7156D757E0025C722 /* Frameworks */,
+				C91CE3B8156D757E0025C722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MGBox Demo";
+			productName = "MGBox Demo";
+			productReference = C91CE3BA156D757E0025C722 /* MGBox Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91CE3B1156D757E0025C722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Big Paua";
+			};
+			buildConfigurationList = C91CE3B4156D757E0025C722 /* Build configuration list for PBXProject "MGBox Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C91CE3AF156D757E0025C722;
+			productRefGroup = C91CE3BB156D757E0025C722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91CE3B9156D757E0025C722 /* MGBox Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91CE3B8156D757E0025C722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91CE3C9156D757E0025C722 /* InfoPlist.strings in Resources */,
+				C91CE3D2156D757E0025C722 /* MainStoryboard.storyboard in Resources */,
+				C91CE3ED156D78740025C724 /* home@2x.png in Resources */,
+				C91CE3ED156D78740025C726 /* home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91CE3B6156D757E0025C722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91CE3CB156D757E0025C722 /* main.m in Sources */,
+				C91CE3CF156D757E0025C722 /* AppDelegate.m in Sources */,
+				C91CE3D5156D757E0025C722 /* ViewController.m in Sources */,
+				C98D3E7E156EDF280078A785 /* MGBox.m in Sources */,
+				C98D3E7F156EDF280078A785 /* MGBoxLine.m in Sources */,
+				C98D3E80156EDF280078A785 /* MGButton.m in Sources */,
+				C98D3E81156EDF280078A785 /* MGScrollView.m in Sources */,
+				C98D3E82156EDF280078A785 /* MGStyledBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C91CE3C7156D757E0025C722 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91CE3C8156D757E0025C722 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C91CE3D0156D757E0025C722 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91CE3D1156D757E0025C722 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C91CE3D6156D757E0025C722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C91CE3D7156D757E0025C722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91CE3D9156D757E0025C722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MGBox Demo/MGBox Demo-Prefix.pch";
+				INFOPLIST_FILE = "MGBox Demo/MGBox Demo-Info.plist";
+				PRODUCT_NAME = "MGBox Demo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C91CE3DA156D757E0025C722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MGBox Demo/MGBox Demo-Prefix.pch";
+				INFOPLIST_FILE = "MGBox Demo/MGBox Demo-Info.plist";
+				PRODUCT_NAME = "MGBox Demo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91CE3B4156D757E0025C722 /* Build configuration list for PBXProject "MGBox Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91CE3D6156D757E0025C722 /* Debug */,
+				C91CE3D7156D757E0025C722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91CE3D8156D757E0025C722 /* Build configuration list for PBXNativeTarget "MGBox Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91CE3D9156D757E0025C722 /* Debug */,
+				C91CE3DA156D757E0025C722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C91CE3B1156D757E0025C722 /* Project object */;
+}

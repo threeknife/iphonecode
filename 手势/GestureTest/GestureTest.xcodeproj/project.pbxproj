@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD24F4314AD63C30009E8DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F4214AD63C30009E8DD /* UIKit.framework */; };
+		CAD24F4514AD63C30009E8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F4414AD63C30009E8DD /* Foundation.framework */; };
+		CAD24F4714AD63C30009E8DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F4614AD63C30009E8DD /* CoreGraphics.framework */; };
+		CAD24F4D14AD63C30009E8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F4B14AD63C30009E8DD /* InfoPlist.strings */; };
+		CAD24F5014AD63C30009E8DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD24F4F14AD63C30009E8DD /* main.m */; };
+		CAD24F5314AD63C30009E8DD /* GestureTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD24F5214AD63C30009E8DD /* GestureTestAppDelegate.m */; };
+		CAD24F5614AD63C30009E8DD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F5414AD63C30009E8DD /* MainWindow.xib */; };
+		CAD24F5914AD63C30009E8DD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD24F5814AD63C30009E8DD /* FirstViewController.m */; };
+		CAD24F5C14AD63C30009E8DD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD24F5B14AD63C30009E8DD /* SecondViewController.m */; };
+		CAD24F5F14AD63C30009E8DD /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F5D14AD63C30009E8DD /* FirstView.xib */; };
+		CAD24F6214AD63C30009E8DD /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F6014AD63C30009E8DD /* SecondView.xib */; };
+		CAD24F6914AD63C30009E8DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F4214AD63C30009E8DD /* UIKit.framework */; };
+		CAD24F6A14AD63C30009E8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F4414AD63C30009E8DD /* Foundation.framework */; };
+		CAD24F6B14AD63C30009E8DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F4614AD63C30009E8DD /* CoreGraphics.framework */; };
+		CAD24F7314AD63C30009E8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F7114AD63C30009E8DD /* InfoPlist.strings */; };
+		CAD24F7614AD63C30009E8DD /* GestureTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F7514AD63C30009E8DD /* GestureTestTests.h */; };
+		CAD24F7814AD63C30009E8DD /* GestureTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD24F7714AD63C30009E8DD /* GestureTestTests.m */; };
+		CAD24F9214AD6AD00009E8DD /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD24F9114AD6AD00009E8DD /* orange.png */; };
+		CAD24F9414AD72790009E8DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD24F9314AD72790009E8DD /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD24F6C14AD63C30009E8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD24F3514AD63C30009E8DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD24F3D14AD63C30009E8DD;
+			remoteInfo = GestureTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD24F3E14AD63C30009E8DD /* GestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD24F4214AD63C30009E8DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAD24F4414AD63C30009E8DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAD24F4614AD63C30009E8DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAD24F4A14AD63C30009E8DD /* GestureTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureTest-Info.plist"; sourceTree = "<group>"; };
+		CAD24F4C14AD63C30009E8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD24F4E14AD63C30009E8DD /* GestureTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureTest-Prefix.pch"; sourceTree = "<group>"; };
+		CAD24F4F14AD63C30009E8DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD24F5114AD63C30009E8DD /* GestureTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureTestAppDelegate.h; sourceTree = "<group>"; };
+		CAD24F5214AD63C30009E8DD /* GestureTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureTestAppDelegate.m; sourceTree = "<group>"; };
+		CAD24F5514AD63C30009E8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CAD24F5714AD63C30009E8DD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CAD24F5814AD63C30009E8DD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CAD24F5A14AD63C30009E8DD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CAD24F5B14AD63C30009E8DD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CAD24F5E14AD63C30009E8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		CAD24F6114AD63C30009E8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		CAD24F6814AD63C30009E8DD /* GestureTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD24F7014AD63C30009E8DD /* GestureTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureTestTests-Info.plist"; sourceTree = "<group>"; };
+		CAD24F7214AD63C30009E8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD24F7414AD63C30009E8DD /* GestureTestTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureTestTests-Prefix.pch"; sourceTree = "<group>"; };
+		CAD24F7514AD63C30009E8DD /* GestureTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureTestTests.h; sourceTree = "<group>"; };
+		CAD24F7714AD63C30009E8DD /* GestureTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureTestTests.m; sourceTree = "<group>"; };
+		CAD24F9114AD6AD00009E8DD /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		CAD24F9314AD72790009E8DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD24F3B14AD63C30009E8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD24F9414AD72790009E8DD /* QuartzCore.framework in Frameworks */,
+				CAD24F4314AD63C30009E8DD /* UIKit.framework in Frameworks */,
+				CAD24F4514AD63C30009E8DD /* Foundation.framework in Frameworks */,
+				CAD24F4714AD63C30009E8DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD24F6414AD63C30009E8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD24F6914AD63C30009E8DD /* UIKit.framework in Frameworks */,
+				CAD24F6A14AD63C30009E8DD /* Foundation.framework in Frameworks */,
+				CAD24F6B14AD63C30009E8DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD24F3314AD63C30009E8DD = {
+			isa = PBXGroup;
+			children = (
+				CAD24F9314AD72790009E8DD /* QuartzCore.framework */,
+				CAD24F4814AD63C30009E8DD /* GestureTest */,
+				CAD24F6E14AD63C30009E8DD /* GestureTestTests */,
+				CAD24F4114AD63C30009E8DD /* Frameworks */,
+				CAD24F3F14AD63C30009E8DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD24F3F14AD63C30009E8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD24F3E14AD63C30009E8DD /* GestureTest.app */,
+				CAD24F6814AD63C30009E8DD /* GestureTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD24F4114AD63C30009E8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD24F4214AD63C30009E8DD /* UIKit.framework */,
+				CAD24F4414AD63C30009E8DD /* Foundation.framework */,
+				CAD24F4614AD63C30009E8DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD24F4814AD63C30009E8DD /* GestureTest */ = {
+			isa = PBXGroup;
+			children = (
+				CAD24F5114AD63C30009E8DD /* GestureTestAppDelegate.h */,
+				CAD24F5214AD63C30009E8DD /* GestureTestAppDelegate.m */,
+				CAD24F5414AD63C30009E8DD /* MainWindow.xib */,
+				CAD24F5714AD63C30009E8DD /* FirstViewController.h */,
+				CAD24F5814AD63C30009E8DD /* FirstViewController.m */,
+				CAD24F5A14AD63C30009E8DD /* SecondViewController.h */,
+				CAD24F5B14AD63C30009E8DD /* SecondViewController.m */,
+				CAD24F5D14AD63C30009E8DD /* FirstView.xib */,
+				CAD24F6014AD63C30009E8DD /* SecondView.xib */,
+				CAD24F9114AD6AD00009E8DD /* orange.png */,
+				CAD24F4914AD63C30009E8DD /* Supporting Files */,
+			);
+			path = GestureTest;
+			sourceTree = "<group>";
+		};
+		CAD24F4914AD63C30009E8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD24F4A14AD63C30009E8DD /* GestureTest-Info.plist */,
+				CAD24F4B14AD63C30009E8DD /* InfoPlist.strings */,
+				CAD24F4E14AD63C30009E8DD /* GestureTest-Prefix.pch */,
+				CAD24F4F14AD63C30009E8DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAD24F6E14AD63C30009E8DD /* GestureTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD24F7514AD63C30009E8DD /* GestureTestTests.h */,
+				CAD24F7714AD63C30009E8DD /* GestureTestTests.m */,
+				CAD24F6F14AD63C30009E8DD /* Supporting Files */,
+			);
+			path = GestureTestTests;
+			sourceTree = "<group>";
+		};
+		CAD24F6F14AD63C30009E8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD24F7014AD63C30009E8DD /* GestureTestTests-Info.plist */,
+				CAD24F7114AD63C30009E8DD /* InfoPlist.strings */,
+				CAD24F7414AD63C30009E8DD /* GestureTestTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD24F3D14AD63C30009E8DD /* GestureTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD24F7B14AD63C30009E8DD /* Build configuration list for PBXNativeTarget "GestureTest" */;
+			buildPhases = (
+				CAD24F3A14AD63C30009E8DD /* Sources */,
+				CAD24F3B14AD63C30009E8DD /* Frameworks */,
+				CAD24F3C14AD63C30009E8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureTest;
+			productName = GestureTest;
+			productReference = CAD24F3E14AD63C30009E8DD /* GestureTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD24F6714AD63C30009E8DD /* GestureTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD24F7E14AD63C30009E8DD /* Build configuration list for PBXNativeTarget "GestureTestTests" */;
+			buildPhases = (
+				CAD24F6314AD63C30009E8DD /* Sources */,
+				CAD24F6414AD63C30009E8DD /* Frameworks */,
+				CAD24F6514AD63C30009E8DD /* Resources */,
+				CAD24F6614AD63C30009E8DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD24F6D14AD63C30009E8DD /* PBXTargetDependency */,
+			);
+			name = GestureTestTests;
+			productName = GestureTestTests;
+			productReference = CAD24F6814AD63C30009E8DD /* GestureTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD24F3514AD63C30009E8DD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CAD24F3814AD63C30009E8DD /* Build configuration list for PBXProject "GestureTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD24F3314AD63C30009E8DD;
+			productRefGroup = CAD24F3F14AD63C30009E8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD24F3D14AD63C30009E8DD /* GestureTest */,
+				CAD24F6714AD63C30009E8DD /* GestureTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD24F3C14AD63C30009E8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD24F4D14AD63C30009E8DD /* InfoPlist.strings in Resources */,
+				CAD24F5614AD63C30009E8DD /* MainWindow.xib in Resources */,
+				CAD24F5F14AD63C30009E8DD /* FirstView.xib in Resources */,
+				CAD24F6214AD63C30009E8DD /* SecondView.xib in Resources */,
+				CAD24F9214AD6AD00009E8DD /* orange.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD24F6514AD63C30009E8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD24F7314AD63C30009E8DD /* InfoPlist.strings in Resources */,
+				CAD24F7614AD63C30009E8DD /* GestureTestTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAD24F6614AD63C30009E8DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD24F3A14AD63C30009E8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD24F5014AD63C30009E8DD /* main.m in Sources */,
+				CAD24F5314AD63C30009E8DD /* GestureTestAppDelegate.m in Sources */,
+				CAD24F5914AD63C30009E8DD /* FirstViewController.m in Sources */,
+				CAD24F5C14AD63C30009E8DD /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD24F6314AD63C30009E8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD24F7814AD63C30009E8DD /* GestureTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD24F6D14AD63C30009E8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD24F3D14AD63C30009E8DD /* GestureTest */;
+			targetProxy = CAD24F6C14AD63C30009E8DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD24F4B14AD63C30009E8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD24F4C14AD63C30009E8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAD24F5414AD63C30009E8DD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD24F5514AD63C30009E8DD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CAD24F5D14AD63C30009E8DD /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD24F5E14AD63C30009E8DD /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		CAD24F6014AD63C30009E8DD /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD24F6114AD63C30009E8DD /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		CAD24F7114AD63C30009E8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD24F7214AD63C30009E8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD24F7914AD63C30009E8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAD24F7A14AD63C30009E8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CAD24F7C14AD63C30009E8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureTest/GestureTest-Prefix.pch";
+				INFOPLIST_FILE = "GestureTest/GestureTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAD24F7D14AD63C30009E8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureTest/GestureTest-Prefix.pch";
+				INFOPLIST_FILE = "GestureTest/GestureTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CAD24F7F14AD63C30009E8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GestureTest.app/GestureTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureTestTests/GestureTestTests-Prefix.pch";
+				INFOPLIST_FILE = "GestureTestTests/GestureTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CAD24F8014AD63C30009E8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GestureTest.app/GestureTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureTestTests/GestureTestTests-Prefix.pch";
+				INFOPLIST_FILE = "GestureTestTests/GestureTestTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD24F3814AD63C30009E8DD /* Build configuration list for PBXProject "GestureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD24F7914AD63C30009E8DD /* Debug */,
+				CAD24F7A14AD63C30009E8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD24F7B14AD63C30009E8DD /* Build configuration list for PBXNativeTarget "GestureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD24F7C14AD63C30009E8DD /* Debug */,
+				CAD24F7D14AD63C30009E8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD24F7E14AD63C30009E8DD /* Build configuration list for PBXNativeTarget "GestureTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD24F7F14AD63C30009E8DD /* Debug */,
+				CAD24F8014AD63C30009E8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD24F3514AD63C30009E8DD /* Project object */;
+}

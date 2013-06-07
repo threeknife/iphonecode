@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0BE8A2156CBB8000D83435 /* HouseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0BE8A0156CBB8000D83435 /* HouseTableViewController.m */; };
+		3E0BE8A3156CBB8000D83435 /* HouseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0BE8A1156CBB8000D83435 /* HouseTableViewController.xib */; };
+		3E31F09D1575B84B004734F4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E31F09B1575B84A004734F4 /* AddressBook.framework */; };
+		3E31F09E1575B84B004734F4 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E31F09C1575B84A004734F4 /* AddressBookUI.framework */; };
+		3E3260821564DEF600DE5362 /* WebData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3260811564DEF600DE5362 /* WebData.m */; };
+		3E32E373156DDE07003681F4 /* ComBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E32E372156DDE07003681F4 /* ComBox.m */; };
+		3E361B141564947D00CC9D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B131564947D00CC9D06 /* UIKit.framework */; };
+		3E361B161564947D00CC9D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B151564947D00CC9D06 /* Foundation.framework */; };
+		3E361B181564947D00CC9D06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B171564947D00CC9D06 /* CoreGraphics.framework */; };
+		3E361B1A1564947D00CC9D06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B191564947D00CC9D06 /* CoreData.framework */; };
+		3E361B201564947D00CC9D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E361B1E1564947D00CC9D06 /* InfoPlist.strings */; };
+		3E361B221564947D00CC9D06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B211564947D00CC9D06 /* main.m */; };
+		3E361B261564947D00CC9D06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B251564947D00CC9D06 /* AppDelegate.m */; };
+		3E361B291564947D00CC9D06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E361B271564947D00CC9D06 /* MainStoryboard.storyboard */; };
+		3E361B2C1564947D00CC9D06 /* HouseManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B2A1564947D00CC9D06 /* HouseManagement.xcdatamodeld */; };
+		3E361B3A1564947D00CC9D06 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B391564947D00CC9D06 /* SenTestingKit.framework */; };
+		3E361B3B1564947D00CC9D06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B131564947D00CC9D06 /* UIKit.framework */; };
+		3E361B3C1564947D00CC9D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B151564947D00CC9D06 /* Foundation.framework */; };
+		3E361B3D1564947D00CC9D06 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E361B191564947D00CC9D06 /* CoreData.framework */; };
+		3E361B451564947D00CC9D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E361B431564947D00CC9D06 /* InfoPlist.strings */; };
+		3E361B481564947D00CC9D06 /* HouseManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B471564947D00CC9D06 /* HouseManagementTests.m */; };
+		3E361B5A156494E900CC9D06 /* EnteringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B59156494E900CC9D06 /* EnteringViewController.m */; };
+		3E361B5D1564956000CC9D06 /* UserTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B5C1564956000CC9D06 /* UserTableView.m */; };
+		3E38FDD315711D9500A135A6 /* NumberKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E38FDD215711D9500A135A6 /* NumberKeyBoardView.m */; };
+		3E3B01E0156FACA100552B2B /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B01DE156FACA100552B2B /* SearchViewController.m */; };
+		3E3B01E1156FACA100552B2B /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B01DF156FACA100552B2B /* SearchViewController.xib */; };
+		3E3C1F671564B41000A2558C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C1F661564B41000A2558C /* User.m */; };
+		3E4648EA1577088F008114B2 /* AreaAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4648E81577088F008114B2 /* AreaAddView.m */; };
+		3E4648EB1577088F008114B2 /* AreaAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E4648E91577088F008114B2 /* AreaAddView.xib */; };
+		3E47F5EC156B6C7F006F487E /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F5EB156B6C7F006F487E /* House.m */; };
+		3E47F5F5156B7DD3006F487E /* EditHouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F5F3156B7DD3006F487E /* EditHouseViewController.m */; };
+		3E47F5F6156B7DD3006F487E /* EditHouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E47F5F4156B7DD3006F487E /* EditHouseViewController.xib */; };
+		3E47F5FE156BA133006F487E /* HouseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E47F5FD156BA133006F487E /* HouseCell.m */; };
+		3E51F68B1576624D00295C47 /* cellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E51F68A1576624D00295C47 /* cellBackground.png */; };
+		3E6FDE56157216C2003D2C39 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6FDE55157216C2003D2C39 /* Area.m */; };
+		3E985A1F156B119A00B67A97 /* ShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E985A1D156B119A00B67A97 /* ShowDetailViewController.m */; };
+		3E985A20156B119A00B67A97 /* ShowDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E985A1E156B119A00B67A97 /* ShowDetailViewController.xib */; };
+		3EE2451A156A811F005B3E4F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE24519156A811F005B3E4F /* MainViewController.m */; };
+		3EFF33B5156BF9E500F3E506 /* HouseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EFF33B4156BF9E500F3E506 /* HouseCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E361B3E1564947D00CC9D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E361B061564947C00CC9D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E361B0E1564947D00CC9D06;
+			remoteInfo = HouseManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E0BE89F156CBB8000D83435 /* HouseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseTableViewController.h; sourceTree = "<group>"; };
+		3E0BE8A0156CBB8000D83435 /* HouseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseTableViewController.m; sourceTree = "<group>"; };
+		3E0BE8A1156CBB8000D83435 /* HouseTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseTableViewController.xib; sourceTree = "<group>"; };
+		3E31F09B1575B84A004734F4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		3E31F09C1575B84A004734F4 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		3E3260801564DEF600DE5362 /* WebData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebData.h; sourceTree = "<group>"; };
+		3E3260811564DEF600DE5362 /* WebData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebData.m; sourceTree = "<group>"; };
+		3E32E371156DDE07003681F4 /* ComBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComBox.h; sourceTree = "<group>"; };
+		3E32E372156DDE07003681F4 /* ComBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComBox.m; sourceTree = "<group>"; };
+		3E361B0F1564947D00CC9D06 /* HouseManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E361B131564947D00CC9D06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E361B151564947D00CC9D06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E361B171564947D00CC9D06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E361B191564947D00CC9D06 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E361B1D1564947D00CC9D06 /* HouseManagement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseManagement-Info.plist"; sourceTree = "<group>"; };
+		3E361B1F1564947D00CC9D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E361B211564947D00CC9D06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E361B231564947D00CC9D06 /* HouseManagement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HouseManagement-Prefix.pch"; sourceTree = "<group>"; };
+		3E361B241564947D00CC9D06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E361B251564947D00CC9D06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E361B281564947D00CC9D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3E361B2B1564947D00CC9D06 /* HouseManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HouseManagement.xcdatamodel; sourceTree = "<group>"; };
+		3E361B381564947D00CC9D06 /* HouseManagementTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseManagementTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E361B391564947D00CC9D06 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E361B421564947D00CC9D06 /* HouseManagementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseManagementTests-Info.plist"; sourceTree = "<group>"; };
+		3E361B441564947D00CC9D06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E361B461564947D00CC9D06 /* HouseManagementTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseManagementTests.h; sourceTree = "<group>"; };
+		3E361B471564947D00CC9D06 /* HouseManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseManagementTests.m; sourceTree = "<group>"; };
+		3E361B58156494E900CC9D06 /* EnteringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnteringViewController.h; sourceTree = "<group>"; };
+		3E361B59156494E900CC9D06 /* EnteringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnteringViewController.m; sourceTree = "<group>"; };
+		3E361B5B1564956000CC9D06 /* UserTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableView.h; sourceTree = "<group>"; };
+		3E361B5C1564956000CC9D06 /* UserTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableView.m; sourceTree = "<group>"; };
+		3E38FDD115711D9500A135A6 /* NumberKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberKeyBoardView.h; sourceTree = "<group>"; };
+		3E38FDD215711D9500A135A6 /* NumberKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberKeyBoardView.m; sourceTree = "<group>"; };
+		3E3B01DD156FACA100552B2B /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3E3B01DE156FACA100552B2B /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		3E3B01DF156FACA100552B2B /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		3E3C1F651564B41000A2558C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		3E3C1F661564B41000A2558C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		3E4648E71577088F008114B2 /* AreaAddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaAddView.h; sourceTree = "<group>"; };
+		3E4648E81577088F008114B2 /* AreaAddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaAddView.m; sourceTree = "<group>"; };
+		3E4648E91577088F008114B2 /* AreaAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AreaAddView.xib; sourceTree = "<group>"; };
+		3E47F5EA156B6C7F006F487E /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		3E47F5EB156B6C7F006F487E /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		3E47F5F2156B7DD3006F487E /* EditHouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditHouseViewController.h; sourceTree = "<group>"; };
+		3E47F5F3156B7DD3006F487E /* EditHouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditHouseViewController.m; sourceTree = "<group>"; };
+		3E47F5F4156B7DD3006F487E /* EditHouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditHouseViewController.xib; sourceTree = "<group>"; };
+		3E47F5FC156BA133006F487E /* HouseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseCell.h; sourceTree = "<group>"; };
+		3E47F5FD156BA133006F487E /* HouseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseCell.m; sourceTree = "<group>"; };
+		3E51F68A1576624D00295C47 /* cellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cellBackground.png; path = picture/cellBackground.png; sourceTree = SOURCE_ROOT; };
+		3E6FDE54157216C2003D2C39 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		3E6FDE55157216C2003D2C39 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		3E985A1C156B119A00B67A97 /* ShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDetailViewController.h; sourceTree = "<group>"; };
+		3E985A1D156B119A00B67A97 /* ShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDetailViewController.m; sourceTree = "<group>"; };
+		3E985A1E156B119A00B67A97 /* ShowDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDetailViewController.xib; sourceTree = "<group>"; };
+		3EE24518156A811F005B3E4F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3EE24519156A811F005B3E4F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3EFF33B4156BF9E500F3E506 /* HouseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E361B0C1564947D00CC9D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E31F09D1575B84B004734F4 /* AddressBook.framework in Frameworks */,
+				3E31F09E1575B84B004734F4 /* AddressBookUI.framework in Frameworks */,
+				3E361B141564947D00CC9D06 /* UIKit.framework in Frameworks */,
+				3E361B161564947D00CC9D06 /* Foundation.framework in Frameworks */,
+				3E361B181564947D00CC9D06 /* CoreGraphics.framework in Frameworks */,
+				3E361B1A1564947D00CC9D06 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E361B341564947D00CC9D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E361B3A1564947D00CC9D06 /* SenTestingKit.framework in Frameworks */,
+				3E361B3B1564947D00CC9D06 /* UIKit.framework in Frameworks */,
+				3E361B3C1564947D00CC9D06 /* Foundation.framework in Frameworks */,
+				3E361B3D1564947D00CC9D06 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0BE8B8156CCC8B00D83435 /* EnterView */ = {
+			isa = PBXGroup;
+			children = (
+				3E361B58156494E900CC9D06 /* EnteringViewController.h */,
+				3E361B59156494E900CC9D06 /* EnteringViewController.m */,
+				3E361B5B1564956000CC9D06 /* UserTableView.h */,
+				3E361B5C1564956000CC9D06 /* UserTableView.m */,
+			);
+			name = EnterView;
+			sourceTree = "<group>";
+		};
+		3E361B041564947C00CC9D06 = {
+			isa = PBXGroup;
+			children = (
+				3E361B1B1564947D00CC9D06 /* HouseManagement */,
+				3E361B401564947D00CC9D06 /* HouseManagementTests */,
+				3E361B121564947D00CC9D06 /* Frameworks */,
+				3E361B101564947D00CC9D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E361B101564947D00CC9D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E361B0F1564947D00CC9D06 /* HouseManagement.app */,
+				3E361B381564947D00CC9D06 /* HouseManagementTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E361B121564947D00CC9D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E31F09B1575B84A004734F4 /* AddressBook.framework */,
+				3E31F09C1575B84A004734F4 /* AddressBookUI.framework */,
+				3E361B131564947D00CC9D06 /* UIKit.framework */,
+				3E361B151564947D00CC9D06 /* Foundation.framework */,
+				3E361B171564947D00CC9D06 /* CoreGraphics.framework */,
+				3E361B191564947D00CC9D06 /* CoreData.framework */,
+				3E361B391564947D00CC9D06 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E361B1B1564947D00CC9D06 /* HouseManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C1F601564B36700A2558C /* modal */,
+				3E361B57156494AB00CC9D06 /* picture */,
+				3E361B55156494A300CC9D06 /* classes */,
+				3E361B241564947D00CC9D06 /* AppDelegate.h */,
+				3E361B251564947D00CC9D06 /* AppDelegate.m */,
+				3E361B271564947D00CC9D06 /* MainStoryboard.storyboard */,
+				3E361B2A1564947D00CC9D06 /* HouseManagement.xcdatamodeld */,
+				3E361B1C1564947D00CC9D06 /* Supporting Files */,
+			);
+			path = HouseManagement;
+			sourceTree = "<group>";
+		};
+		3E361B1C1564947D00CC9D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E361B1D1564947D00CC9D06 /* HouseManagement-Info.plist */,
+				3E361B1E1564947D00CC9D06 /* InfoPlist.strings */,
+				3E361B211564947D00CC9D06 /* main.m */,
+				3E361B231564947D00CC9D06 /* HouseManagement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E361B401564947D00CC9D06 /* HouseManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E361B461564947D00CC9D06 /* HouseManagementTests.h */,
+				3E361B471564947D00CC9D06 /* HouseManagementTests.m */,
+				3E361B411564947D00CC9D06 /* Supporting Files */,
+			);
+			path = HouseManagementTests;
+			sourceTree = "<group>";
+		};
+		3E361B411564947D00CC9D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E361B421564947D00CC9D06 /* HouseManagementTests-Info.plist */,
+				3E361B431564947D00CC9D06 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E361B55156494A300CC9D06 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E4648E315770841008114B2 /* ManageView */,
+				3E3B01DB156FAC7400552B2B /* SearchView */,
+				3E46823B156D4CF800B12A84 /* control */,
+				3E0BE8B8156CCC8B00D83435 /* EnterView */,
+				3E47F5F1156B7DA6006F487E /* editHouseResource */,
+				3EE24514156A80C0005B3E4F /* showHouseResource */,
+				3E3260801564DEF600DE5362 /* WebData.h */,
+				3E3260811564DEF600DE5362 /* WebData.m */,
+				3EE24518156A811F005B3E4F /* MainViewController.h */,
+				3EE24519156A811F005B3E4F /* MainViewController.m */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		3E361B57156494AB00CC9D06 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = picture;
+			sourceTree = "<group>";
+		};
+		3E3B01DB156FAC7400552B2B /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B01DD156FACA100552B2B /* SearchViewController.h */,
+				3E3B01DE156FACA100552B2B /* SearchViewController.m */,
+				3E3B01DF156FACA100552B2B /* SearchViewController.xib */,
+			);
+			name = SearchView;
+			sourceTree = "<group>";
+		};
+		3E3C1F601564B36700A2558C /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C1F651564B41000A2558C /* User.h */,
+				3E3C1F661564B41000A2558C /* User.m */,
+				3E47F5EA156B6C7F006F487E /* House.h */,
+				3E47F5EB156B6C7F006F487E /* House.m */,
+				3E6FDE54157216C2003D2C39 /* Area.h */,
+				3E6FDE55157216C2003D2C39 /* Area.m */,
+			);
+			name = modal;
+			sourceTree = "<group>";
+		};
+		3E4648E315770841008114B2 /* ManageView */ = {
+			isa = PBXGroup;
+			children = (
+				3E4648E71577088F008114B2 /* AreaAddView.h */,
+				3E4648E81577088F008114B2 /* AreaAddView.m */,
+				3E4648E91577088F008114B2 /* AreaAddView.xib */,
+			);
+			name = ManageView;
+			sourceTree = "<group>";
+		};
+		3E46823B156D4CF800B12A84 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				3E38FDD115711D9500A135A6 /* NumberKeyBoardView.h */,
+				3E38FDD215711D9500A135A6 /* NumberKeyBoardView.m */,
+				3E32E371156DDE07003681F4 /* ComBox.h */,
+				3E32E372156DDE07003681F4 /* ComBox.m */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
+		3E47F5F1156B7DA6006F487E /* editHouseResource */ = {
+			isa = PBXGroup;
+			children = (
+				3E47F5F2156B7DD3006F487E /* EditHouseViewController.h */,
+				3E47F5F3156B7DD3006F487E /* EditHouseViewController.m */,
+				3E47F5F4156B7DD3006F487E /* EditHouseViewController.xib */,
+			);
+			name = editHouseResource;
+			sourceTree = "<group>";
+		};
+		3E51F6881576623700295C47 /* showHouseResourcePicture */ = {
+			isa = PBXGroup;
+			children = (
+				3E51F68A1576624D00295C47 /* cellBackground.png */,
+			);
+			name = showHouseResourcePicture;
+			sourceTree = "<group>";
+		};
+		3EE24514156A80C0005B3E4F /* showHouseResource */ = {
+			isa = PBXGroup;
+			children = (
+				3E985A1C156B119A00B67A97 /* ShowDetailViewController.h */,
+				3E985A1D156B119A00B67A97 /* ShowDetailViewController.m */,
+				3E985A1E156B119A00B67A97 /* ShowDetailViewController.xib */,
+				3E0BE89F156CBB8000D83435 /* HouseTableViewController.h */,
+				3E0BE8A0156CBB8000D83435 /* HouseTableViewController.m */,
+				3E0BE8A1156CBB8000D83435 /* HouseTableViewController.xib */,
+				3E47F5FC156BA133006F487E /* HouseCell.h */,
+				3E47F5FD156BA133006F487E /* HouseCell.m */,
+				3EFF33B4156BF9E500F3E506 /* HouseCell.xib */,
+				3E51F6881576623700295C47 /* showHouseResourcePicture */,
+			);
+			name = showHouseResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E361B0E1564947D00CC9D06 /* HouseManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E361B4B1564947D00CC9D06 /* Build configuration list for PBXNativeTarget "HouseManagement" */;
+			buildPhases = (
+				3E361B0B1564947D00CC9D06 /* Sources */,
+				3E361B0C1564947D00CC9D06 /* Frameworks */,
+				3E361B0D1564947D00CC9D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseManagement;
+			productName = HouseManagement;
+			productReference = 3E361B0F1564947D00CC9D06 /* HouseManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E361B371564947D00CC9D06 /* HouseManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E361B4E1564947D00CC9D06 /* Build configuration list for PBXNativeTarget "HouseManagementTests" */;
+			buildPhases = (
+				3E361B331564947D00CC9D06 /* Sources */,
+				3E361B341564947D00CC9D06 /* Frameworks */,
+				3E361B351564947D00CC9D06 /* Resources */,
+				3E361B361564947D00CC9D06 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E361B3F1564947D00CC9D06 /* PBXTargetDependency */,
+			);
+			name = HouseManagementTests;
+			productName = HouseManagementTests;
+			productReference = 3E361B381564947D00CC9D06 /* HouseManagementTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E361B061564947C00CC9D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3E361B091564947C00CC9D06 /* Build configuration list for PBXProject "HouseManagement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E361B041564947C00CC9D06;
+			productRefGroup = 3E361B101564947D00CC9D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E361B0E1564947D00CC9D06 /* HouseManagement */,
+				3E361B371564947D00CC9D06 /* HouseManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E361B0D1564947D00CC9D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E361B201564947D00CC9D06 /* InfoPlist.strings in Resources */,
+				3E361B291564947D00CC9D06 /* MainStoryboard.storyboard in Resources */,
+				3E985A20156B119A00B67A97 /* ShowDetailViewController.xib in Resources */,
+				3E47F5F6156B7DD3006F487E /* EditHouseViewController.xib in Resources */,
+				3EFF33B5156BF9E500F3E506 /* HouseCell.xib in Resources */,
+				3E0BE8A3156CBB8000D83435 /* HouseTableViewController.xib in Resources */,
+				3E3B01E1156FACA100552B2B /* SearchViewController.xib in Resources */,
+				3E51F68B1576624D00295C47 /* cellBackground.png in Resources */,
+				3E4648EB1577088F008114B2 /* AreaAddView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E361B351564947D00CC9D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E361B451564947D00CC9D06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E361B361564947D00CC9D06 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E361B0B1564947D00CC9D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E361B221564947D00CC9D06 /* main.m in Sources */,
+				3E361B261564947D00CC9D06 /* AppDelegate.m in Sources */,
+				3E361B2C1564947D00CC9D06 /* HouseManagement.xcdatamodeld in Sources */,
+				3E361B5A156494E900CC9D06 /* EnteringViewController.m in Sources */,
+				3E361B5D1564956000CC9D06 /* UserTableView.m in Sources */,
+				3E3C1F671564B41000A2558C /* User.m in Sources */,
+				3E3260821564DEF600DE5362 /* WebData.m in Sources */,
+				3EE2451A156A811F005B3E4F /* MainViewController.m in Sources */,
+				3E985A1F156B119A00B67A97 /* ShowDetailViewController.m in Sources */,
+				3E47F5EC156B6C7F006F487E /* House.m in Sources */,
+				3E47F5F5156B7DD3006F487E /* EditHouseViewController.m in Sources */,
+				3E47F5FE156BA133006F487E /* HouseCell.m in Sources */,
+				3E0BE8A2156CBB8000D83435 /* HouseTableViewController.m in Sources */,
+				3E32E373156DDE07003681F4 /* ComBox.m in Sources */,
+				3E3B01E0156FACA100552B2B /* SearchViewController.m in Sources */,
+				3E38FDD315711D9500A135A6 /* NumberKeyBoardView.m in Sources */,
+				3E6FDE56157216C2003D2C39 /* Area.m in Sources */,
+				3E4648EA1577088F008114B2 /* AreaAddView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E361B331564947D00CC9D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E361B481564947D00CC9D06 /* HouseManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E361B3F1564947D00CC9D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E361B0E1564947D00CC9D06 /* HouseManagement */;
+			targetProxy = 3E361B3E1564947D00CC9D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E361B1E1564947D00CC9D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E361B1F1564947D00CC9D06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E361B271564947D00CC9D06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E361B281564947D00CC9D06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3E361B431564947D00CC9D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E361B441564947D00CC9D06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E361B491564947D00CC9D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3E361B4A1564947D00CC9D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E361B4C1564947D00CC9D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseManagement/HouseManagement-Prefix.pch";
+				INFOPLIST_FILE = "HouseManagement/HouseManagement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E361B4D1564947D00CC9D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseManagement/HouseManagement-Prefix.pch";
+				INFOPLIST_FILE = "HouseManagement/HouseManagement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E361B4F1564947D00CC9D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HouseManagement.app/HouseManagement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseManagement/HouseManagement-Prefix.pch";
+				INFOPLIST_FILE = "HouseManagementTests/HouseManagementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E361B501564947D00CC9D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HouseManagement.app/HouseManagement";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HouseManagement/HouseManagement-Prefix.pch";
+				INFOPLIST_FILE = "HouseManagementTests/HouseManagementTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E361B091564947C00CC9D06 /* Build configuration list for PBXProject "HouseManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E361B491564947D00CC9D06 /* Debug */,
+				3E361B4A1564947D00CC9D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E361B4B1564947D00CC9D06 /* Build configuration list for PBXNativeTarget "HouseManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E361B4C1564947D00CC9D06 /* Debug */,
+				3E361B4D1564947D00CC9D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E361B4E1564947D00CC9D06 /* Build configuration list for PBXNativeTarget "HouseManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E361B4F1564947D00CC9D06 /* Debug */,
+				3E361B501564947D00CC9D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E361B2A1564947D00CC9D06 /* HouseManagement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E361B2B1564947D00CC9D06 /* HouseManagement.xcdatamodel */,
+			);
+			currentVersion = 3E361B2B1564947D00CC9D06 /* HouseManagement.xcdatamodel */;
+			path = HouseManagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E361B061564947C00CC9D06 /* Project object */;
+}

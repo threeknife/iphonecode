@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: BMKUserLocation类参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>组合类型列表</span></a></li>
+      <li><a href="classes.html"><span>组合类型索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>组合类型成员</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#properties">属性</a>  </div>
+  <div class="headertitle">
+<div class="title">BMKUserLocation类参考</div>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="BMKUserLocation" --><!-- doxytag: inherits="BMKAnnotation-p" -->
+<p>定位信息类  
+ <a href="interface_b_m_k_user_location.html#details">更多...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_b_m_k_user_location_8h_source.html">BMKUserLocation.h</a>&gt;</code></p>
+<div class="dynheader">
+继承图，类BMKUserLocation</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_b_m_k_user_location.png" usemap="#BMKUserLocation_map" alt=""/>
+  <map id="BMKUserLocation_map" name="BMKUserLocation_map">
+<area href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数" alt="&lt;BMKAnnotation&gt;" shape="rect" coords="0,0,113,24"/>
+</map>
+ </div></div>
+
+<p><a href="class_b_m_k_user_location-members.html">所有成员的列表。</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="properties"></a>
+属性</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57e486ccb3b7665183e9e1eaa4d2716e"></a><!-- doxytag: member="BMKUserLocation::updating" ref="a57e486ccb3b7665183e9e1eaa4d2716e" args="" -->
+BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_b_m_k_user_location.html#a57e486ccb3b7665183e9e1eaa4d2716e">updating</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">位置更新状态，如果正在更新位置信息，则该值为YES <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba4b76e55f4605c5554fe16aca1b4fbf"></a><!-- doxytag: member="BMKUserLocation::location" ref="aba4b76e55f4605c5554fe16aca1b4fbf" args="" -->
+CLLocation *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_b_m_k_user_location.html#aba4b76e55f4605c5554fe16aca1b4fbf">location</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">位置信息，如果BMKMapView的showsUserLocation为NO，或者尚未定位成功，则该值为nil <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8fc42845ec226a1af2de73c8dd4d183d"></a><!-- doxytag: member="BMKUserLocation::title" ref="a8fc42845ec226a1af2de73c8dd4d183d" args="" -->
+NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_b_m_k_user_location.html#a8fc42845ec226a1af2de73c8dd4d183d">title</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定位标注点要显示的标题信息 <br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af38d7aa4f89637da255ca7308fcaa240"></a><!-- doxytag: member="BMKUserLocation::subtitle" ref="af38d7aa4f89637da255ca7308fcaa240" args="" -->
+NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_b_m_k_user_location.html#af38d7aa4f89637da255ca7308fcaa240">subtitle</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">定位标注点要显示的子标题信息. <br/></td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>详细描述</h2>
+<div class="textblock"><p>定位信息类 </p>
+</div><hr/>该类的文档由以下文件生成：<ul>
+<li><a class="el" href="_b_m_k_user_location_8h_source.html">BMKUserLocation.h</a></li>
+</ul>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:26 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

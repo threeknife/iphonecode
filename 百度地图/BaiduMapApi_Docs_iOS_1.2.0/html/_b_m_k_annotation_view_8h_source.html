@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: BMKAnnotationView.h源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">BMKAnnotationView.h</div>  </div>
+</div>
+<div class="contents">
+<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> *  BMKAnnotationView.h</span>
+<a name="l00003"></a>00003 <span class="comment"> *  BMapKit</span>
+<a name="l00004"></a>00004 <span class="comment"> *</span>
+<a name="l00005"></a>00005 <span class="comment"> *  Copyright 2011 Baidu Inc. All rights reserved.</span>
+<a name="l00006"></a>00006 <span class="comment"> *</span>
+<a name="l00007"></a>00007 <span class="comment"> */</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#import &lt;UIKit/UIKit.h&gt;</span>
+<a name="l00010"></a>00010 
+<a name="l00011"></a>00011 
+<a name="l00012"></a>00012 <span class="preprocessor">#if __IPHONE_3_2 &lt;= __IPHONE_OS_VERSION_MAX_ALLOWED</span>
+<a name="l00013"></a>00013 <span class="preprocessor"></span>
+<a name="l00014"></a>00014 <span class="keyword">enum</span> {
+<a name="l00015"></a>00015     BMKAnnotationViewDragStateNone = 0,      
+<a name="l00016"></a>00016     BMKAnnotationViewDragStateStarting,      
+<a name="l00017"></a>00017     BMKAnnotationViewDragStateDragging,      
+<a name="l00018"></a>00018     BMKAnnotationViewDragStateCanceling,     
+<a name="l00019"></a>00019     BMKAnnotationViewDragStateEnding         
+<a name="l00020"></a>00020 };
+<a name="l00021"></a>00021 
+<a name="l00022"></a>00022 <span class="keyword">typedef</span> NSUInteger BMKAnnotationViewDragState;
+<a name="l00023"></a>00023 
+<a name="l00024"></a>00024 <span class="preprocessor">#endif</span>
+<a name="l00025"></a>00025 <span class="preprocessor"></span>
+<a name="l00026"></a>00026 
+<a name="l00027"></a>00027 
+<a name="l00028"></a>00028 <span class="keyword">@class</span> BMKAnnotationViewInternal;
+<a name="l00029"></a>00029 <span class="keyword">@protocol </span><a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>;
+<a name="l00030"></a>00030 
+<a name="l00032"></a><a class="code" href="interface_b_m_k_annotation_view.html">00032</a> <span class="keyword">@interface </span><a class="code" href="interface_b_m_k_annotation_view.html" title="标注view">BMKAnnotationView</a> : UIView
+<a name="l00033"></a>00033 {
+<a name="l00034"></a>00034 <span class="keyword">@private</span>
+<a name="l00035"></a>00035     BMKAnnotationViewInternal *_internal;
+<a name="l00036"></a>00036 }
+<a name="l00037"></a>00037 
+<a name="l00044"></a>00044 - (id)initWithAnnotation:(<span class="keywordtype">id</span> &lt;<a class="code" href="protocol_b_m_k_annotation-p.html" title="该类为标注点的protocol，提供了标注类的基本信息函数">BMKAnnotation</a>&gt;)annotation reuseIdentifier:(NSString *)reuseIdentifier;
+<a name="l00045"></a>00045 
+<a name="l00047"></a><a class="code" href="interface_b_m_k_annotation_view.html#aba3efdbef49c0301af03ce0d47348358">00047</a> <span class="keyword">@property</span> (nonatomic, readonly) NSString *reuseIdentifier;
+<a name="l00048"></a>00048 
+<a name="l00049"></a>00049 
+<a name="l00054"></a>00054 - (void)prepareForReuse;
+<a name="l00055"></a>00055 
+<a name="l00057"></a><a class="code" href="interface_b_m_k_annotation_view.html#a466f040671f2235667a4034aba879bb5">00057</a> <span class="keyword">@property</span> (nonatomic, retain) id &lt;BMKAnnotation&gt; annotation;
+<a name="l00058"></a>00058 
+<a name="l00060"></a><a class="code" href="interface_b_m_k_annotation_view.html#a3186f78dcb098002e39fd226cbc1c9b6">00060</a> <span class="keyword">@property</span> (nonatomic, retain) UIImage *image;
+<a name="l00061"></a>00061 
+<a name="l00063"></a><a class="code" href="interface_b_m_k_annotation_view.html#a12a4f32e8adc7732c80d772eb403cd61">00063</a> <span class="keyword">@property</span> (nonatomic) CGPoint centerOffset;
+<a name="l00064"></a>00064 
+<a name="l00066"></a><a class="code" href="interface_b_m_k_annotation_view.html#aacdcb492cbbc469803ba50def87f44e5">00066</a> <span class="keyword">@property</span> (nonatomic) CGPoint calloutOffset;
+<a name="l00067"></a>00067 
+<a name="l00069"></a><a class="code" href="interface_b_m_k_annotation_view.html#ad768885a75146458b4efd168885478fe">00069</a> <span class="keyword">@property</span> (nonatomic, getter=isEnabled) BOOL enabled;
+<a name="l00070"></a>00070 
+<a name="l00072"></a><a class="code" href="interface_b_m_k_annotation_view.html#a09799664ef861651bd7996f0fbab6483">00072</a> <span class="keyword">@property</span> (nonatomic, getter=isSelected) BOOL selected;
+<a name="l00073"></a>00073 
+<a name="l00080"></a>00080 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+<a name="l00081"></a>00081 
+<a name="l00083"></a><a class="code" href="interface_b_m_k_annotation_view.html#adef94e946f5b152c59be1cdb5eccfb74">00083</a> <span class="keyword">@property</span> (nonatomic) BOOL canShowCallout;
+<a name="l00084"></a>00084 
+<a name="l00086"></a><a class="code" href="interface_b_m_k_annotation_view.html#ae182c0fb7dc1898c4941a123def7f926">00086</a> <span class="keyword">@property</span> (retain, nonatomic) UIView *leftCalloutAccessoryView;
+<a name="l00087"></a>00087 
+<a name="l00089"></a><a class="code" href="interface_b_m_k_annotation_view.html#a65793288845c27e23233373b3e6b6216">00089</a> <span class="keyword">@property</span> (retain, nonatomic) UIView *rightCalloutAccessoryView;
+<a name="l00090"></a>00090 
+<a name="l00092"></a>00092 <span class="keyword">@property</span> (nonatomic, getter=isDraggable) BOOL draggable __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_3_2);
+<a name="l00093"></a>00093 
+<a name="l00095"></a>00095 <span class="keyword">@property</span> (nonatomic) BMKAnnotationViewDragState dragState __OSX_AVAILABLE_STARTING(__MAC_NA,__IPHONE_3_2);
+<a name="l00096"></a>00096 
+<a name="l00097"></a>00097 
+<a name="l00098"></a>00098 <span class="keyword">@end</span>
+<a name="l00099"></a>00099 
+<a name="l00100"></a>00100 
+<a name="l00101"></a>00101 
+</pre></div></div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:24 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

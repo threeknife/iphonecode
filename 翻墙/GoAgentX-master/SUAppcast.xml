@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>GoAgentX's Changelog</title>
+      <link>https://raw.github.com/ohdarling/GoAgentX/master/SUAppcast.xml</link>
+      <description></description>
+      <language>zh</language>
+         <item>
+            <title>GoAgentX v1.3.12</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.12 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <ul>
+					<li>[FIX] 修正退出程序时会修改代理设置的问题</li>
+					<li>[NEW] 修正系统对本地 PAC 文件支持不好的问题，现在可以直接在代理设置标签页选择本地 PAC 文件（需要选中使用自定义 PAC 地址）</li>
+                </ul>
+            ]]></description>
+            <pubDate>Thu, 06 Dec 2012 13:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.12.dmg" sparkle:shortVersionString="1.3.12" sparkle:version="228" length="3900641" type="application/octet-stream" sparkle:dsaSignature="MCwCFCAb9gLKisKcEcp0WR73a1pbpX3gAhRbeWCfHFj10kiXRGgxyxVZClaDFw==" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.11</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.11 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <ul>
+					<li>[NEW] 使用 Reachability 监测网络状态来修正 SSH 服务的稳定性</li>
+					<li>[MOD] 服务状态改变通知在 5 秒后自动隐藏</li>
+					<li>[FIX] 修正第一次运行时选中的服务不正确的问题</li>
+					<li>[FIX] 修正第一次运行时代理设置选项错误的问题</li>
+					<li>[FIX] 修正使用菜单切换服务不会保存最后一次使用服务的问题</li>
+					<li>[FIX] 修正 goagent 在 Mac OS X 10.8 下会出现 SSLError 的问题</li>
+					<li>[FIX] 修正 stunnel 在 Mac OS X 10.8 下无法运行的问题</li>
+					<li>[FIX] 修正 Mac OS X 10.8 下切换服务时会重新要求权限验证的问题</li>
+                </ul>
+            ]]></description>
+            <pubDate>Wed, 05 Dec 2012 15:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.11-2.dmg" sparkle:shortVersionString="1.3.11" sparkle:version="216" length="3900022" type="application/octet-stream" sparkle:dsaSignature="MCwCFAyWWl9ej65pjzRpzM6B8PKRWP7aAhRzbqqmyJb6IOuTLjDegzvaFg0E2Q==" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.10</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.10 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <ul>
+                    <li>[NEW] 更新 goagent 到 2.1.9-11</li>
+                    <li>[NEW] 新增 shaodowsocks 支持</li>
+                    <li>[NEW] 在“其他设置”中新增“服务状态改变通知”设置</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 16 Nov 2012 23:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.10.dmg" sparkle:shortVersionString="1.3.10" sparkle:version="23" length="3315409" type="application/octet-stream" sparkle:dsaSignature="MCwCFCiy1quhEzAAMwAYgTd6vvCgNg3ZAhQ2js5P/I1A6y8VxLu7dFi0Mls4HA==" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.9</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.9 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <p style='color:red'><strong>注意：goagent 更新到 2.1.7，如果连接后无法使用，请重新部署服务端。</strong></p>
+                <p>goagent 更新到 2.1.7，依赖 gevent，GoAgentX 目前在 OS X 10.7 Lion 下测试可以正常运行，其他版本 OS X 可能会有问题。</p>
+                <ul>
+                    <li>[NEW] 更新 goagent 到 2.1.7</li>
+                    <li>[NEW] 菜单栏图标增加服务停止时的指示图标</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 09 Nov 2012 12:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.9.dmg" sparkle:shortVersionString="1.3.9" sparkle:version="22" length="3264223" type="application/octet-stream" sparkle:dsaSignature="MC0CFB5s8KnNP0eLw+ekzWYMHrGxlYnfAhUAgEvEKGR2xvX7ioSMuT+khyLKV+U=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.8</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.8 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <p style='color:red'><strong>注意：goagent 更新到 2.1.5，服务端需要重新部署。</strong></p>
+                <p>goagent 更新到 2.1.5，依赖 gevent，GoAgentX 目前在 OS X 10.7 Lion 下测试可以正常运行，其他版本 OS X 可能会有问题。</p>
+                <ul>
+                    <li>[NEW] 更新 goagent 到 2.1.5</li>
+                    <li>[NEW] 其他设置中添加“GoAgentX 窗口总是置顶”选项</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 02 Nov 2012 15:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.8.dmg" sparkle:shortVersionString="1.3.8" sparkle:version="21" length="3371891" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCXWxkHOjLMoCJZmrjpTGV1sQ3HdAIUUniojiRDOCrYRpd55oT+XrE7sbg=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.7</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.7 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <p style='color:red'><strong>注意：goagent 更新到 2.1.3，服务端需要重新部署。</strong></p>
+                <p>goagent 更新到 2.1.3，依赖 gevent，GoAgentX 目前在 OS X 10.7 Lion 下测试可以正常运行，其他版本 OS X 可能会有问题。</p>
+                <ul>
+                    <li>[NEW] SSH 服务允许非本机使用</li>
+                    <li>[NEW] 更新 goagent 到 2.1.3</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 27 Oct 2012 22:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.7.dmg" sparkle:shortVersionString="1.3.7" sparkle:version="20" length="3371686" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCKQRlFZXJ/r/Q5aHIZG5LbOYcczQIUHA3JLF02vfiCFJ5f1j+CQGG8jHw=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.6</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.6 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <p>goagent 更新到 2.0.14，依赖 gevent，GoAgentX 目前在 OS X 10.7 Lion 下测试可以正常运行，其他版本 OS X 暂未测试。</p>
+                <ul>
+                    <li>[MOD] 更新 goagent 到 2.0.14，修正 CN 服务器无法连接的问题</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 22 Oct 2012 17:30:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.6.dmg" sparkle:shortVersionString="1.3.6" sparkle:version="18" length="3200674" type="application/octet-stream" sparkle:dsaSignature="MC0CFD+Oo45UqWORnO6KH+SPTqC2VtqtAhUAgI5Ij4iX0o8zaJouBtO3g1pkozA=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.5</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.5 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <p>goagent 更新到 2.0.13，依赖 gevent，GoAgentX 目前在 OS X 10.7 Lion 下测试可以正常运行，其他版本 OS X 暂未测试。</p>
+                <ul>
+                    <li style="color:red">[NEW] 更新 goagent 到 2.0.13，<strong>请注意一定需要重新部署服务端</strong></li>
+                    <li>[NEW] 在代理设置标签中显示当前内置 PAC 服务地址</li>
+                    <li>[NEW] goagent 和 SSH 支持断线后自动重连</li>
+                    <li>[FIX] 修正应用 PAC 域名列表时会修改代理设置的问题</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tun, 09 Oct 2012 18:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.5.dmg" sparkle:shortVersionString="1.3.5" sparkle:version="17" length="3200569" type="application/octet-stream" sparkle:dsaSignature="MCwCFHOlpN4UPRpKveti+/qq8NmqIPPRAhRl8qw99QotOcgpQLo0dnthJckcyA==" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.3</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.3 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <ul>
+                    <li style="color:red">[NEW] 更新 goagent 到 2.0.2，请注意一定需要重新部署服务端</li>
+                    <li>[NEW] 增加 PHP Fetch 支持</li>
+                    <li>[NEW] 增加自定义 PAC 域名列表立即应用按钮</li>
+                    <li>[NEW] 增加指定自定义 GoAgentX PAC 服务端口功能，可以通过此功能避免 GoAgentX 随系统启动时要求输入密码的问题</li>
+                    <li>[NEW] Retina Display 支持</li>
+                    <li>[FIX] 修正自定义 PAC 域名列表导致任意网站都会使用代理的问题</li>
+                    <li>[MOD] 在切换服务菜单中隐藏 goagent 服务端部署</li>
+                    <li>[MOD] 移除 goagent golang 服务端部署</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sun, 26 Aug 2012 18:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.3.dmg" sparkle:shortVersionString="1.3.3" sparkle:version="16" length="2128689" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCzv7rHizDJvKhTSjcC32s8r5hX2gIUWN0LAdALzaFAWtghhr7xcIAAeLo=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.2</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.2 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <p>此版本由 <a href="https://github.com/qqshfox">qqshfox</a> 贡献。</p>
+                <ul>
+                    <li>[NEW] SSH 服务支持指定私钥</li>
+                    <li>[FIX] 修正在 Mountain Lion 下反复要求提权的问题</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 21 Aug 2012 22:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.2.dmg" sparkle:shortVersionString="1.3.2" sparkle:version="15" length="2567627" type="application/octet-stream" sparkle:dsaSignature="MC0CFAid7tOC1vbt6PSwpYxs+M6XJTLfAhUAhD5tyXjO3uRDBHBBpT7x+nPqrvs=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.3.0</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.3.0 Changelog</h2>
+                <p>更新时请先停止 GoAgentX 服务。</p>
+                <ul>
+                    <li>[NEW] 支持自定义 PAC 域名列表</li>
+                    <li>[NEW] 支持部署 golang 版本 goagent 服务端</li>
+                    <li>[NEW] 添加导入 goagent 根证书功能</li>
+                    <li>[MOD] 更新 goagent 到 1.8.11</li>
+                    <li>[MOD] 更新 west-chamber 到 2012.07.09</li>
+                    <li>[MOD] 调整代理切换界面</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 10 Jul 2012 15:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.3.0.dmg" sparkle:shortVersionString="1.3.0" sparkle:version="13" length="2605106" type="application/octet-stream" sparkle:dsaSignature="MCwCFDXOn+CNsB+MXGnmoHG9T+9LPW8GAhQhfp3F7X9EaLUGg6wKXYE1X00+/w==" />
+         </item>
+         <item>
+            <title>GoAgentX v1.2.0</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.2.0 Changelog</h2>
+                <ul>
+                    <li>[NEW] 集成 SSH 服务</li>
+                    <li>[NEW] 集成 stunnel 服务</li>
+                    <li>[NEW] 添加菜单栏图标切换服务功能</li>
+                    <li>[NEW] 添加菜单栏图标切换使用 PAC 和不使用 PAC 功能</li>
+                    <li>[FIX] 修正自动切换 PAC 时在 Safari 下不工作的 bug</li>
+                    <li>[FIX] 修正不使用 PAC 时没有设置 HTTPS 代理的 bug</li>
+                    <li>[FIX] 修正停止服务时，没有恢复代理设置为原始设置的 bug</li>
+                    <li>[MOD] 更新 goagent 到 1.8.5 稳定版</li>
+                    <li>[MOD] 更新西厢第3季到 20120505</li>
+                </ul>
+            ]]></description>
+            <pubDate>Mon, 07 May 2012 20:00:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.2.0.dmg" sparkle:shortVersionString="1.2.0" sparkle:version="12" length="2446709" type="application/octet-stream" sparkle:dsaSignature="MCwCFCuHTVOlB5acVv14gsjtzTwb/JudAhQRKQCo8uLJTl2aD0q4dMrfOEn+sA==" />
+         </item>
+         <item>
+            <title>GoAgentX v1.1.0</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.1.0 Changelog</h2>
+                <ul>
+                    <li>[NEW] [NEW] 集成 goagent 1.8.4，不再需要单独下载</li>
+                    <li>[NEW] 集成 west-chamber-season-3 20120428</li>
+                    <li>[NEW] 集成 PAC 支持</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 28 Apr 2012 20:41:00 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.1.0.dmg" sparkle:shortVersionString="1.1.0" sparkle:version="8" length="2368297" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCx1IlclmXX3Axubfr5Rq+mRml/dgIUQn+v+VJBj/g3KZvFqRedJEhQ1tQ=" />
+         </item>
+         <item>
+            <title>GoAgentX v1.0.5</title>
+            <description><![CDATA[
+                <h2>GoAgentX v1.0.5 Changelog</h2>
+                <ul>
+                    <li>[NEW] 兼容 goagent 1.8.3</li>
+                    <li>[NEW] 添加自动更新支持</li>
+                    <li>[NEW] 增加 PPPoE 拨号的 PAC 自动设置支持</li>
+                    <li>[NEW] 支持自定义 PAC 地址</li>
+                </ul>
+            ]]></description>
+            <pubDate>Fri, 20 Apr 2012 21:52:24 +0800</pubDate>
+            <enclosure url="https://github.com/downloads/ohdarling/GoAgentX/GoAgentX-v1.0.5.dmg" sparkle:shortVersionString="1.0.5" sparkle:version="7" length="363009" type="application/octet-stream" sparkle:dsaSignature="MCwCFCgRwkJMTlwYJlnb4vmVRBusdzxiAhQB3h5R3BHjAyZl02fxdU3rNyUc0w==" />
+         </item>
+   </channel>
+</rss>

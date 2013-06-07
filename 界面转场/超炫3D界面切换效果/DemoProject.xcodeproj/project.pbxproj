@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DemoProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DemoProjectAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* FlipsideView.xib */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
+		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		3A112DAE113A8ED3004D04A4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A112DAD113A8ED3004D04A4 /* OpenGLES.framework */; };
+		3A112DC2113A8F7B004D04A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A112DC1113A8F7B004D04A4 /* QuartzCore.framework */; };
+		3A87BA9E136DCD460017976E /* table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A87BA9D136DCD460017976E /* table.jpg */; };
+		41BDE39F1426C7DF00A6BB12 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BDE39E1426C7DF00A6BB12 /* 2.png */; };
+		53006079152D8C60008A0E11 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300606E152D8C60008A0E11 /* NSObject+SBJSON.m */; };
+		5300607A152D8C60008A0E11 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 53006070152D8C60008A0E11 /* NSString+SBJSON.m */; };
+		5300607B152D8C60008A0E11 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 53006072152D8C60008A0E11 /* SBJSON.m */; };
+		5300607C152D8C60008A0E11 /* request-close.png in Resources */ = {isa = PBXBuildFile; fileRef = 53006074152D8C60008A0E11 /* request-close.png */; };
+		5300607D152D8C60008A0E11 /* request-close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53006075152D8C60008A0E11 /* request-close@2x.png */; };
+		5300607E152D8C60008A0E11 /* libWiAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53006078152D8C60008A0E11 /* libWiAd.a */; };
+		53006085152D8D03008A0E11 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53006083152D8D03008A0E11 /* ImageIO.framework */; };
+		53006086152D8D03008A0E11 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53006084152D8D03008A0E11 /* MediaPlayer.framework */; };
+		53006088152D8D33008A0E11 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53006087152D8D33008A0E11 /* SystemConfiguration.framework */; };
+		530226BC144D7E81005C6189 /* Demo2Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226A9144D7E81005C6189 /* Demo2Transition.m */; };
+		530226BD144D7E81005C6189 /* Demo3Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226AB144D7E81005C6189 /* Demo3Transition.m */; };
+		530226BE144D7E81005C6189 /* Demo4Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226AD144D7E81005C6189 /* Demo4Transition.m */; };
+		530226BF144D7E81005C6189 /* Demo5Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226AF144D7E81005C6189 /* Demo5Transition.m */; };
+		530226C0144D7E81005C6189 /* Demo6Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226B1144D7E81005C6189 /* Demo6Transition.m */; };
+		530226C1144D7E81005C6189 /* Demo7Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226B3144D7E81005C6189 /* Demo7Transition.m */; };
+		530226C2144D7E81005C6189 /* Demo8Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226B5144D7E81005C6189 /* Demo8Transition.m */; };
+		530226C3144D7E81005C6189 /* DemoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226B7144D7E81005C6189 /* DemoTransition.m */; };
+		530226C4144D7E81005C6189 /* EPGLTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226B9144D7E81005C6189 /* EPGLTransitionView.m */; };
+		530226C5144D7E81005C6189 /* FlipTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 530226BB144D7E81005C6189 /* FlipTransitions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DemoProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoProjectAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DemoProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoProjectAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideView.h; path = Classes/FlipsideView.h; sourceTree = "<group>"; };
+		289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideView.m; path = Classes/FlipsideView.m; sourceTree = "<group>"; };
+		289233A40DB2D0840083E9F9 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Classes/MainView.h; sourceTree = "<group>"; };
+		289233A50DB2D0840083E9F9 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DemoProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoProject_Prefix.pch; sourceTree = "<group>"; };
+		3A112DAD113A8ED3004D04A4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3A112DC1113A8F7B004D04A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A87BA9D136DCD460017976E /* table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table.jpg; sourceTree = "<group>"; };
+		41BDE39E1426C7DF00A6BB12 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5300606C152D8C60008A0E11 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5300606D152D8C60008A0E11 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5300606E152D8C60008A0E11 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5300606F152D8C60008A0E11 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		53006070152D8C60008A0E11 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		53006071152D8C60008A0E11 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		53006072152D8C60008A0E11 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		53006074152D8C60008A0E11 /* request-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "request-close.png"; sourceTree = "<group>"; };
+		53006075152D8C60008A0E11 /* request-close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "request-close@2x.png"; sourceTree = "<group>"; };
+		53006076152D8C60008A0E11 /* WiAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiAdView.h; sourceTree = "<group>"; };
+		53006078152D8C60008A0E11 /* libWiAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWiAd.a; sourceTree = "<group>"; };
+		53006083152D8D03008A0E11 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		53006084152D8D03008A0E11 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		53006087152D8D33008A0E11 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		530226A8144D7E81005C6189 /* Demo2Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo2Transition.h; path = src/Demo2Transition.h; sourceTree = "<group>"; };
+		530226A9144D7E81005C6189 /* Demo2Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo2Transition.m; path = src/Demo2Transition.m; sourceTree = "<group>"; };
+		530226AA144D7E81005C6189 /* Demo3Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo3Transition.h; path = src/Demo3Transition.h; sourceTree = "<group>"; };
+		530226AB144D7E81005C6189 /* Demo3Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo3Transition.m; path = src/Demo3Transition.m; sourceTree = "<group>"; };
+		530226AC144D7E81005C6189 /* Demo4Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo4Transition.h; path = src/Demo4Transition.h; sourceTree = "<group>"; };
+		530226AD144D7E81005C6189 /* Demo4Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo4Transition.m; path = src/Demo4Transition.m; sourceTree = "<group>"; };
+		530226AE144D7E81005C6189 /* Demo5Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo5Transition.h; path = src/Demo5Transition.h; sourceTree = "<group>"; };
+		530226AF144D7E81005C6189 /* Demo5Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo5Transition.m; path = src/Demo5Transition.m; sourceTree = "<group>"; };
+		530226B0144D7E81005C6189 /* Demo6Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo6Transition.h; path = src/Demo6Transition.h; sourceTree = "<group>"; };
+		530226B1144D7E81005C6189 /* Demo6Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo6Transition.m; path = src/Demo6Transition.m; sourceTree = "<group>"; };
+		530226B2144D7E81005C6189 /* Demo7Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo7Transition.h; path = src/Demo7Transition.h; sourceTree = "<group>"; };
+		530226B3144D7E81005C6189 /* Demo7Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo7Transition.m; path = src/Demo7Transition.m; sourceTree = "<group>"; };
+		530226B4144D7E81005C6189 /* Demo8Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Demo8Transition.h; path = src/Demo8Transition.h; sourceTree = "<group>"; };
+		530226B5144D7E81005C6189 /* Demo8Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Demo8Transition.m; path = src/Demo8Transition.m; sourceTree = "<group>"; };
+		530226B6144D7E81005C6189 /* DemoTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoTransition.h; path = src/DemoTransition.h; sourceTree = "<group>"; };
+		530226B7144D7E81005C6189 /* DemoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoTransition.m; path = src/DemoTransition.m; sourceTree = "<group>"; };
+		530226B8144D7E81005C6189 /* EPGLTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EPGLTransitionView.h; path = src/EPGLTransitionView.h; sourceTree = "<group>"; };
+		530226B9144D7E81005C6189 /* EPGLTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EPGLTransitionView.m; path = src/EPGLTransitionView.m; sourceTree = "<group>"; };
+		530226BA144D7E81005C6189 /* FlipTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipTransitions.h; path = src/FlipTransitions.h; sourceTree = "<group>"; };
+		530226BB144D7E81005C6189 /* FlipTransitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipTransitions.m; path = src/FlipTransitions.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DemoProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DemoProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				3A112DAE113A8ED3004D04A4 /* OpenGLES.framework in Frameworks */,
+				3A112DC2113A8F7B004D04A4 /* QuartzCore.framework in Frameworks */,
+				5300607E152D8C60008A0E11 /* libWiAd.a in Frameworks */,
+				53006085152D8D03008A0E11 /* ImageIO.framework in Frameworks */,
+				53006086152D8D03008A0E11 /* MediaPlayer.framework in Frameworks */,
+				53006088152D8D33008A0E11 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DemoProjectAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DemoProjectAppDelegate.m */,
+			);
+			name = "Application Delegate";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DemoProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281C6CD70DB2D82200F60ACC /* Flipside View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A20DB2D0840083E9F9 /* FlipsideView.h */,
+				289233A30DB2D0840083E9F9 /* FlipsideView.m */,
+				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
+			);
+			name = "Flipside View";
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A40DB2D0840083E9F9 /* MainView.h */,
+				289233A50DB2D0840083E9F9 /* MainView.m */,
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				53006069152D8C60008A0E11 /* sdk */,
+				3A112D9F113A8E76004D04A4 /* EPGLTransitionView */,
+				289233A00DB2D0730083E9F9 /* Main View */,
+				281C6CD70DB2D82200F60ACC /* Flipside View */,
+				080E96DDFE201D6D7F000001 /* Application Delegate */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DemoProject_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41BDE39E1426C7DF00A6BB12 /* 2.png */,
+				3A87BA9D136DCD460017976E /* table.jpg */,
+				280E754A0DD40C5E005A515E /* FlipsideView.xib */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DemoProject-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53006087152D8D33008A0E11 /* SystemConfiguration.framework */,
+				53006083152D8D03008A0E11 /* ImageIO.framework */,
+				53006084152D8D03008A0E11 /* MediaPlayer.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+				3A112DAD113A8ED3004D04A4 /* OpenGLES.framework */,
+				3A112DC1113A8F7B004D04A4 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A112D9F113A8E76004D04A4 /* EPGLTransitionView */ = {
+			isa = PBXGroup;
+			children = (
+				530226A8144D7E81005C6189 /* Demo2Transition.h */,
+				530226A9144D7E81005C6189 /* Demo2Transition.m */,
+				530226AA144D7E81005C6189 /* Demo3Transition.h */,
+				530226AB144D7E81005C6189 /* Demo3Transition.m */,
+				530226AC144D7E81005C6189 /* Demo4Transition.h */,
+				530226AD144D7E81005C6189 /* Demo4Transition.m */,
+				530226AE144D7E81005C6189 /* Demo5Transition.h */,
+				530226AF144D7E81005C6189 /* Demo5Transition.m */,
+				530226B0144D7E81005C6189 /* Demo6Transition.h */,
+				530226B1144D7E81005C6189 /* Demo6Transition.m */,
+				530226B2144D7E81005C6189 /* Demo7Transition.h */,
+				530226B3144D7E81005C6189 /* Demo7Transition.m */,
+				530226B4144D7E81005C6189 /* Demo8Transition.h */,
+				530226B5144D7E81005C6189 /* Demo8Transition.m */,
+				530226B6144D7E81005C6189 /* DemoTransition.h */,
+				530226B7144D7E81005C6189 /* DemoTransition.m */,
+				530226B8144D7E81005C6189 /* EPGLTransitionView.h */,
+				530226B9144D7E81005C6189 /* EPGLTransitionView.m */,
+				530226BA144D7E81005C6189 /* FlipTransitions.h */,
+				530226BB144D7E81005C6189 /* FlipTransitions.m */,
+			);
+			name = EPGLTransitionView;
+			sourceTree = "<group>";
+		};
+		53006069152D8C60008A0E11 /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				5300606A152D8C60008A0E11 /* external */,
+				53006073152D8C60008A0E11 /* inc */,
+				53006077152D8C60008A0E11 /* lib */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		5300606A152D8C60008A0E11 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				5300606B152D8C60008A0E11 /* json */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		5300606B152D8C60008A0E11 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				5300606C152D8C60008A0E11 /* JSON.h */,
+				5300606D152D8C60008A0E11 /* NSObject+SBJSON.h */,
+				5300606E152D8C60008A0E11 /* NSObject+SBJSON.m */,
+				5300606F152D8C60008A0E11 /* NSString+SBJSON.h */,
+				53006070152D8C60008A0E11 /* NSString+SBJSON.m */,
+				53006071152D8C60008A0E11 /* SBJSON.h */,
+				53006072152D8C60008A0E11 /* SBJSON.m */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		53006073152D8C60008A0E11 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				53006074152D8C60008A0E11 /* request-close.png */,
+				53006075152D8C60008A0E11 /* request-close@2x.png */,
+				53006076152D8C60008A0E11 /* WiAdView.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		53006077152D8C60008A0E11 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				53006078152D8C60008A0E11 /* libWiAd.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DemoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DemoProject" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoProject;
+			productName = DemoProject;
+			productReference = 1D6058910D05DD3D006BFB54 /* DemoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DemoProject" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DemoProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754D0DD40C5E005A515E /* FlipsideView.xib in Resources */,
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				3A87BA9E136DCD460017976E /* table.jpg in Resources */,
+				41BDE39F1426C7DF00A6BB12 /* 2.png in Resources */,
+				5300607C152D8C60008A0E11 /* request-close.png in Resources */,
+				5300607D152D8C60008A0E11 /* request-close@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DemoProjectAppDelegate.m in Sources */,
+				289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */,
+				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				530226BC144D7E81005C6189 /* Demo2Transition.m in Sources */,
+				530226BD144D7E81005C6189 /* Demo3Transition.m in Sources */,
+				530226BE144D7E81005C6189 /* Demo4Transition.m in Sources */,
+				530226BF144D7E81005C6189 /* Demo5Transition.m in Sources */,
+				530226C0144D7E81005C6189 /* Demo6Transition.m in Sources */,
+				530226C1144D7E81005C6189 /* Demo7Transition.m in Sources */,
+				530226C2144D7E81005C6189 /* Demo8Transition.m in Sources */,
+				530226C3144D7E81005C6189 /* DemoTransition.m in Sources */,
+				530226C4144D7E81005C6189 /* EPGLTransitionView.m in Sources */,
+				530226C5144D7E81005C6189 /* FlipTransitions.m in Sources */,
+				53006079152D8C60008A0E11 /* NSObject+SBJSON.m in Sources */,
+				5300607A152D8C60008A0E11 /* NSString+SBJSON.m in Sources */,
+				5300607B152D8C60008A0E11 /* SBJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoProject_Prefix.pch;
+				INFOPLIST_FILE = "DemoProject-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/sdk/lib\"",
+				);
+				PRODUCT_NAME = DemoProject;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoProject_Prefix.pch;
+				INFOPLIST_FILE = "DemoProject-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/sdk/lib\"",
+				);
+				PRODUCT_NAME = DemoProject;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../sdk/lib\"/**";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../sdk/lib\"/**";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

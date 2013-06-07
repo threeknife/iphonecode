@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: BMKMultiPoint.h源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">BMKMultiPoint.h</div>  </div>
+</div>
+<div class="contents">
+<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> *  BMKMultiPoint.h</span>
+<a name="l00003"></a>00003 <span class="comment"> *  BMapKit</span>
+<a name="l00004"></a>00004 <span class="comment"> *</span>
+<a name="l00005"></a>00005 <span class="comment"> *  Copyright 2011 Baidu Inc. All rights reserved.</span>
+<a name="l00006"></a>00006 <span class="comment"> *</span>
+<a name="l00007"></a>00007 <span class="comment"> */</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span>
+<a name="l00010"></a>00010 <span class="preprocessor">#import &quot;BMKShape.h&quot;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#import &quot;<a class="code" href="_b_m_k_geometry_8h.html">BMKGeometry.h</a>&quot;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#import &quot;BMKTypes.h&quot;</span>
+<a name="l00013"></a>00013 
+<a name="l00015"></a><a class="code" href="interface_b_m_k_multi_point.html">00015</a> <span class="keyword">@interface </span><a class="code" href="interface_b_m_k_multi_point.html" title="该类用于定义多个坐标点">BMKMultiPoint</a> : <a class="code" href="interface_b_m_k_shape.html" title="该类为一个抽象类，定义了基于BMKAnnotation的BMKShape类的基本属性和行为，不能直接使用，必须子类化之后才能使用">BMKShape</a> {
+<a name="l00016"></a>00016 @<span class="keyword">package</span>
+<a name="l00017"></a>00017 <span class="keyword">    </span>BMKMapPoint *_points;
+<a name="l00018"></a>00018     NSUInteger _pointCount;
+<a name="l00019"></a>00019     
+<a name="l00020"></a>00020     <a class="code" href="struct_b_m_k_map_rect.html" title="矩形，用直角地理坐标表示">BMKMapRect</a> _boundingRect;
+<a name="l00021"></a>00021 }
+<a name="l00022"></a>00022 
+<a name="l00024"></a><a class="code" href="interface_b_m_k_multi_point.html#aa810056a59644284eb13fca968124e0c">00024</a> <span class="keyword">@property</span> (nonatomic, readonly) <a class="code" href="struct_b_m_k_map_point.html" title="地理坐标点，用直角地理坐标表示">BMKMapPoint</a> *<a class="code" href="interface_b_m_k_multi_point.html#aa810056a59644284eb13fca968124e0c" title="坐标点数组">points</a>;
+<a name="l00025"></a>00025 
+<a name="l00027"></a><a class="code" href="interface_b_m_k_multi_point.html#a717b76bf8c1c25ce7ae11c959fb4af9f">00027</a> <span class="keyword">@property</span> (nonatomic, readonly) NSUInteger <a class="code" href="interface_b_m_k_multi_point.html#a717b76bf8c1c25ce7ae11c959fb4af9f" title="坐标点的个数">pointCount</a>;
+<a name="l00028"></a>00028 
+<a name="l00034"></a>00034 - (void)getCoordinates:(CLLocationCoordinate2D *)coords range:(NSRange)range;
+<a name="l00035"></a>00035 
+<a name="l00036"></a>00036 <span class="keyword">@end</span>
+</pre></div></div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:24 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

@@ -1,0 +1,1238 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CellsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 460}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CellsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 658}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Cells */ = {
+		activeExec = 0;
+		executables = (
+			82C7616811BDEC87008FBAB0 /* Cells */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* CellsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 616}}";
+			sepNavSelRange = "{171, 27}";
+			sepNavVisRange = "{0, 419}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* CellsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 1781}}";
+			sepNavSelRange = "{3974, 0}";
+			sepNavVisRange = "{3097, 1859}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 82C7616811BDEC87008FBAB0 /* Cells */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Cells */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Cells */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 82C7617B11BDEC92008FBAB0 /* Code sense */;
+		executables = (
+			82C7616811BDEC87008FBAB0 /* Cells */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					854,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 297662495;
+			PBXWorkspaceStateSaveDate = 297662495;
+		};
+		perUserProjectItems = {
+			827DECFB11BDF82600BBA9CA /* PBXTextBookmark */ = 827DECFB11BDF82600BBA9CA /* PBXTextBookmark */;
+			827DED0A11BE0B4700BBA9CA /* PBXTextBookmark */ = 827DED0A11BE0B4700BBA9CA /* PBXTextBookmark */;
+			827DED1311BE0C0300BBA9CA /* PBXBookmark */ = 827DED1311BE0C0300BBA9CA /* PBXBookmark */;
+			827DED1411BE0C0300BBA9CA /* PBXTextBookmark */ = 827DED1411BE0C0300BBA9CA /* PBXTextBookmark */;
+			827DED1511BE0C0300BBA9CA /* PBXTextBookmark */ = 827DED1511BE0C0300BBA9CA /* PBXTextBookmark */;
+			827DED1911BE0C3800BBA9CA /* PBXBookmark */ = 827DED1911BE0C3800BBA9CA /* PBXBookmark */;
+			827DED1A11BE0C3800BBA9CA /* PBXTextBookmark */ = 827DED1A11BE0C3800BBA9CA /* PBXTextBookmark */;
+			827DED1B11BE0C3800BBA9CA /* PBXTextBookmark */ = 827DED1B11BE0C3800BBA9CA /* PBXTextBookmark */;
+			827DED1F11BE0D2C00BBA9CA /* PBXTextBookmark */ = 827DED1F11BE0D2C00BBA9CA /* PBXTextBookmark */;
+			827DED2311BE0D4600BBA9CA /* PBXTextBookmark */ = 827DED2311BE0D4600BBA9CA /* PBXTextBookmark */;
+			827DED2711BE0D6600BBA9CA /* PBXTextBookmark */ = 827DED2711BE0D6600BBA9CA /* PBXTextBookmark */;
+			827DED5711BE408000BBA9CA /* PlistBookmark */ = 827DED5711BE408000BBA9CA /* PlistBookmark */;
+			827DED5811BE408000BBA9CA /* PBXTextBookmark */ = 827DED5811BE408000BBA9CA /* PBXTextBookmark */;
+			827DED5911BE408000BBA9CA /* PBXTextBookmark */ = 827DED5911BE408000BBA9CA /* PBXTextBookmark */;
+			827DED5A11BE408000BBA9CA /* PBXTextBookmark */ = 827DED5A11BE408000BBA9CA /* PBXTextBookmark */;
+			827DED5B11BE408000BBA9CA /* PBXTextBookmark */ = 827DED5B11BE408000BBA9CA /* PBXTextBookmark */;
+			827DED5C11BE408000BBA9CA /* PBXTextBookmark */ = 827DED5C11BE408000BBA9CA /* PBXTextBookmark */;
+			827DED5D11BE408000BBA9CA /* PBXTextBookmark */ = 827DED5D11BE408000BBA9CA /* PBXTextBookmark */;
+			827DED5F11BE435700BBA9CA /* PBXTextBookmark */ = 827DED5F11BE435700BBA9CA /* PBXTextBookmark */;
+			827DED6011BE435700BBA9CA /* PBXTextBookmark */ = 827DED6011BE435700BBA9CA /* PBXTextBookmark */;
+			827DED6111BE435700BBA9CA /* PBXTextBookmark */ = 827DED6111BE435700BBA9CA /* PBXTextBookmark */;
+			827DED6211BE435700BBA9CA /* PBXTextBookmark */ = 827DED6211BE435700BBA9CA /* PBXTextBookmark */;
+			827DED6311BE435700BBA9CA /* PBXTextBookmark */ = 827DED6311BE435700BBA9CA /* PBXTextBookmark */;
+			827DED6F11BE46F000BBA9CA /* XCBuildMessageTextBookmark */ = 827DED6F11BE46F000BBA9CA /* XCBuildMessageTextBookmark */;
+			827DED7011BE46F000BBA9CA /* PBXTextBookmark */ = 827DED7011BE46F000BBA9CA /* PBXTextBookmark */;
+			827DED7511BE46FF00BBA9CA /* PBXTextBookmark */ = 827DED7511BE46FF00BBA9CA /* PBXTextBookmark */;
+			827DED7611BE46FF00BBA9CA /* PBXTextBookmark */ = 827DED7611BE46FF00BBA9CA /* PBXTextBookmark */;
+			827DED7711BE46FF00BBA9CA /* PBXTextBookmark */ = 827DED7711BE46FF00BBA9CA /* PBXTextBookmark */;
+			827DED7811BE46FF00BBA9CA /* PBXTextBookmark */ = 827DED7811BE46FF00BBA9CA /* PBXTextBookmark */;
+			827DED7911BE46FF00BBA9CA /* PBXTextBookmark */ = 827DED7911BE46FF00BBA9CA /* PBXTextBookmark */;
+			827DED7A11BE46FF00BBA9CA /* PBXTextBookmark */ = 827DED7A11BE46FF00BBA9CA /* PBXTextBookmark */;
+			827DED7E11BE473B00BBA9CA /* PBXTextBookmark */ = 827DED7E11BE473B00BBA9CA /* PBXTextBookmark */;
+			827DED7F11BE473B00BBA9CA /* PBXTextBookmark */ = 827DED7F11BE473B00BBA9CA /* PBXTextBookmark */;
+			827DED8011BE473B00BBA9CA /* PBXTextBookmark */ = 827DED8011BE473B00BBA9CA /* PBXTextBookmark */;
+			827DED8111BE473B00BBA9CA /* PBXTextBookmark */ = 827DED8111BE473B00BBA9CA /* PBXTextBookmark */;
+			827DED8211BE473B00BBA9CA /* PBXTextBookmark */ = 827DED8211BE473B00BBA9CA /* PBXTextBookmark */;
+			827DED8611BE478000BBA9CA /* PBXTextBookmark */ = 827DED8611BE478000BBA9CA /* PBXTextBookmark */;
+			827DED8711BE478000BBA9CA /* PBXTextBookmark */ = 827DED8711BE478000BBA9CA /* PBXTextBookmark */;
+			827DED8B11BE49F100BBA9CA /* PBXTextBookmark */ = 827DED8B11BE49F100BBA9CA /* PBXTextBookmark */;
+			827DED9611BE4F8A00BBA9CA /* PBXTextBookmark */ = 827DED9611BE4F8A00BBA9CA /* PBXTextBookmark */;
+			827DED9711BE4F8A00BBA9CA /* PBXTextBookmark */ = 827DED9711BE4F8A00BBA9CA /* PBXTextBookmark */;
+			827DED9811BE4F8A00BBA9CA /* PBXTextBookmark */ = 827DED9811BE4F8A00BBA9CA /* PBXTextBookmark */;
+			827DED9E11BE4FE600BBA9CA /* PBXTextBookmark */ = 827DED9E11BE4FE600BBA9CA /* PBXTextBookmark */;
+			827DED9F11BE4FE600BBA9CA /* PBXTextBookmark */ = 827DED9F11BE4FE600BBA9CA /* PBXTextBookmark */;
+			827DEDA011BE4FE600BBA9CA /* PBXTextBookmark */ = 827DEDA011BE4FE600BBA9CA /* PBXTextBookmark */;
+			827DEDA411BE4FFE00BBA9CA /* PBXTextBookmark */ = 827DEDA411BE4FFE00BBA9CA /* PBXTextBookmark */;
+			827DEDA511BE4FFE00BBA9CA /* PBXTextBookmark */ = 827DEDA511BE4FFE00BBA9CA /* PBXTextBookmark */;
+			827DEDA611BE4FFE00BBA9CA /* PBXTextBookmark */ = 827DEDA611BE4FFE00BBA9CA /* PBXTextBookmark */;
+			827DEDAC11BE513B00BBA9CA /* PBXTextBookmark */ = 827DEDAC11BE513B00BBA9CA /* PBXTextBookmark */;
+			827DEDAD11BE513B00BBA9CA /* PBXTextBookmark */ = 827DEDAD11BE513B00BBA9CA /* PBXTextBookmark */;
+			827DEDAE11BE513B00BBA9CA /* PBXTextBookmark */ = 827DEDAE11BE513B00BBA9CA /* PBXTextBookmark */;
+			827DEDAF11BE513B00BBA9CA /* PBXTextBookmark */ = 827DEDAF11BE513B00BBA9CA /* PBXTextBookmark */;
+			827DEDB711BF462B00BBA9CA /* PBXTextBookmark */ = 827DEDB711BF462B00BBA9CA /* PBXTextBookmark */;
+			827DEDBF11BF474A00BBA9CA /* PBXTextBookmark */ = 827DEDBF11BF474A00BBA9CA /* PBXTextBookmark */;
+			827DEDC011BF474A00BBA9CA /* PBXTextBookmark */ = 827DEDC011BF474A00BBA9CA /* PBXTextBookmark */;
+			827DEDC111BF474A00BBA9CA /* PBXTextBookmark */ = 827DEDC111BF474A00BBA9CA /* PBXTextBookmark */;
+			827DEDC311BF476B00BBA9CA /* PBXTextBookmark */ = 827DEDC311BF476B00BBA9CA /* PBXTextBookmark */;
+			827DEDC711BF4BDF00BBA9CA /* PBXTextBookmark */ = 827DEDC711BF4BDF00BBA9CA /* PBXTextBookmark */;
+			827DEDC811BF4BDF00BBA9CA /* PBXTextBookmark */ = 827DEDC811BF4BDF00BBA9CA /* PBXTextBookmark */;
+			827DEDC911BF4BDF00BBA9CA /* PBXTextBookmark */ = 827DEDC911BF4BDF00BBA9CA /* PBXTextBookmark */;
+			827DEDCA11BF4BDF00BBA9CA /* PBXTextBookmark */ = 827DEDCA11BF4BDF00BBA9CA /* PBXTextBookmark */;
+			827DEDCB11BF4BDF00BBA9CA /* PBXTextBookmark */ = 827DEDCB11BF4BDF00BBA9CA /* PBXTextBookmark */;
+			827DEDCC11BF4C2D00BBA9CA /* PBXTextBookmark */ = 827DEDCC11BF4C2D00BBA9CA /* PBXTextBookmark */;
+			827DEDCD11BF4C2D00BBA9CA /* PBXTextBookmark */ = 827DEDCD11BF4C2D00BBA9CA /* PBXTextBookmark */;
+			827DEDCE11BF4C2D00BBA9CA /* PBXTextBookmark */ = 827DEDCE11BF4C2D00BBA9CA /* PBXTextBookmark */;
+			827DEDCF11BF4C2D00BBA9CA /* PBXTextBookmark */ = 827DEDCF11BF4C2D00BBA9CA /* PBXTextBookmark */;
+			827DEDD011BF4C2D00BBA9CA /* PBXTextBookmark */ = 827DEDD011BF4C2D00BBA9CA /* PBXTextBookmark */;
+			827DEDD111BF4C2D00BBA9CA /* PBXTextBookmark */ = 827DEDD111BF4C2D00BBA9CA /* PBXTextBookmark */;
+			827DEDD611BF4C5F00BBA9CA /* PBXTextBookmark */ = 827DEDD611BF4C5F00BBA9CA /* PBXTextBookmark */;
+			827DEDDE11BF4C8D00BBA9CA /* PBXTextBookmark */ = 827DEDDE11BF4C8D00BBA9CA /* PBXTextBookmark */;
+			827DEDE211BF4CB200BBA9CA /* PBXTextBookmark */ = 827DEDE211BF4CB200BBA9CA /* PBXTextBookmark */;
+			827DEDE311BF4CB200BBA9CA /* PBXTextBookmark */ = 827DEDE311BF4CB200BBA9CA /* PBXTextBookmark */;
+			827DEDE411BF4CB200BBA9CA /* PBXTextBookmark */ = 827DEDE411BF4CB200BBA9CA /* PBXTextBookmark */;
+			827DEDE811BF4CC200BBA9CA /* PBXTextBookmark */ = 827DEDE811BF4CC200BBA9CA /* PBXTextBookmark */;
+			827DEDEE11BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDEE11BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDEF11BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDEF11BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDF011BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDF011BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDF111BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDF111BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDF211BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDF211BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDF311BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDF311BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDF411BF4E9000BBA9CA /* PBXTextBookmark */ = 827DEDF411BF4E9000BBA9CA /* PBXTextBookmark */;
+			827DEDFC11BF506000BBA9CA /* PBXTextBookmark */ = 827DEDFC11BF506000BBA9CA /* PBXTextBookmark */;
+			827DEDFD11BF506000BBA9CA /* PBXTextBookmark */ = 827DEDFD11BF506000BBA9CA /* PBXTextBookmark */;
+			827DEDFE11BF506000BBA9CA /* PBXTextBookmark */ = 827DEDFE11BF506000BBA9CA /* PBXTextBookmark */;
+			827DEE0211BF507200BBA9CA /* PBXTextBookmark */ = 827DEE0211BF507200BBA9CA /* PBXTextBookmark */;
+			827DEE0A11BF516000BBA9CA /* PBXTextBookmark */ = 827DEE0A11BF516000BBA9CA /* PBXTextBookmark */;
+			827DEE0B11BF516000BBA9CA /* PBXTextBookmark */ = 827DEE0B11BF516000BBA9CA /* PBXTextBookmark */;
+			827DEE0C11BF516000BBA9CA /* PBXTextBookmark */ = 827DEE0C11BF516000BBA9CA /* PBXTextBookmark */;
+			827DEE1011BF516D00BBA9CA /* PBXTextBookmark */ = 827DEE1011BF516D00BBA9CA /* PBXTextBookmark */;
+			827DEE1211BF518500BBA9CA /* PBXTextBookmark */ = 827DEE1211BF518500BBA9CA /* PBXTextBookmark */;
+			82C761AD11BDF602008FBAB0 = 82C761AD11BDF602008FBAB0 /* PBXTextBookmark */;
+			82C761AF11BDF602008FBAB0 = 82C761AF11BDF602008FBAB0 /* PBXTextBookmark */;
+			82C761B011BDF602008FBAB0 = 82C761B011BDF602008FBAB0 /* PBXTextBookmark */;
+			82C761B111BDF602008FBAB0 = 82C761B111BDF602008FBAB0 /* PBXTextBookmark */;
+			82C761B211BDF602008FBAB0 = 82C761B211BDF602008FBAB0 /* PBXTextBookmark */;
+			82C761B411BDF602008FBAB0 = 82C761B411BDF602008FBAB0 /* PBXTextBookmark */;
+			82C761C011BDF6AC008FBAB0 = 82C761C011BDF6AC008FBAB0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 82C7617A11BDEC92008FBAB0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	827DECFB11BDF82600BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 88";
+		rLen = 0;
+		rLoc = 3081;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 1692;
+	};
+	827DED0A11BE0B4700BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 60";
+		rLen = 0;
+		rLoc = 2095;
+		rType = 0;
+		vrLen = 2074;
+		vrLoc = 462;
+	};
+	827DED1311BE0C0300BBA9CA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 827DED0D11BE0BCD00BBA9CA /* button.jpg */;
+	};
+	827DED1411BE0C0300BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 60";
+		rLen = 0;
+		rLoc = 2060;
+		rType = 0;
+		vrLen = 2074;
+		vrLoc = 462;
+	};
+	827DED1511BE0C0300BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 59";
+		rLen = 0;
+		rLoc = 1973;
+		rType = 0;
+		vrLen = 2071;
+		vrLoc = 462;
+	};
+	827DED1911BE0C3800BBA9CA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 827DED0D11BE0BCD00BBA9CA /* button.jpg */;
+	};
+	827DED1A11BE0C3800BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 52";
+		rLen = 0;
+		rLoc = 1626;
+		rType = 0;
+		vrLen = 2071;
+		vrLoc = 462;
+	};
+	827DED1B11BE0C3800BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 85";
+		rLen = 0;
+		rLoc = 2921;
+		rType = 0;
+		vrLen = 1680;
+		vrLoc = 1368;
+	};
+	827DED1F11BE0D2C00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 86";
+		rLen = 0;
+		rLoc = 2921;
+		rType = 0;
+		vrLen = 2034;
+		vrLoc = 911;
+	};
+	827DED2311BE0D4600BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 92";
+		rLen = 0;
+		rLoc = 3023;
+		rType = 0;
+		vrLen = 1866;
+		vrLoc = 1164;
+	};
+	827DED2711BE0D6600BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 86";
+		rLen = 0;
+		rLoc = 2920;
+		rType = 0;
+		vrLen = 1866;
+		vrLoc = 1164;
+	};
+	827DED2A11BE339000BBA9CA /* UIToolBarCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 616}}";
+			sepNavSelRange = "{341, 0}";
+			sepNavVisRange = "{0, 571}";
+		};
+	};
+	827DED2B11BE339000BBA9CA /* UIToolBarCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 1118}}";
+			sepNavSelRange = "{608, 0}";
+			sepNavVisRange = "{157, 1489}";
+		};
+	};
+	827DED5711BE408000BBA9CA /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Cells-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/penglingzhe/Downloads/Cells/Cells-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	827DED5811BE408000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BE11A4875100F172CE /* CustomCell.h */;
+		name = "CustomCell.h: 12";
+		rLen = 15;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	827DED5911BE408000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 120";
+		rLen = 0;
+		rLoc = 3358;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 2922;
+	};
+	827DED5A11BE408000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 83";
+		rLen = 0;
+		rLoc = 2992;
+		rType = 0;
+		vrLen = 1853;
+		vrLoc = 3099;
+	};
+	827DED5B11BE408000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 19";
+		rLen = 0;
+		rLoc = 565;
+		rType = 0;
+		vrLen = 309;
+		vrLoc = 0;
+	};
+	827DED5C11BE408000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 108";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 1929;
+		vrLoc = 157;
+	};
+	827DED5D11BE408000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 31";
+		rLen = 0;
+		rLoc = 730;
+		rType = 0;
+		vrLen = 1927;
+		vrLoc = 157;
+	};
+	827DED5F11BE435700BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CellsViewController.h */;
+		name = "CellsViewController.h: 12";
+		rLen = 38;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	827DED6011BE435700BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 125";
+		rLen = 0;
+		rLoc = 4956;
+		rType = 0;
+		vrLen = 1853;
+		vrLoc = 3099;
+	};
+	827DED6111BE435700BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 103";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 1918;
+		vrLoc = 188;
+	};
+	827DED6211BE435700BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 17";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	827DED6311BE435700BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 22";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 386;
+		vrLoc = 0;
+	};
+	827DED6F11BE46F000BBA9CA /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Method definition for '+getCellExpandHeight' not found";
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 84;
+		rType = 1;
+	};
+	827DED7011BE46F000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 166";
+		rLen = 0;
+		rLoc = 1979;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 3945;
+	};
+	827DED7511BE46FF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 120";
+		rLen = 0;
+		rLoc = 3358;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 2922;
+	};
+	827DED7611BE46FF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 45";
+		rLen = 14;
+		rLoc = 808;
+		rType = 0;
+		vrLen = 1170;
+		vrLoc = 327;
+	};
+	827DED7711BE46FF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BE11A4875100F172CE /* CustomCell.h */;
+		name = "CustomCell.h: 12";
+		rLen = 15;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	827DED7811BE46FF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 117";
+		rLen = 0;
+		rLoc = 4084;
+		rType = 0;
+		vrLen = 1894;
+		vrLoc = 3097;
+	};
+	827DED7911BE46FF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 600;
+		vrLoc = 0;
+	};
+	827DED7A11BE46FF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DED7E11BE473B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 41";
+		rLen = 0;
+		rLoc = 875;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 267;
+	};
+	827DED7F11BE473B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 120";
+		rLen = 0;
+		rLoc = 3358;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 2922;
+	};
+	827DED8011BE473B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 119";
+		rLen = 0;
+		rLoc = 4084;
+		rType = 0;
+		vrLen = 1941;
+		vrLoc = 3163;
+	};
+	827DED8111BE473B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DED8211BE473B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DED8611BE478000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DED8711BE478000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 42";
+		rLen = 0;
+		rLoc = 875;
+		rType = 0;
+		vrLen = 1687;
+		vrLoc = 538;
+	};
+	827DED8B11BE49F100BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 47";
+		rLen = 0;
+		rLoc = 1675;
+		rType = 0;
+		vrLen = 1890;
+		vrLoc = 747;
+	};
+	827DED9611BE4F8A00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DED9711BE4F8A00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 48";
+		rLen = 0;
+		rLoc = 915;
+		rType = 0;
+		vrLen = 1294;
+		vrLoc = 589;
+	};
+	827DED9811BE4F8A00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 47";
+		rLen = 0;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 1368;
+		vrLoc = 589;
+	};
+	827DED9E11BE4FE600BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 98";
+		rLen = 0;
+		rLoc = 1696;
+		rType = 0;
+		vrLen = 1954;
+		vrLoc = 1743;
+	};
+	827DED9F11BE4FE600BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 119";
+		rLen = 0;
+		rLoc = 4084;
+		rType = 0;
+		vrLen = 1941;
+		vrLoc = 3163;
+	};
+	827DEDA011BE4FE600BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 130";
+		rLen = 0;
+		rLoc = 4582;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 3163;
+	};
+	827DEDA411BE4FFE00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CellsViewController.h */;
+		name = "CellsViewController.h: 12";
+		rLen = 38;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	827DEDA511BE4FFE00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 130";
+		rLen = 0;
+		rLoc = 4582;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 3163;
+	};
+	827DEDA611BE4FFE00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 62";
+		rLen = 0;
+		rLoc = 1612;
+		rType = 0;
+		vrLen = 1433;
+		vrLoc = 707;
+	};
+	827DEDAC11BE513B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DEDAD11BE513B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 130";
+		rLen = 0;
+		rLoc = 4582;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 3163;
+	};
+	827DEDAE11BE513B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 69";
+		rLen = 0;
+		rLoc = 1681;
+		rType = 0;
+		vrLen = 1174;
+		vrLoc = 0;
+	};
+	827DEDAF11BE513B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 68";
+		rLen = 0;
+		rLoc = 1681;
+		rType = 0;
+		vrLen = 1422;
+		vrLoc = 540;
+	};
+	827DEDB711BF462B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 67";
+		rLen = 0;
+		rLoc = 1681;
+		rType = 0;
+		vrLen = 1509;
+		vrLoc = 883;
+	};
+	827DEDBF11BF474A00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 43";
+		rLen = 0;
+		rLoc = 776;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 530;
+	};
+	827DEDC011BF474A00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 25";
+		rLen = 0;
+		rLoc = 564;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DEDC111BF474A00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 117";
+		rLen = 0;
+		rLoc = 3940;
+		rType = 0;
+		vrLen = 2039;
+		vrLoc = 3163;
+	};
+	827DEDC311BF476B00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 117";
+		rLen = 0;
+		rLoc = 3940;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 3163;
+	};
+	827DEDC711BF4BDF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 120";
+		rLen = 0;
+		rLoc = 3358;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 2922;
+	};
+	827DEDC811BF4BDF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 120";
+		rLen = 0;
+		rLoc = 4085;
+		rType = 0;
+		vrLen = 2128;
+		vrLoc = 504;
+	};
+	827DEDC911BF4BDF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 21";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DEDCA11BF4BDF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 56";
+		rLen = 0;
+		rLoc = 1183;
+		rType = 0;
+		vrLen = 1409;
+		vrLoc = 479;
+	};
+	827DEDCB11BF4BDF00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 57";
+		rLen = 0;
+		rLoc = 1581;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 155;
+	};
+	827DEDCC11BF4C2D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 77";
+		rLen = 0;
+		rLoc = 1884;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 129;
+	};
+	827DEDCD11BF4C2D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 18";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DEDCE11BF4C2D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CellsAppDelegate.h */;
+		name = "CellsAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	827DEDCF11BF4C2D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CellsAppDelegate.m */;
+		name = "CellsAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 658;
+		vrLoc = 0;
+	};
+	827DEDD011BF4C2D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CellsViewController.h */;
+		name = "CellsViewController.h: 12";
+		rLen = 38;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	827DEDD111BF4C2D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 126";
+		rLen = 0;
+		rLoc = 4600;
+		rType = 0;
+		vrLen = 2112;
+		vrLoc = 648;
+	};
+	827DEDD611BF4C5F00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 49";
+		rLen = 0;
+		rLoc = 2220;
+		rType = 0;
+		vrLen = 2061;
+		vrLoc = 644;
+	};
+	827DEDDE11BF4C8D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 38";
+		rLen = 0;
+		rLoc = 955;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 644;
+	};
+	827DEDE211BF4CB200BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 38";
+		rLen = 0;
+		rLoc = 955;
+		rType = 0;
+		vrLen = 2037;
+		vrLoc = 644;
+	};
+	827DEDE311BF4CB200BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 77";
+		rLen = 0;
+		rLoc = 1884;
+		rType = 0;
+		vrLen = 1453;
+		vrLoc = 129;
+	};
+	827DEDE411BF4CB200BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 25";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 1491;
+		vrLoc = 157;
+	};
+	827DEDE811BF4CC200BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 25";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 157;
+	};
+	827DEDEE11BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CellsAppDelegate.h */;
+		name = "CellsAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 0;
+	};
+	827DEDEF11BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CellsAppDelegate.m */;
+		name = "CellsAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 658;
+		vrLoc = 0;
+	};
+	827DEDF011BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CellsViewController.h */;
+		name = "CellsViewController.h: 12";
+		rLen = 38;
+		rLoc = 202;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	827DEDF111BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 107";
+		rLen = 0;
+		rLoc = 3844;
+		rType = 0;
+		vrLen = 2020;
+		vrLoc = 3205;
+	};
+	827DEDF211BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2A11BE339000BBA9CA /* UIToolBarCell.h */;
+		name = "UIToolBarCell.h: 18";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 571;
+		vrLoc = 0;
+	};
+	827DEDF311BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 20";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 1305;
+		vrLoc = 36;
+	};
+	827DEDF411BF4E9000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 20";
+		rLen = 0;
+		rLoc = 340;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 129;
+	};
+	827DEDFC11BF506000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827DED2B11BE339000BBA9CA /* UIToolBarCell.m */;
+		name = "UIToolBarCell.m: 32";
+		rLen = 0;
+		rLoc = 608;
+		rType = 0;
+		vrLen = 1489;
+		vrLoc = 157;
+	};
+	827DEDFD11BF506000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 107";
+		rLen = 0;
+		rLoc = 3844;
+		rType = 0;
+		vrLen = 2021;
+		vrLoc = 3204;
+	};
+	827DEDFE11BF506000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 111";
+		rLen = 0;
+		rLoc = 3974;
+		rType = 0;
+		vrLen = 2040;
+		vrLoc = 3205;
+	};
+	827DEE0211BF507200BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 116";
+		rLen = 0;
+		rLoc = 4213;
+		rType = 0;
+		vrLen = 2040;
+		vrLoc = 3205;
+	};
+	827DEE0A11BF516000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CellsViewController.h */;
+		name = "CellsViewController.h: 11";
+		rLen = 27;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	827DEE0B11BF516000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 116";
+		rLen = 0;
+		rLoc = 4213;
+		rType = 0;
+		vrLen = 1407;
+		vrLoc = 2493;
+	};
+	827DEE0C11BF516000BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 111";
+		rLen = 0;
+		rLoc = 3970;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 3097;
+	};
+	827DEE1011BF516D00BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 111";
+		rLen = 0;
+		rLoc = 3974;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 3097;
+	};
+	827DEE1211BF518500BBA9CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 111";
+		rLen = 0;
+		rLoc = 3974;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 3097;
+	};
+	82C7616811BDEC87008FBAB0 /* Cells */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Cells;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	82C7617A11BDEC92008FBAB0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	82C7617B11BDEC92008FBAB0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	82C761AD11BDF602008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82C761AE11BDF602008FBAB0 /* UINibDeclarations.h */;
+		name = "UINibDeclarations.h: 9";
+		rLen = 17;
+		rLoc = 117;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	82C761AE11BDF602008FBAB0 /* UINibDeclarations.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UINibDeclarations.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UINibDeclarations.h;
+		sourceTree = "<absolute>";
+	};
+	82C761AF11BDF602008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* CellsViewController.m */;
+		name = "CellsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2232;
+		vrLoc = 0;
+	};
+	82C761B011BDF602008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* CellsViewController.h */;
+		name = "CellsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	82C761B111BDF602008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BE11A4875100F172CE /* CustomCell.h */;
+		name = "CustomCell.h: 15";
+		rLen = 0;
+		rLoc = 284;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	82C761B211BDF602008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82C761B311BDF602008FBAB0 /* UIView.h */;
+		name = "UIView.h: 134";
+		rLen = 114;
+		rLoc = 6007;
+		rType = 0;
+		vrLen = 2486;
+		vrLoc = 4684;
+	};
+	82C761B311BDF602008FBAB0 /* UIView.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h;
+		sourceTree = "<absolute>";
+	};
+	82C761B411BDF602008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 76";
+		rLen = 0;
+		rLoc = 2718;
+		rType = 0;
+		vrLen = 2009;
+		vrLoc = 700;
+	};
+	82C761C011BDF6AC008FBAB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A86E92BF11A4875100F172CE /* CustomCell.m */;
+		name = "CustomCell.m: 86";
+		rLen = 0;
+		rLoc = 3069;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 1692;
+	};
+	A86E92BE11A4875100F172CE /* CustomCell.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = CustomCell.h;
+		path = /Users/penglingzhe/Downloads/Cells/Classes/CustomCell.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 616}}";
+			sepNavSelRange = "{179, 15}";
+			sepNavVisRange = "{0, 395}";
+		};
+	};
+	A86E92BF11A4875100F172CE /* CustomCell.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CustomCell.m;
+		path = /Users/penglingzhe/Downloads/Cells/Classes/CustomCell.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1032, 1755}}";
+			sepNavSelRange = "{3358, 0}";
+			sepNavVisRange = "{2922, 615}";
+		};
+	};
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Area" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uptown" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="House" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="balcony" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commissionNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="decoration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delegate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="floor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="furniutre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="houseApplication" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="houseNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="housePicture1" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="housePicture2" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="housePicture3" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="housePicture4" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="housePicture5" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="onCommission" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="person" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="region" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rentPrice" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="room" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="salePrice" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="shop" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="submitted" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="supporting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toilet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transaction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ttarea" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ttfloor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uptown" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Area" positionX="-414" positionY="-747" width="128" height="75"/>
+        <element name="House" positionX="-504" positionY="-945" width="128" height="525"/>
+        <element name="User" positionX="-362" positionY="-945" width="128" height="75"/>
+    </elements>
+</model>

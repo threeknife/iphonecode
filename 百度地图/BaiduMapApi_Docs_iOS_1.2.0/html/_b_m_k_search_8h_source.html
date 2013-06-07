@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: BMKSearch.h源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li><a href="annotated.html"><span>类</span></a></li>
+      <li class="current"><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>文件列表</span></a></li>
+      <li><a href="globals.html"><span>文件成员</span></a></li>
+    </ul>
+  </div>
+<div class="header">
+  <div class="headertitle">
+<div class="title">BMKSearch.h</div>  </div>
+</div>
+<div class="contents">
+<div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/*</span>
+<a name="l00002"></a>00002 <span class="comment"> *  BMKSearch.h</span>
+<a name="l00003"></a>00003 <span class="comment"> *  BMapKit</span>
+<a name="l00004"></a>00004 <span class="comment"> *</span>
+<a name="l00005"></a>00005 <span class="comment"> *  Copyright 2011 Baidu Inc. All rights reserved.</span>
+<a name="l00006"></a>00006 <span class="comment"> *</span>
+<a name="l00007"></a>00007 <span class="comment"> */</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="preprocessor">#import &lt;Foundation/Foundation.h&gt;</span>
+<a name="l00010"></a>00010 <span class="preprocessor">#import &quot;<a class="code" href="_b_m_k_geometry_8h.html">BMKGeometry.h</a>&quot;</span>
+<a name="l00011"></a>00011 <span class="preprocessor">#import &quot;BMKPoiSearchType.h&quot;</span>
+<a name="l00012"></a>00012 <span class="preprocessor">#import &quot;BMKRouteSearchType.h&quot;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#import &quot;BMKGeocodeType.h&quot;</span>
+<a name="l00014"></a>00014 
+<a name="l00015"></a>00015 <span class="keyword">@protocol </span><a class="code" href="protocol_b_m_k_search_delegate-p.html" title="搜索delegate，用于获取搜索结果">BMKSearchDelegate</a>;
+<a name="l00016"></a>00016 
+<a name="l00017"></a>00017 <span class="keyword">enum</span> {
+<a name="l00018"></a>00018         BMKInvalidCoordinate = -1,  
+<a name="l00019"></a>00019         BMKCarTimeFirst = 0,            
+<a name="l00020"></a>00020         BMKCarDisFirst,                         
+<a name="l00021"></a>00021         BMKCarFeeFirst,                         
+<a name="l00022"></a>00022         BMKBusTimeFirst,                        
+<a name="l00023"></a>00023         BMKBusTransferFirst,            
+<a name="l00024"></a>00024         BMKBusWalkFirst,                        
+<a name="l00025"></a>00025         BMKBusNoSubway,                         
+<a name="l00026"></a>00026         BMKTypeCityList = 7,            
+<a name="l00027"></a>00027         BMKTypePoiList = 11,            
+<a name="l00028"></a>00028         BMKTypeAreaPoiList = 21,        
+<a name="l00029"></a>00029         BMKTypeAreaMultiPoiList = 45    
+<a name="l00030"></a>00030 };
+<a name="l00032"></a><a class="code" href="interface_b_m_k_search.html">00032</a> <span class="keyword">@interface </span><a class="code" href="interface_b_m_k_search.html" title="搜索服务">BMKSearch</a> : NSObject
+<a name="l00033"></a>00033 {
+<a name="l00034"></a>00034         id&lt;BMKSearchDelegate&gt; _delegate;
+<a name="l00035"></a>00035         <span class="keywordtype">int</span> _transitPolicy;
+<a name="l00036"></a>00036         <span class="keywordtype">int</span> _drivingPolicy;
+<a name="l00037"></a>00037 }
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039 <span class="keyword">@property</span> (nonatomic, retain) id&lt;BMKSearchDelegate&gt; delegate;
+<a name="l00041"></a><a class="code" href="interface_b_m_k_search.html#a070e0b90d93a92c1642e9390af7164ed">00041</a> <span class="keyword">@property</span> (nonatomic) <span class="keywordtype">int</span> transitPolicy;
+<a name="l00043"></a><a class="code" href="interface_b_m_k_search.html#a7bbc7acb0020ab8d5d600ce423805606">00043</a> <span class="keyword">@property</span> (nonatomic) <span class="keywordtype">int</span> drivingPolicy;
+<a name="l00044"></a>00044 
+<a name="l00053"></a>00053 - (BOOL)poiSearchInCity:(NSString*)city withKey:(NSString*)key pageIndex:(<span class="keywordtype">int</span>)index;
+<a name="l00054"></a>00054 
+<a name="l00064"></a>00064 - (BOOL)poiSearchInbounds:(NSString*)key leftBottom:(CLLocationCoordinate2D)ptLB rightTop:(CLLocationCoordinate2D)ptRT pageIndex:(<span class="keywordtype">int</span>)index;
+<a name="l00065"></a>00065 
+<a name="l00075"></a>00075 - (BOOL)poiMultiSearchInbounds:(NSArray*)keys leftBottom:(CLLocationCoordinate2D)ptLB rightTop:(CLLocationCoordinate2D)ptRT pageIndex:(<span class="keywordtype">int</span>)index;
+<a name="l00076"></a>00076 
+<a name="l00086"></a>00086 - (BOOL)poiSearchNearBy:(NSString*)key center:(CLLocationCoordinate2D)ptCenter radius:(<span class="keywordtype">int</span>)radius pageIndex:(<span class="keywordtype">int</span>)index;
+<a name="l00087"></a>00087 
+<a name="l00097"></a>00097 - (BOOL)poiMultiSearchNearBy:(NSArray*)keys center:(CLLocationCoordinate2D)ptCenter radius:(<span class="keywordtype">int</span>)radius pageIndex:(<span class="keywordtype">int</span>)index;
+<a name="l00098"></a>00098 
+<a name="l00107"></a>00107 - (BOOL)transitSearch:(NSString*)city startNode:(<a class="code" href="interface_b_m_k_plan_node.html" title="线路节点信息">BMKPlanNode</a>*)start endNode:(<a class="code" href="interface_b_m_k_plan_node.html" title="线路节点信息">BMKPlanNode</a>*)end;
+<a name="l00108"></a>00108 
+<a name="l00118"></a>00118 - (BOOL)drivingSearch:(NSString*)startCity startNode:(<a class="code" href="interface_b_m_k_plan_node.html" title="线路节点信息">BMKPlanNode</a>*)start endCity:(NSString*)endCity endNode:(<a class="code" href="interface_b_m_k_plan_node.html" title="线路节点信息">BMKPlanNode</a>*)end;
+<a name="l00119"></a>00119 
+<a name="l00129"></a>00129 - (BOOL)walkingSearch:(NSString*)startCity startNode:(<a class="code" href="interface_b_m_k_plan_node.html" title="线路节点信息">BMKPlanNode</a>*)start endCity:(NSString*)endCity endNode:(<a class="code" href="interface_b_m_k_plan_node.html" title="线路节点信息">BMKPlanNode</a>*)end;
+<a name="l00130"></a>00130 
+<a name="l00136"></a>00136 - (BOOL)reverseGeocode:(CLLocationCoordinate2D)center;
+<a name="l00137"></a>00137 
+<a name="l00143"></a>00143 - (BOOL)geocode:(NSString*)addr withCity:(NSString*)city;
+<a name="l00144"></a>00144 
+<a name="l00150"></a>00150 + (void)setPageCapacity:(<span class="keywordtype">int</span>)capacity;
+<a name="l00151"></a>00151 
+<a name="l00156"></a>00156 + (int)getPageCapacity;
+<a name="l00157"></a>00157 <span class="keyword">@end</span>
+<a name="l00158"></a>00158 
+<a name="l00160"></a><a class="code" href="protocol_b_m_k_search_delegate-p.html">00160</a> <span class="keyword">@protocol </span><a class="code" href="protocol_b_m_k_search_delegate-p.html" title="搜索delegate，用于获取搜索结果">BMKSearchDelegate</a>&lt;NSObject&gt;
+<a name="l00161"></a>00161 <span class="keyword">@optional</span>
+<a name="l00168"></a>00168 - (void)onGetPoiResult:(NSArray*)poiResultList searchType:(<span class="keywordtype">int</span>)type errorCode:(<span class="keywordtype">int</span>)error;
+<a name="l00169"></a>00169 
+<a name="l00175"></a>00175 - (void)onGetTransitRouteResult:(<a class="code" href="interface_b_m_k_plan_result.html" title="线路搜索结果类">BMKPlanResult</a>*)result errorCode:(<span class="keywordtype">int</span>)error;
+<a name="l00176"></a>00176 
+<a name="l00182"></a>00182 - (void)onGetDrivingRouteResult:(<a class="code" href="interface_b_m_k_plan_result.html" title="线路搜索结果类">BMKPlanResult</a>*)result errorCode:(<span class="keywordtype">int</span>)error;
+<a name="l00183"></a>00183 
+<a name="l00189"></a>00189 - (void)onGetWalkingRouteResult:(<a class="code" href="interface_b_m_k_plan_result.html" title="线路搜索结果类">BMKPlanResult</a>*)result errorCode:(<span class="keywordtype">int</span>)error;
+<a name="l00190"></a>00190 
+<a name="l00196"></a>00196 - (void)onGetAddrResult:(<a class="code" href="interface_b_m_k_addr_info.html" title="地址信息类，用于地理编码和反地理编码">BMKAddrInfo</a>*)result errorCode:(<span class="keywordtype">int</span>)error;
+<a name="l00197"></a>00197 
+<a name="l00198"></a>00198 <span class="keyword">@end</span>
+<a name="l00199"></a>00199 
+<a name="l00200"></a>00200 
+<a name="l00201"></a>00201 
+<a name="l00202"></a>00202 
+</pre></div></div>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:24 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>

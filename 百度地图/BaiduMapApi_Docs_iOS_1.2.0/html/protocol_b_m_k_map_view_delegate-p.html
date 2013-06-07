@@ -1,0 +1,601 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>BMapKit: &lt;BMKMapViewDelegate&gt;协议参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- 制作者 Doxygen 1.7.4 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMapKit&#160;<span id="projectnumber">1.1</span></div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>首页</span></a></li>
+      <li class="current"><a href="annotated.html"><span>类</span></a></li>
+      <li><a href="files.html"><span>文件</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="搜索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>组合类型列表</span></a></li>
+      <li><a href="classes.html"><span>组合类型索引</span></a></li>
+      <li><a href="hierarchy.html"><span>类继承关系</span></a></li>
+      <li><a href="functions.html"><span>组合类型成员</span></a></li>
+    </ul>
+  </div>
+</div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公有成员</a>  </div>
+  <div class="headertitle">
+<div class="title">&lt;BMKMapViewDelegate&gt;协议参考</div>  </div>
+</div>
+<div class="contents">
+<!-- doxytag: class="BMKMapViewDelegate-p" -->
+<p>MapView的Delegate，mapView通过此类来通知用户对应的事件  
+ <a href="protocol_b_m_k_map_view_delegate-p.html#details">更多...</a></p>
+
+<p><code>#import &lt;<a class="el" href="_b_m_k_map_view_8h_source.html">BMKMapView.h</a>&gt;</code></p>
+
+<p><a href="protocol_b_m_k_map_view_delegate-p-members.html">所有成员的列表。</a></p>
+<table class="memberdecls">
+<tr><td colspan="2"><h2><a name="pub-methods"></a>
+公有成员</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#ae87e30d1d70dd4e8dcff06b5e0cf51a7">mapView:regionWillChangeAnimated:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a6639906de681668b08204765528ce825">mapView:regionDidChangeAnimated:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_b_m_k_annotation_view.html">BMKAnnotationView</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a58eb111045e3e124bcf8abba4d1188d5">mapView:viewForAnnotation:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#ad982960181ac5b4087f4087e06f16603">mapView:didAddAnnotationViews:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a825411129229ae80dbd104596c0d788a">mapView:didSelectAnnotationView:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a8b3c67fbfebc7d7479a1935269d8302d">mapView:didDeselectAnnotationView:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a2265718129af225330d0d5f350f45dd2">mapViewWillStartLocatingUser:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#aac6507cc2dea1a2a7c2df80d08b42102">mapViewDidStopLocatingUser:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a85fe7a69fc1924412e6a97d259157ab3">mapView:didUpdateUserLocation:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a09254d3d99fa4c5777c646725b029966">mapView:didFailToLocateUserWithError:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#add2407adba384f1dd3c0953590e4a60d">mapView:annotationView:didChangeDragState:fromOldState:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#adf11fcfbabf17146fd10d24f5b70aaf2">mapView:annotationViewForBubble:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_b_m_k_overlay_view.html">BMKOverlayView</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a643e260b01350f089451d745574e3d72">mapView:viewForOverlay:</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_b_m_k_map_view_delegate-p.html#a4eb0201fbe51ecd74d3b678a139435bf">mapView:didAddOverlayViews:</a></td></tr>
+</table>
+<hr/><a name="details" id="details"></a><h2>详细描述</h2>
+<div class="textblock"><p>MapView的Delegate，mapView通过此类来通知用户对应的事件 </p>
+</div><hr/><h2>成员函数文档</h2>
+<a class="anchor" id="add2407adba384f1dd3c0953590e4a60d"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:annotationView:didChangeDragState:fromOldState:" ref="add2407adba384f1dd3c0953590e4a60d" args="(BMKMapView *mapView,[annotationView] BMKAnnotationView *view,[didChangeDragState] BMKAnnotationViewDragState newState,[fromOldState] BMKAnnotationViewDragState oldState)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">annotationView:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_annotation_view.html">BMKAnnotationView</a> *)&#160;</td>
+          <td class="paramname"><em>view</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didChangeDragState:</td>
+          <td></td>
+          <td class="paramtype">(BMKAnnotationViewDragState)&#160;</td>
+          <td class="paramname"><em>newState</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">fromOldState:</td>
+          <td></td>
+          <td class="paramtype">(BMKAnnotationViewDragState)&#160;</td>
+          <td class="paramname"><em>oldState</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>拖动annotation view时view的状态变化，ios3.2以后支持 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">view</td><td>annotation view </td></tr>
+    <tr><td class="paramname">newState</td><td>新状态 </td></tr>
+    <tr><td class="paramname">oldState</td><td>旧状态 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adf11fcfbabf17146fd10d24f5b70aaf2"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:annotationViewForBubble:" ref="adf11fcfbabf17146fd10d24f5b70aaf2" args="(BMKMapView *mapView,[annotationViewForBubble] BMKAnnotationView *view)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">annotationViewForBubble:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_annotation_view.html">BMKAnnotationView</a> *)&#160;</td>
+          <td class="paramname"><em>view</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>当点击annotation view弹出的泡泡时，调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">view</td><td>泡泡所属的annotation view </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad982960181ac5b4087f4087e06f16603"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:didAddAnnotationViews:" ref="ad982960181ac5b4087f4087e06f16603" args="(BMKMapView *mapView,[didAddAnnotationViews] NSArray *views)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didAddAnnotationViews:</td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>views</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>当mapView新添加annotation views时，调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">views</td><td>新添加的annotation views </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4eb0201fbe51ecd74d3b678a139435bf"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:didAddOverlayViews:" ref="a4eb0201fbe51ecd74d3b678a139435bf" args="(BMKMapView *mapView,[didAddOverlayViews] NSArray *overlayViews)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didAddOverlayViews:</td>
+          <td></td>
+          <td class="paramtype">(NSArray *)&#160;</td>
+          <td class="paramname"><em>overlayViews</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>当mapView新添加overlay views时，调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">overlayViews</td><td>新添加的overlay views </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8b3c67fbfebc7d7479a1935269d8302d"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:didDeselectAnnotationView:" ref="a8b3c67fbfebc7d7479a1935269d8302d" args="(BMKMapView *mapView,[didDeselectAnnotationView] BMKAnnotationView *view)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didDeselectAnnotationView:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_annotation_view.html">BMKAnnotationView</a> *)&#160;</td>
+          <td class="paramname"><em>view</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>当取消选中一个annotation views时，调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">views</td><td>取消选中的annotation views </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a09254d3d99fa4c5777c646725b029966"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:didFailToLocateUserWithError:" ref="a09254d3d99fa4c5777c646725b029966" args="(BMKMapView *mapView,[didFailToLocateUserWithError] NSError *error)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didFailToLocateUserWithError:</td>
+          <td></td>
+          <td class="paramtype">(NSError *)&#160;</td>
+          <td class="paramname"><em>error</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>定位失败后，会调用此函数 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">error</td><td>错误号，参考CLError.h中定义的错误号 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a825411129229ae80dbd104596c0d788a"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:didSelectAnnotationView:" ref="a825411129229ae80dbd104596c0d788a" args="(BMKMapView *mapView,[didSelectAnnotationView] BMKAnnotationView *view)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didSelectAnnotationView:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_annotation_view.html">BMKAnnotationView</a> *)&#160;</td>
+          <td class="paramname"><em>view</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>当选中一个annotation views时，调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">views</td><td>选中的annotation views </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a85fe7a69fc1924412e6a97d259157ab3"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:didUpdateUserLocation:" ref="a85fe7a69fc1924412e6a97d259157ab3" args="(BMKMapView *mapView,[didUpdateUserLocation] BMKUserLocation *userLocation)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">didUpdateUserLocation:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_user_location.html">BMKUserLocation</a> *)&#160;</td>
+          <td class="paramname"><em>userLocation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>用户位置更新后，会调用此函数 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">userLocation</td><td>新的用户位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a6639906de681668b08204765528ce825"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:regionDidChangeAnimated:" ref="a6639906de681668b08204765528ce825" args="(BMKMapView *mapView,[regionDidChangeAnimated] BOOL animated)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">regionDidChangeAnimated:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>animated</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>地图区域改变完成后会调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapview</td><td>地图View </td></tr>
+    <tr><td class="paramname">animated</td><td>是否动画 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae87e30d1d70dd4e8dcff06b5e0cf51a7"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:regionWillChangeAnimated:" ref="ae87e30d1d70dd4e8dcff06b5e0cf51a7" args="(BMKMapView *mapView,[regionWillChangeAnimated] BOOL animated)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">regionWillChangeAnimated:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>animated</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>地图区域即将改变时会调用此接口 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapview</td><td>地图View </td></tr>
+    <tr><td class="paramname">animated</td><td>是否动画 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a58eb111045e3e124bcf8abba4d1188d5"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:viewForAnnotation:" ref="a58eb111045e3e124bcf8abba4d1188d5" args="(BMKMapView *mapView,[viewForAnnotation] id&lt; BMKAnnotation &gt; annotation)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_b_m_k_annotation_view.html">BMKAnnotationView</a> *) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">viewForAnnotation:</td>
+          <td></td>
+          <td class="paramtype">(id&lt; <a class="el" href="protocol_b_m_k_annotation-p.html">BMKAnnotation</a> &gt;)&#160;</td>
+          <td class="paramname"><em>annotation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>根据anntation生成对应的View </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">annotation</td><td>指定的标注 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>生成的标注View </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a643e260b01350f089451d745574e3d72"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapView:viewForOverlay:" ref="a643e260b01350f089451d745574e3d72" args="(BMKMapView *mapView,[viewForOverlay] id&lt; BMKOverlay &gt; overlay)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interface_b_m_k_overlay_view.html">BMKOverlayView</a> *) mapView: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">viewForOverlay:</td>
+          <td></td>
+          <td class="paramtype">(id&lt; <a class="el" href="protocol_b_m_k_overlay-p.html">BMKOverlay</a> &gt;)&#160;</td>
+          <td class="paramname"><em>overlay</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>根据overlay生成对应的View </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+    <tr><td class="paramname">overlay</td><td>指定的overlay </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="return"><dt><b>返回:</b></dt><dd>生成的覆盖物View </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aac6507cc2dea1a2a7c2df80d08b42102"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapViewDidStopLocatingUser:" ref="aac6507cc2dea1a2a7c2df80d08b42102" args="(BMKMapView *mapView)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapViewDidStopLocatingUser: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+          <td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>在地图View停止定位后，会调用此函数 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2265718129af225330d0d5f350f45dd2"></a><!-- doxytag: member="BMKMapViewDelegate&#45;p::mapViewWillStartLocatingUser:" ref="a2265718129af225330d0d5f350f45dd2" args="(BMKMapView *mapView)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) mapViewWillStartLocatingUser: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interface_b_m_k_map_view.html">BMKMapView</a> *)&#160;</td>
+          <td class="paramname"><em>mapView</em></td>
+          <td><code> [optional]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>在地图View将要启动定位时，会调用此函数 </p>
+<dl><dt><b>参数:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mapView</td><td>地图View </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>该协议的文档由以下文件生成：<ul>
+<li><a class="el" href="_b_m_k_map_view_8h_source.html">BMKMapView.h</a></li>
+</ul>
+</div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>全部</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>类</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>文件</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>函数</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>变量</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>类型定义</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>属性</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<hr class="footer"/><address class="footer"><small>Generated at 2011年十一月9日 星期三 10:31:25 for BMapKit by&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </small></address>
+</body>
+</html>
